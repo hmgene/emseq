@@ -1,3 +1,4 @@
 bigdata
+.DS_Store
 secrets.toml
 __pycache__
