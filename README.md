@@ -1,3 +1,12 @@
+
+### Methods
+
+ref: https://github.com/nf-core/methylseq
+
+```
+nextflow run nf-core/methylseq -r 3.0.0 --input data/input.csv --outdir data --genome mm10 
+```
+
 ### Table of Results
 |sample|summary|bedGraph|
 |:--:|:--|:--|
