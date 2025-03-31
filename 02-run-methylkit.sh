@@ -64,7 +64,7 @@ diffMethPerChr(myDiff,plot=T,qvalue.cutoff=0.05, meth.cutoff=25)
 dev.off()
 
 library(genomation)
-gene.obj=genomation::readTranscriptFeatures("data/ncbiRefseq.bed12")
+gene.obj=genomation::readTranscriptFeatures("data/ncbiRefseq.bed12.gz")
 diffAnn.hyper=annotateWithGeneParts(as(myDiff25p.hyper,"GRanges"),gene.obj)
 diffAnn.hypo=annotateWithGeneParts(as(myDiff25p.hypo,"GRanges"),gene.obj)
 
