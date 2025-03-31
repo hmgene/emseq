@@ -14,7 +14,9 @@ bigdata/methylkit/20250219_11_2-year.gt3.txt
 bigdata/methylkit/20250219_12_2-year.gt3.txt
 "
 
-ctr="E18pt5"
+#ctr="E18pt5"
+#trt="2-year"
+ctr="Week4"
 trt="2-year"
 output=paste0("results/",ctr,"_vs_",trt)
 
