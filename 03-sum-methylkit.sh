@@ -53,13 +53,13 @@ printf "\n" >> $o
 
 printf "| CpG Feature |" >> $o
 for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
-    printf "!%s|" "[cpg_fig]($idir/${c}_diff_25p_05q_cpgfeature.png)" >> $o
+    printf "!%s|" "[cpg_fig]($idir/${c}_diff_25p_05q_per_cpgfeature.png)" >> $o
 done
 printf "\n" >> $o
 
 printf "| Genome Feature |" >> $o
 for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
-    printf "!%s|" "[genome_fig]($idir/${c}_diff_25p_05q_genomefeature.png)" >>$o
+    printf "!%s|" "[genome_fig]($idir/${c}_diff_25p_05q_per_genomefeature.png)" >>$o
 done
 printf "\n" >> $o
 
