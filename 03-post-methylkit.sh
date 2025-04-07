@@ -17,7 +17,7 @@ echo '
 - Alignment was performed using Bismark.
 - (Pair-wise) Differential analysis was conducted using methylKit.
 - Bismark coverage tables were converted into methylKit input format.
-- Strand-specific counts were merged, combining OriginTop (OT) and OriginBot (OB) strand frequency and counts [link](figures).
+- Strand-specific counts were merged, combining OriginTop (OT) and OriginBot (OB) strand frequency and counts [link]('$idir').
 - Logistic regression was applied to test the odds ratio of methylation proportions between two groups using methylKit::calculateDiffMeth.
 
 ## Results
