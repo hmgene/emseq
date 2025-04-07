@@ -1,4 +1,4 @@
-idir="retuls/2025-04-04"
+idir="../retuls/2025-04-04"
 iter=( "E18pt5_vs_Week4" "Week4_vs_2-year" "E18pt5_vs_2-year")
 o="posts/post-2025-04-07.md"
 
