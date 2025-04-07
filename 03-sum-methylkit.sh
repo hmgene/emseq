@@ -4,6 +4,10 @@ o="post-2025-04-07.md"
 
 echo '
 # Differential Methylation Anlysis 
+## Updates
+- Increased depth by using bam files directly
+- Added genomic annotations to the diff data
+
 ## Data
 - fastq files: pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/250220_MY12882_fastq
 - emseq results: pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/bigdata/emseq
@@ -32,10 +36,43 @@ echo '
 #E18pt5_vs_2-year_diff_25p_05q_per_chrom.png         
 #E18pt5_vs_2-year_diff_25p_05q_per_cpgfeature.png    
 #E18pt5_vs_2-year_diff_25p_05q_per_genomefeature.png 
-printf "| hyper |" >> $o 
+
+printf "| Diff Sites |" >> $o 
+for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
+    i=${c}_diff_25p_05q_hyper.tsv; 
+    j=${c}_diff_25p_05q_hypo.tsv; 
+    printf "%s,%s|" "[hyper]($idir/$i)" "[hypo]($idir/$j)" >> $o
+ >> $o
+done 
+printf "\n" >> $o
+printf "| Chrom Profile|" >> $o
+for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
+    printf "%s|" "[chrom_profile]($idir/${i}_diff_25p_05q_per_chrom.png)" >> $o
+done
+printf "\n" >> $o
+
+printf "| CpG Feature |" >> $o
+for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
+    printf "%s|" "[chrom_profile]($idir/${i}_diff_25p_05q_cpgfeature.png)" >> $o
+done
+printf "\n" >> $o
+
+printf "| Genome Feature |" >> $o
+for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
+    printf "%s|" "[chrom_profile]($idir/${i}_diff_25p_05q_genomefeature.png)" >>$o
+done
+printf "\n" >> $o
+
+exit
+printf "| hypo Sites |" >> $o 
 for i in ${iter[@]};do 
-    ii=${i}_diff_25p_05q_hyper.tsv
-    printf "%s|" "[$ii]($idir/$ii)" >> $o
+    ii=${i}_diff_25p_05q_hypo.tsv; printf "%s|" "[$ii]($idir/$ii)" >> $o
+done 
+printf "\n" >> $o
+
+printf "| chrom Profiles |" >> $o 
+for i in ${iter[@]};do 
+    ii=${i}_diff_25p_05q_hypo.tsv; printf "%s|" "[$ii]($idir/$ii)" >> $o
 done 
 printf "\n" >> $o
 
