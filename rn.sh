@@ -1,3 +1,11 @@
+
+
+f="bigdata/bams/20250219_10_2-year_2_MY12882_S10_L006.deduplicated.sorted.bam" 
+my.methRaw=processBismarkAln( location = f, sample.id="test1", assembly="mm10", read.context="CpG", save.folder=getwd())
+
+
+
+
 . src/bed.sh; ref2bed12 data/ncbiRefSeq.txt  >  data/ncbiRefSeq.bed12
 
 

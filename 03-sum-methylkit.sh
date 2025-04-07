@@ -1,3 +1,46 @@
+idir="post/2025-04-04"
+iter=( "E18pt5_vs_Week4" "Week4_vs_2-year" "E18pt5_vs_2-year")
+o="post-2025-04-07.md"
+
+echo '
+# Differential Methylation Anlysis 
+## Data
+- fastq files: pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/250220_MY12882_fastq
+- emseq results: pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/bigdata/emseq
+- bedGraph files: pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/bedGraph (need to be merged by sample)
+
+## Method
+- Alignment was performed using Bismark.
+- (Pair-wise) Differential analysis was conducted using methylKit.
+- Bismark coverage tables were converted into methylKit input format.
+- Strand-specific counts were merged, combining OriginTop (OT) and OriginBot (OB) strand frequency and counts [link](figures).
+- Logistic regression was applied to test the odds ratio of methylation proportions between two groups using methylKit::calculateDiffMeth.
+
+## Results
+- methylKit does not support multiple comparisons.
+- We can infer relationships from pairwise comparisons.
+
+| | E18pt5 vs Week4 | Week4 vs 2-year | E18pt5 vs 2-year |
+|-|-|-|-| ' > $o 
+
+
+#E18pt5_vs_2-year_cluster.png                        
+#E18pt5_vs_2-year_cor.png                            
+#E18pt5_vs_2-year_diff.tsv                           
+#E18pt5_vs_2-year_diff_25p_05q_hyper.tsv             
+#E18pt5_vs_2-year_diff_25p_05q_hypo.tsv              
+#E18pt5_vs_2-year_diff_25p_05q_per_chrom.png         
+#E18pt5_vs_2-year_diff_25p_05q_per_cpgfeature.png    
+#E18pt5_vs_2-year_diff_25p_05q_per_genomefeature.png 
+printf "| hyper |" >> $o 
+for i in ${iter[@]};do 
+    ii=${i}_diff_25p_05q_hyper.tsv
+    printf "%s|" "[$ii]($idir/$ii)" >> $o
+done 
+printf "\n" >> $o
+
+
+exit
 input=(
 results/E18pt5_vs_2-year_diff_25p_05q_hyper.tsv
 results/E18pt5_vs_2-year_diff_25p_05q_hypo.tsv
