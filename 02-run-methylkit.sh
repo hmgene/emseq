@@ -5,8 +5,9 @@ bigdata/meth/10_2-year_2.tsv  bigdata/meth/12_2-year_4.tsv  bigdata/meth/2_E18pt
 bigdata/meth/11_2-year_3.tsv  bigdata/meth/1_E18pt5_1.tsv   bigdata/meth/3_E18pt5_3.tsv  bigdata/meth/5_Week4_1.tsv   bigdata/meth/7_Week4_3.tsv  bigdata/meth/9_2-year_1.tsv
 "
 odir="post/2025-04-04"
+ctr="E18pt5";trt="Week4"
 #ctr="E18pt5";trt="2-year"
-ctr="Week4";trt="2-year"
+#ctr="Week4";trt="2-year"
 output=paste0(odir,"/",ctr,"_vs_",trt)
 
 
@@ -65,9 +66,13 @@ anno=cbind(as.data.frame(myDiff@.Data,col.names=myDiff@names), y@dist.to.TSS,y@m
 write.table(anno,file=paste0(output,"_diff.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
 
 myDiff25p.hyper=getMethylDiff(myDiff,difference=25,qvalue=0.05,type="hyper")
-write.table(myDiff25p.hyper,file=paste0(output,"_diff_25p_05q_hyper.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
+#write.table(myDiff25p.hyper,file=paste0(output,"_diff_25p_05q_hyper.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
+write.table(anno[anno$qvalue <= 0.05 & anno$meth.diff >= 0.25,],file=paste0(output,"_diff_25p_05q_hyper.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
+
+
 myDiff25p.hypo=getMethylDiff(myDiff,difference=25,qvalue=0.05,type="hypo")
-write.table(myDiff25p.hypo,file=paste0(output,"_diff_25p_05q_hypo.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
+#write.table(myDiff25p.hypo,file=paste0(output,"_diff_25p_05q_hypo.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
+write.table(anno[anno$qvalue <= 0.05 & anno$meth.diff <= -0.25,],file=paste0(output,"_diff_25p_05q_hypo.tsv"),col.names=T,row.names=F,quote=F,sep="\t")
 
 png(paste0(output,"_diff_25p_05q_per_chrom.png"))
 diffMethPerChr(myDiff,plot=T,qvalue.cutoff=0.05, meth.cutoff=25)
