@@ -37,14 +37,26 @@ echo '
 #E18pt5_vs_2-year_diff_25p_05q_per_cpgfeature.png    
 #E18pt5_vs_2-year_diff_25p_05q_per_genomefeature.png 
 
+printf "| Correlation |" >> $o 
+for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
+    printf "%s|" "![cor]($idir/${c}_cor.png)" >> $o
+done 
+printf "\n" >> $o
+
+printf "| Cluster|" >> $o 
+for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
+    printf "%s|" "![cluster]($idir/${c}_cluster.png)" >> $o
+done 
+printf "\n" >> $o
+
 printf "| Diff Sites |" >> $o 
 for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
     i=${c}_diff_25p_05q_hyper.tsv; 
     j=${c}_diff_25p_05q_hypo.tsv; 
     printf "%s,%s|" "[hyper]($idir/$i)" "[hypo]($idir/$j)" >> $o
- >> $o
 done 
 printf "\n" >> $o
+
 printf "| Chrom Profile|" >> $o
 for c in E18pt5_vs_Week4  Week4_vs_2-year  E18pt5_vs_2-year ; do
     printf "!%s|" "[chrom_fig]($idir/${c}_diff_25p_05q_per_chrom.png)" >> $o
