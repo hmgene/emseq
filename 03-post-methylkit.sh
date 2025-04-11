@@ -2,6 +2,16 @@ idir="../results/2025-04-04"
 iter=( "E18pt5_vs_Week4" "Week4_vs_2-year" "E18pt5_vs_2-year")
 o="posts/post-2025-04-07.md"
 
+{
+awk '{print $1":"$2"-"$3"\tWvsE_dn\t1";}' results/2025-04-04/E18pt5_vs_Week4_diff_25p_05q_hypo.tsv 
+awk '{print $1":"$2"-"$3"\tWvsE_up\t1";}' results/2025-04-04/E18pt5_vs_Week4_diff_25p_05q_hyper.tsv 
+awk '{print $1":"$2"-"$3"\tYvsW_dn\t1";}' results/2025-04-04/Week4_vs_2-year_diff_25p_05q_hypo.tsv 
+awk '{print $1":"$2"-"$3"\tYvsW_up\t1";}' results/2025-04-04/Week4_vs_2-year_diff_25p_05q_hyper.tsv
+} | ca rc2mat - 
+
+
+exit
+
 echo '
 # Differential Methylation Anlysis 
 ## Updates

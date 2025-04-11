@@ -21,6 +21,7 @@ for f in input_files:
     dfs.append(df)
 combined = pd.concat(dfs, ignore_index=True)
 merged = combined.groupby(["chr", "start", "end", "strand"], as_index=False).sum(numeric_only=True)
+i= merged["coverage"] < merged["numCs"]+merged["numTs"]
 merged = merged.sort_values(by=["chr", "start"])
 merged.to_csv(sys.stdout, sep="\t", index=False)
 ') bigdata/meth/from_bisbam/*$n* > $o
