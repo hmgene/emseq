@@ -36,7 +36,7 @@ echo '
 for f in $odir/filtered*anno.tsv;do
     go=https://github.com/hmgene/emseq/blob/main/${f%.tsv}_go/geneOntology.html
     go=https://raw.githack.com/hmgene/emseq/main/${f%.tsv}_go/geneOntology.html
-    #go="<a href=\"https://raw.githack.com/hmgene/emseq/main/${f%.tsv}/geneOntology.html\" target=\"_blank\"> View GO Results</a>"
+    go="<a href=\"https://raw.githack.com/hmgene/emseq/main/${f%.tsv}_go/geneOntology.html\" target=\"_blank\"> View GO Results</a>"
 
     n=` echo $f | grep -o "cluster\d" `
     if [ -z "$n" ];then
