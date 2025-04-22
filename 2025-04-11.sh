@@ -26,18 +26,20 @@ echo '
 |  ![filtered_heatmap]( filtered_anova_heatmap.png ) |
 '> $o
 
+
+
 echo '
 ## Annotation Per cluster
 
 | cluster id | annotation file | GO |
 | :-: | :-: | :-: |' >> $o
 for f in $odir/filtered*anno.tsv;do
-    go=${f%.tsv}_go/geneOntology.html
+    go=https://github.com/hmgene/emseq/blob/main/${f%.tsv}_go/geneOntology.html
     n=` echo $f | grep -o "cluster\d" `
     if [ "$n"=="" ];then
-        echo "| all | [all.annotation](${f##*/}) | $go |" >> $o
+        echo "| all | [all.annotation](${f##*/}) | [go]($go) |" >> $o
     else
-        echo "| $n | [$n.annotation](${f##*/}) | $go |" >> $o
+        echo "| $n | [$n.annotation](${f##*/}) | [$go]($go) |" >> $o
     fi
 done
 
