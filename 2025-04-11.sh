@@ -3,6 +3,8 @@ odir=results/2025-04-11
 mkdir -p $odir
 cp $idir/*.png $odir/
 cp $idir/filtered*.tsv $odir/
+cp -r $idir/*_go $odir/
+
 o=$odir/README.md
 
 echo '
@@ -27,10 +29,15 @@ echo '
 echo '
 ## Annotation Per cluster
 
-| cluster id | file |
-| :-: | :-: |' >> $o
+| cluster id | annotation file | GO |
+| :-: | :-: | :-: |' >> $o
 for f in $odir/filtered*anno.tsv;do
+    go=${f%.tsv}_go/geneOntology.html
     n=` echo $f | grep -o "cluster\d" `
-    echo "| $n | [$n.annotation](${f##*/}) |" >> $o
+    if [ "$n"=="" ];then
+        echo "| all | [all.annotation](${f##*/}) | $go |" >> $o
+    else
+        echo "| $n | [$n.annotation](${f##*/}) | $go |" >> $o
+    fi
 done
 
