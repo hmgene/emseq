@@ -35,6 +35,7 @@ echo '
 | :-: | :-: | :-: |' >> $o
 for f in $odir/filtered*anno.tsv;do
     go=https://github.com/hmgene/emseq/blob/main/${f%.tsv}_go/geneOntology.html
+    go=https://raw.githack.com/hmgene/emseq/blob/main/${f%.tsv}_go/geneOntology.html
     n=` echo $f | grep -o "cluster\d" `
     if [ "$n"=="" ];then
         echo "| all | [all.annotation](${f##*/}) | [go]($go) |" >> $o
