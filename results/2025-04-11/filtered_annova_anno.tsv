@@ -1,1 +1,0 @@
-PeakID (cmd=annotatePeaks.pl filtered_annova.tsv mm10 -go filtered_annova_anno_go -annStats filtered_annova_anno.stats)	Chr	Start	End	Strand	Peak Score	Focus Ratio/Region Size	Annotation	Detailed Annotation	Distance to TSS	Nearest PromoterID	Entrez ID	Nearest Unigene	Nearest Refseq	Nearest Ensembl	Gene Name	Gene Alias	Gene Description	Gene Type

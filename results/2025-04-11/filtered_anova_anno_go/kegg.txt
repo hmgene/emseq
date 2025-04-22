@@ -1,981 +1,981 @@
 TermID	Term	Enrichment	logP	Genes in Term	Target Genes in Term	Fraction of Targets in Term	Total Target Genes	Total Genes	Entrez Gene IDs	Gene Symbols
-mmu_M00078	Heparan sulfate degradation	1	0	9	0	0	0	8044
-mmu04520	Adherens junction	1	0	72	0	0	0	8044
-ko03015	mRNA surveillance pathway	1	0	96	0	0	0	8044
-mmu04620	Toll-like receptor signaling pathway	1	0	99	0	0	0	8044
-mmu00562	Inositol phosphate metabolism	1	0	70	0	0	0	8044
-mmu04659	Th17 cell differentiation	1	0	102	0	0	0	8044
-mmu_M00677	Wnt signaling	1	0	38	0	0	0	8044
-ko03040	Spliceosome	1	0	132	0	0	0	8044
-ko05214	Glioma	1	0	64	0	0	0	8044
-M00337	Immunoproteasome	1	0	18	0	0	0	8044
-ko05221	Acute myeloid leukemia	1	0	55	0	0	0	8044
-ko04727	GABAergic synapse	1	0	88	0	0	0	8044
-M00381	SCF-SKP2 complex	1	0	5	0	0	0	8044
-ko04973	Carbohydrate digestion and absorption	1	0	43	0	0	0	8044
-mmu01100	Metabolic pathways	1	0	1313	0	0	0	8044
-mmu_M00067	Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid	1	0	2	0	0	0	8044
-mmu_M00412	ESCRT-III complex	1	0	11	0	0	0	8044
-M00083	Fatty acid biosynthesis, elongation	1	0	2	0	0	0	8044
-mmu_M00013	Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA	1	0	6	0	0	0	8044
-ko00524	Neomycin, kanamycin and gentamicin biosynthesis	1	0	5	0	0	0	8044
-mmu_M00083	Fatty acid biosynthesis, elongation	1	0	2	0	0	0	8044
-M00181	RNA polymerase III, eukaryotes	1	0	16	0	0	0	8044
-ko00511	Other glycan degradation	1	0	18	0	0	0	8044
-ko00471	D-Glutamine and D-glutamate metabolism	1	0	3	0	0	0	8044
-mmu04622	RIG-I-like receptor signaling pathway	1	0	68	0	0	0	8044
-ko01040	Biosynthesis of unsaturated fatty acids	1	0	28	0	0	0	8044
-mmu_M00035	Methionine degradation	1	0	11	0	0	0	8044
-ko05203	Viral carcinogenesis	1	0	229	0	0	0	8044
-M00402	Translocon-associated protein (TRAP) complex	1	0	4	0	0	0	8044
-M00004	Pentose phosphate pathway (Pentose phosphate cycle)	1	0	12	0	0	0	8044
-mmu_M00391	Exosome, eukaryotes	1	0	10	0	0	0	8044
-ko01230	Biosynthesis of amino acids	1	0	78	0	0	0	8044
-ko04151	PI3K-Akt signaling pathway	1	0	346	0	0	0	8044
-mmu_M00695	cAMP signaling	1	0	15	0	0	0	8044
-ko04380	Osteoclast differentiation	1	0	130	0	0	0	8044
-mmu04658	Th1 and Th2 cell differentiation	1	0	87	0	0	0	8044
-mmu_M00428	eIF4F complex	1	0	8	0	0	0	8044
-mmu04611	Platelet activation	1	0	124	0	0	0	8044
-M00354	Spliceosome, U4/U6.U5 tri-snRNP	1	0	31	0	0	0	8044
-ko04978	Mineral absorption	1	0	44	0	0	0	8044
-M00154	Cytochrome c oxidase	1	0	25	0	0	0	8044
-mmu_M00387	SCF-FBW7 complex	1	0	5	0	0	0	8044
-mmu03040	Spliceosome	1	0	132	0	0	0	8044
-ko00533	Glycosaminoglycan biosynthesis - keratan sulfate	1	0	14	0	0	0	8044
-ko00983	Drug metabolism - other enzymes	1	0	51	0	0	0	8044
-ko00515	Mannose type O-glycan biosynthesis	1	0	23	0	0	0	8044
-ko04520	Adherens junction	1	0	72	0	0	0	8044
-ko04620	Toll-like receptor signaling pathway	1	0	99	0	0	0	8044
-ko00640	Propanoate metabolism	1	0	31	0	0	0	8044
-mmu_M00058	Glycosaminoglycan biosynthesis, chondroitin sulfate backbone	1	0	6	0	0	0	8044
-mmu_M00390	Exosome, archaea	1	0	4	0	0	0	8044
-mmu00190	Oxidative phosphorylation	1	0	134	0	0	0	8044
-mmu04740	Olfactory transduction	1	0	1119	0	0	0	8044
-mmu05140	Leishmaniasis	1	0	66	0	0	0	8044
-mmu04370	VEGF signaling pathway	1	0	58	0	0	0	8044
-ko03420	Nucleotide excision repair	1	0	44	0	0	0	8044
-mmu04666	Fc gamma R-mediated phagocytosis	1	0	87	0	0	0	8044
-ko00740	Riboflavin metabolism	1	0	8	0	0	0	8044
-ko04720	Long-term potentiation	1	0	67	0	0	0	8044
-mmu00920	Sulfur metabolism	1	0	11	0	0	0	8044
-ko00860	Porphyrin and chlorophyll metabolism	1	0	41	0	0	0	8044
-mmu00785	Lipoic acid metabolism	1	0	3	0	0	0	8044
-ko04022	cGMP-PKG signaling pathway	1	0	168	0	0	0	8044
-mmu05032	Morphine addiction	1	0	92	0	0	0	8044
-mmu04962	Vasopressin-regulated water reabsorption	1	0	43	0	0	0	8044
-mmu04068	FoxO signaling pathway	1	0	132	0	0	0	8044
-mmu_M00066	Lactosylceramide biosynthesis	1	0	2	0	0	0	8044
-mmu_M00001	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	1	0	27	0	0	0	8044
-mmu_M00130	Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4	1	0	22	0	0	0	8044
-ko00053	Ascorbate and aldarate metabolism	1	0	27	0	0	0	8044
-ko00561	Glycerolipid metabolism	1	0	59	0	0	0	8044
-mmu00230	Purine metabolism	1	0	176	0	0	0	8044
-M00427	Nuclear pore complex	1	0	41	0	0	0	8044
-mmu04122	Sulfur relay system	1	0	8	0	0	0	8044
-mmu05210	Colorectal cancer	1	0	62	0	0	0	8044
-mmu05212	Pancreatic cancer	1	0	64	0	0	0	8044
-mmu_M00131	Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol	1	0	9	0	0	0	8044
-mmu05416	Viral myocarditis	1	0	86	0	0	0	8044
-mmu04137	Mitophagy - animal	1	0	63	0	0	0	8044
-mmu00232	Caffeine metabolism	1	0	6	0	0	0	8044
-mmu04151	PI3K-Akt signaling pathway	1	0	346	0	0	0	8044
-mmu04120	Ubiquitin mediated proteolysis	1	0	140	0	0	0	8044
-mmu04960	Aldosterone-regulated sodium reabsorption	1	0	38	0	0	0	8044
-M00386	Cul4-DDB1-CSA complex	1	0	6	0	0	0	8044
-M00042	Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline	1	0	5	0	0	0	8044
-ko05133	Pertussis	1	0	75	0	0	0	8044
-ko04115	p53 signaling pathway	1	0	68	0	0	0	8044
-mmu05030	Cocaine addiction	1	0	48	0	0	0	8044
-mmu_M00676	PI3K-Akt signaling	1	0	13	0	0	0	8044
-ko00120	Primary bile acid biosynthesis	1	0	16	0	0	0	8044
-ko04140	Autophagy - animal	1	0	130	0	0	0	8044
-M00385	Cul4-DDB1-DDB2 complex	1	0	6	0	0	0	8044
-mmu00010	Glycolysis / Gluconeogenesis	1	0	66	0	0	0	8044
-ko04071	Sphingolipid signaling pathway	1	0	122	0	0	0	8044
-mmu04742	Taste transduction	1	0	88	0	0	0	8044
-mmu05142	Chagas disease (American trypanosomiasis)	1	0	101	0	0	0	8044
-ko05140	Leishmaniasis	1	0	66	0	0	0	8044
-ko04744	Phototransduction	1	0	27	0	0	0	8044
-mmu_M00289	RF-C complex	1	0	5	0	0	0	8044
-ko00565	Ether lipid metabolism	1	0	44	0	0	0	8044
-mmu_M00141	C1-unit interconversion, eukaryotes	1	0	6	0	0	0	8044
-mmu05133	Pertussis	1	0	75	0	0	0	8044
-ko00400	Phenylalanine, tyrosine and tryptophan biosynthesis	1	0	8	0	0	0	8044
-M00679	BMP signaling	1	0	20	0	0	0	8044
-M00682	Notch signaling	1	0	17	0	0	0	8044
-mmu04115	p53 signaling pathway	1	0	68	0	0	0	8044
-ko04920	Adipocytokine signaling pathway	1	0	71	0	0	0	8044
-mmu05221	Acute myeloid leukemia	1	0	55	0	0	0	8044
-mmu_M00414	Bloom's syndrome complex	1	0	5	0	0	0	8044
-M00010	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	1	0	10	0	0	0	8044
-mmu_M00386	Cul4-DDB1-CSA complex	1	0	6	0	0	0	8044
-mmu00590	Arachidonic acid metabolism	1	0	89	0	0	0	8044
-mmu00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	1	0	24	0	0	0	8044
-mmu00052	Galactose metabolism	1	0	32	0	0	0	8044
-mmu00340	Histidine metabolism	1	0	25	0	0	0	8044
-mmu00770	Pantothenate and CoA biosynthesis	1	0	18	0	0	0	8044
-mmu00280	Valine, leucine and isoleucine degradation	1	0	56	0	0	0	8044
-mmu_M00118	Glutathione biosynthesis, glutamate => glutathione	1	0	3	0	0	0	8044
-mmu04913	Ovarian steroidogenesis	1	0	58	0	0	0	8044
-M00288	RPA complex	1	0	3	0	0	0	8044
-mmu03420	Nucleotide excision repair	1	0	44	0	0	0	8044
-ko00250	Alanine, aspartate and glutamate metabolism	1	0	37	0	0	0	8044
-ko00260	Glycine, serine and threonine metabolism	1	0	40	0	0	0	8044
-mmu00592	alpha-Linolenic acid metabolism	1	0	25	0	0	0	8044
-M00340	Proteasome, 20S core particle	1	0	15	0	0	0	8044
-ko04330	Notch signaling pathway	1	0	49	0	0	0	8044
-ko01212	Fatty acid metabolism	1	0	52	0	0	0	8044
-ko00232	Caffeine metabolism	1	0	6	0	0	0	8044
-ko05330	Allograft rejection	1	0	62	0	0	0	8044
-mmu_M00089	Triacylglycerol biosynthesis	1	0	16	0	0	0	8044
-ko05418	Fluid shear stress and atherosclerosis	1	0	145	0	0	0	8044
-ko04975	Fat digestion and absorption	1	0	40	0	0	0	8044
-mmu04976	Bile secretion	1	0	71	0	0	0	8044
-M00383	ECV complex	1	0	6	0	0	0	8044
-mmu04672	Intestinal immune network for IgA production	1	0	43	0	0	0	8044
-ko05142	Chagas disease (American trypanosomiasis)	1	0	101	0	0	0	8044
-mmu04914	Progesterone-mediated oocyte maturation	1	0	87	0	0	0	8044
-ko03013	RNA transport	1	0	167	0	0	0	8044
-ko04142	Lysosome	1	0	124	0	0	0	8044
-mmu04657	IL-17 signaling pathway	1	0	91	0	0	0	8044
-mmu_M00109	C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone	1	0	6	0	0	0	8044
-mmu00533	Glycosaminoglycan biosynthesis - keratan sulfate	1	0	14	0	0	0	8044
-ko05020	Prion diseases	1	0	34	0	0	0	8044
-ko00040	Pentose and glucuronate interconversions	1	0	34	0	0	0	8044
-ko04020	Calcium signaling pathway	1	0	183	0	0	0	8044
-ko00531	Glycosaminoglycan degradation	1	0	21	0	0	0	8044
-ko04722	Neurotrophin signaling pathway	1	0	121	0	0	0	8044
-ko05205	Proteoglycans in cancer	1	0	206	0	0	0	8044
-mmu04024	cAMP signaling pathway	1	0	197	0	0	0	8044
-mmu00900	Terpenoid backbone biosynthesis	1	0	23	0	0	0	8044
-mmu01522	Endocrine resistance	1	0	93	0	0	0	8044
-mmu00860	Porphyrin and chlorophyll metabolism	1	0	41	0	0	0	8044
-mmu03060	Protein export	1	0	30	0	0	0	8044
-ko00830	Retinol metabolism	1	0	89	0	0	0	8044
-mmu04670	Leukocyte transendothelial migration	1	0	117	0	0	0	8044
-mmu05134	Legionellosis	1	0	58	0	0	0	8044
-ko00785	Lipoic acid metabolism	1	0	3	0	0	0	8044
-mmu_M00384	Cul3-SPOP complex	1	0	5	0	0	0	8044
-M00037	Melatonin biosynthesis, tryptophan => serotonin => melatonin	1	0	5	0	0	0	8044
-ko01524	Platinum drug resistance	1	0	76	0	0	0	8044
-mmu_M00110	C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone	1	0	8	0	0	0	8044
-mmu_M00180	RNA polymerase II, eukaryotes	1	0	11	0	0	0	8044
-ko04360	Axon guidance	1	0	175	0	0	0	8044
-ko05168	Herpes simplex infection	1	0	213	0	0	0	8044
-mmu_M00049	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	1	0	20	0	0	0	8044
-ko04350	TGF-beta signaling pathway	1	0	85	0	0	0	8044
-mmu05205	Proteoglycans in cancer	1	0	206	0	0	0	8044
-M00400	p97-Ufd1-Npl4 complex	1	0	3	0	0	0	8044
-mmu_M00148	Succinate dehydrogenase (ubiquinone)	1	0	4	0	0	0	8044
-ko04971	Gastric acid secretion	1	0	74	0	0	0	8044
-ko05223	Non-small cell lung cancer	1	0	58	0	0	0	8044
-ko05332	Graft-versus-host disease	1	0	63	0	0	0	8044
-ko04216	Ferroptosis	1	0	40	0	0	0	8044
-ko00604	Glycosphingolipid biosynthesis - ganglio series	1	0	15	0	0	0	8044
-ko00230	Purine metabolism	1	0	176	0	0	0	8044
-ko01210	2-Oxocarboxylic acid metabolism	1	0	19	0	0	0	8044
-ko03018	RNA degradation	1	0	81	0	0	0	8044
-mmu04726	Serotonergic synapse	1	0	132	0	0	0	8044
-ko05216	Thyroid cancer	1	0	29	0	0	0	8044
-mmu03013	RNA transport	1	0	167	0	0	0	8044
-ko04922	Glucagon signaling pathway	1	0	102	0	0	0	8044
-mmu04216	Ferroptosis	1	0	40	0	0	0	8044
-mmu00640	Propanoate metabolism	1	0	31	0	0	0	8044
-mmu04146	Peroxisome	1	0	83	0	0	0	8044
-mmu_M00181	RNA polymerase III, eukaryotes	1	0	16	0	0	0	8044
-mmu04713	Circadian entrainment	1	0	98	0	0	0	8044
-mmu00250	Alanine, aspartate and glutamate metabolism	1	0	37	0	0	0	8044
-mmu00360	Phenylalanine metabolism	1	0	23	0	0	0	8044
-ko04270	Vascular smooth muscle contraction	1	0	129	0	0	0	8044
-M00085	Fatty acid biosynthesis, elongation, mitochondria	1	0	6	0	0	0	8044
-mmu_M00693	Cell cycle - G2/M transition	1	0	10	0	0	0	8044
-mmu_M00071	Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer	1	0	6	0	0	0	8044
-mmu05340	Primary immunodeficiency	1	0	36	0	0	0	8044
-mmu00514	Other types of O-glycan biosynthesis	1	0	22	0	0	0	8044
-mmu_M00043	Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine	1	0	1	0	0	0	8044
-M00086	beta-Oxidation, acyl-CoA synthesis	1	0	8	0	0	0	8044
-M00142	NADH:ubiquinone oxidoreductase, mitochondria	1	0	7	0	0	0	8044
-M00414	Bloom's syndrome complex	1	0	5	0	0	0	8044
-mmu_M00070	Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer	1	0	5	0	0	0	8044
-M00388	ECS complex	1	0	12	0	0	0	8044
-M00680	TGF-beta signaling	1	0	8	0	0	0	8044
-mmu04933	AGE-RAGE signaling pathway in diabetic complications	1	0	100	0	0	0	8044
-M00677	Wnt signaling	1	0	38	0	0	0	8044
-mmu_M00262	DNA polymerase delta complex	1	0	4	0	0	0	8044
-mmu04261	Adrenergic signaling in cardiomyocytes	1	0	147	0	0	0	8044
-mmu_M00337	Immunoproteasome	1	0	18	0	0	0	8044
-ko05219	Bladder cancer	1	0	41	0	0	0	8044
-mmu00970	Aminoacyl-tRNA biosynthesis	1	0	66	0	0	0	8044
-M00294	DNA polymerase gamma complex	1	0	2	0	0	0	8044
-mmu04320	Dorso-ventral axis formation	1	0	26	0	0	0	8044
-mmu_M00103	Cholecalciferol biosynthesis	1	0	2	0	0	0	8044
-mmu00140	Steroid hormone biosynthesis	1	0	87	0	0	0	8044
-mmu05012	Parkinson's disease	1	0	144	0	0	0	8044
-mmu_M00050	Guanine ribonucleotide biosynthesis IMP => GDP,GTP	1	0	12	0	0	0	8044
-M00094	Ceramide biosynthesis	1	0	13	0	0	0	8044
-mmu05160	Hepatitis C	1	0	134	0	0	0	8044
-mmu_M00398	Sm core complex	1	0	8	0	0	0	8044
-mmu00071	Fatty acid degradation	1	0	49	0	0	0	8044
-mmu_M00741	Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA	1	0	4	0	0	0	8044
-ko00100	Steroid biosynthesis	1	0	19	0	0	0	8044
-mmu_M00285	MCM complex	1	0	6	0	0	0	8044
-mmu_M00382	SCF-FBS complex	1	0	6	0	0	0	8044
-ko00051	Fructose and mannose metabolism	1	0	35	0	0	0	8044
-ko00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	1	0	25	0	0	0	8044
-mmu05230	Central carbon metabolism in cancer	1	0	64	0	0	0	8044
-ko00061	Fatty acid biosynthesis	1	0	14	0	0	0	8044
-ko04622	RIG-I-like receptor signaling pathway	1	0	68	0	0	0	8044
-M00110	C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone	1	0	8	0	0	0	8044
-mmu04940	Type I diabetes mellitus	1	0	68	0	0	0	8044
-ko05310	Asthma	1	0	25	0	0	0	8044
-ko04310	Wnt signaling pathway	1	0	146	0	0	0	8044
-mmu_M00051	Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP	1	0	3	0	0	0	8044
-mmu_M00085	Fatty acid biosynthesis, elongation, mitochondria	1	0	6	0	0	0	8044
-mmu_M00015	Proline biosynthesis, glutamate => proline	1	0	4	0	0	0	8044
-mmu05162	Measles	1	0	136	0	0	0	8044
-mmu05010	Alzheimer's disease	1	0	175	0	0	0	8044
-M00286	GINS complex	1	0	4	0	0	0	8044
-M00128	Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone	1	0	5	0	0	0	8044
-M00285	MCM complex	1	0	6	0	0	0	8044
-mmu00030	Pentose phosphate pathway	1	0	32	0	0	0	8044
-ko00280	Valine, leucine and isoleucine degradation	1	0	56	0	0	0	8044
-ko01521	EGFR tyrosine kinase inhibitor resistance	1	0	80	0	0	0	8044
-mmu00472	D-Arginine and D-ornithine metabolism	1	0	1	0	0	0	8044
-ko05010	Alzheimer's disease	1	0	175	0	0	0	8044
-mmu00650	Butanoate metabolism	1	0	27	0	0	0	8044
-ko04010	MAPK signaling pathway	1	0	252	0	0	0	8044
-mmu00830	Retinol metabolism	1	0	89	0	0	0	8044
-M00120	Coenzyme A biosynthesis, pantothenate => CoA	1	0	7	0	0	0	8044
-M00403	HRD1/SEL1 ERAD complex	1	0	13	0	0	0	8044
-mmu00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	1	0	25	0	0	0	8044
-mmu_M00383	ECV complex	1	0	6	0	0	0	8044
-mmu03030	DNA replication	1	0	35	0	0	0	8044
-ko00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	1	0	24	0	0	0	8044
-M00397	Lsm 1-7 complex	1	0	7	0	0	0	8044
-M00079	Keratan sulfate degradation	1	0	5	0	0	0	8044
-M00082	Fatty acid biosynthesis, initiation	1	0	3	0	0	0	8044
-mmu05164	Influenza A	1	0	168	0	0	0	8044
-ko00450	Selenocompound metabolism	1	0	17	0	0	0	8044
-M00146	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	1	0	16	0	0	0	8044
-M00048	Inosine monophosphate biosynthesis, PRPP + glutamine => IMP	1	0	6	0	0	0	8044
-M00118	Glutathione biosynthesis, glutamate => glutathione	1	0	3	0	0	0	8044
-ko05231	Choline metabolism in cancer	1	0	99	0	0	0	8044
-mmu_M00415	Fatty acid biosynthesis, elongation, endoplasmic reticulum	1	0	13	0	0	0	8044
-ko05166	HTLV-I infection	1	0	281	0	0	0	8044
-M00015	Proline biosynthesis, glutamate => proline	1	0	4	0	0	0	8044
-ko00970	Aminoacyl-tRNA biosynthesis	1	0	66	0	0	0	8044
-mmu_M00020	Serine biosynthesis, glycerate-3P => serine	1	0	3	0	0	0	8044
-mmu04623	Cytosolic DNA-sensing pathway	1	0	61	0	0	0	8044
-mmu_M00032	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA	1	0	11	0	0	0	8044
-ko05218	Melanoma	1	0	69	0	0	0	8044
-mmu05014	Amyotrophic lateral sclerosis (ALS)	1	0	52	0	0	0	8044
-ko05204	Chemical carcinogenesis	1	0	93	0	0	0	8044
-ko00592	alpha-Linolenic acid metabolism	1	0	25	0	0	0	8044
-ko04630	Jak-STAT signaling pathway	1	0	157	0	0	0	8044
-ko04912	GnRH signaling pathway	1	0	89	0	0	0	8044
-mmu_M00291	MRN complex	1	0	3	0	0	0	8044
-mmu_M00090	Phosphatidylcholine (PC) biosynthesis, choline => PC	1	0	6	0	0	0	8044
-mmu05418	Fluid shear stress and atherosclerosis	1	0	145	0	0	0	8044
-M00099	Sphingosine biosynthesis	1	0	17	0	0	0	8044
-mmu_M00692	Cell cycle - G1/S transition	1	0	13	0	0	0	8044
-mmu_M00688	MAPK (JNK) signaling	1	0	21	0	0	0	8044
-M00688	MAPK (JNK) signaling	1	0	21	0	0	0	8044
-mmu_M00042	Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline	1	0	5	0	0	0	8044
-mmu00510	N-Glycan biosynthesis	1	0	49	0	0	0	8044
-M00380	SCF-BTRC complex	1	0	6	0	0	0	8044
-ko04530	Tight junction	1	0	167	0	0	0	8044
-mmu_M00087	beta-Oxidation	1	0	13	0	0	0	8044
-ko04662	B cell receptor signaling pathway	1	0	72	0	0	0	8044
-mmu04668	TNF signaling pathway	1	0	107	0	0	0	8044
-M00180	RNA polymerase II, eukaryotes	1	0	11	0	0	0	8044
-ko00601	Glycosphingolipid biosynthesis - lacto and neolacto series	1	0	27	0	0	0	8044
-ko00770	Pantothenate and CoA biosynthesis	1	0	18	0	0	0	8044
-mmu00512	Mucin type O-glycan biosynthesis	1	0	28	0	0	0	8044
-mmu04066	HIF-1 signaling pathway	1	0	107	0	0	0	8044
-ko00072	Synthesis and degradation of ketone bodies	1	0	11	0	0	0	8044
-ko04974	Protein digestion and absorption	1	0	90	0	0	0	8044
-M00177	Ribosome, eukaryotes	1	0	95	0	0	0	8044
-mmu_M00263	DNA polymerase epsilon complex	1	0	4	0	0	0	8044
-mmu_M00290	Holo-TFIIH complex	1	0	10	0	0	0	8044
-ko04213	Longevity regulating pathway - multiple species	1	0	62	0	0	0	8044
-M00424	Shelterin complex	1	0	7	0	0	0	8044
-ko05213	Endometrial cancer	1	0	50	0	0	0	8044
-mmu_M00091	Phosphatidylcholine (PC) biosynthesis, PE => PC	1	0	1	0	0	0	8044
-M00011	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	1	0	14	0	0	0	8044
-M00141	C1-unit interconversion, eukaryotes	1	0	6	0	0	0	8044
-M00043	Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine	1	0	1	0	0	0	8044
-mmu04015	Rap1 signaling pathway	1	0	213	0	0	0	8044
-mmu_M00069	Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3	1	0	3	0	0	0	8044
-ko00410	beta-Alanine metabolism	1	0	33	0	0	0	8044
-mmu05033	Nicotine addiction	1	0	40	0	0	0	8044
-mmu04950	Maturity onset diabetes of the young	1	0	27	0	0	0	8044
-mmu04921	Oxytocin signaling pathway	1	0	153	0	0	0	8044
-ko00130	Ubiquinone and other terpenoid-quinone biosynthesis	1	0	11	0	0	0	8044
-ko00670	One carbon pool by folate	1	0	19	0	0	0	8044
-mmu05213	Endometrial cancer	1	0	50	0	0	0	8044
-mmu00330	Arginine and proline metabolism	1	0	50	0	0	0	8044
-mmu04977	Vitamin digestion and absorption	1	0	24	0	0	0	8044
-ko04060	Cytokine-cytokine receptor interaction	1	0	261	0	0	0	8044
-mmu05310	Asthma	1	0	25	0	0	0	8044
-mmu00400	Phenylalanine, tyrosine and tryptophan biosynthesis	1	0	8	0	0	0	8044
-mmu_M00679	BMP signaling	1	0	20	0	0	0	8044
-M00109	C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone	1	0	6	0	0	0	8044
-M00408	ESCRT-0 complex	1	0	3	0	0	0	8044
-ko04730	Long-term depression	1	0	61	0	0	0	8044
-mmu_M00044	Tyrosine degradation, tyrosine => homogentisate	1	0	8	0	0	0	8044
-mmu04270	Vascular smooth muscle contraction	1	0	129	0	0	0	8044
-M00430	Exon junction complex (EJC)	1	0	22	0	0	0	8044
-ko03430	Mismatch repair	1	0	22	0	0	0	8044
-mmu_M00694	cGMP signaling	1	0	10	0	0	0	8044
-ko05032	Morphine addiction	1	0	92	0	0	0	8044
-mmu05143	African trypanosomiasis	1	0	36	0	0	0	8044
-mmu_M00177	Ribosome, eukaryotes	1	0	95	0	0	0	8044
-mmu04925	Aldosterone synthesis and secretion	1	0	86	0	0	0	8044
-M00341	Proteasome, 19S regulatory particle (PA700)	1	0	19	0	0	0	8044
-ko05320	Autoimmune thyroid disease	1	0	77	0	0	0	8044
-mmu05132	Salmonella infection	1	0	78	0	0	0	8044
-mmu_M00389	APC/C complex	1	0	14	0	0	0	8044
-ko00340	Histidine metabolism	1	0	25	0	0	0	8044
-ko04320	Dorso-ventral axis formation	1	0	26	0	0	0	8044
-ko05414	Dilated cardiomyopathy	1	0	89	0	0	0	8044
-mmu_M00408	ESCRT-0 complex	1	0	3	0	0	0	8044
-M00134	Polyamine biosynthesis, arginine => ornithine => putrescine	1	0	4	0	0	0	8044
-ko05134	Legionellosis	1	0	58	0	0	0	8044
-ko05169	Epstein-Barr virus infection	1	0	216	0	0	0	8044
-mmu_M00034	Methionine salvage pathway	1	0	11	0	0	0	8044
-mmu_M00286	GINS complex	1	0	4	0	0	0	8044
-mmu00053	Ascorbate and aldarate metabolism	1	0	27	0	0	0	8044
-mmu04022	cGMP-PKG signaling pathway	1	0	168	0	0	0	8044
-mmu01524	Platinum drug resistance	1	0	76	0	0	0	8044
-M00007	Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P	1	0	6	0	0	0	8044
-mmu04910	Insulin signaling pathway	1	0	141	0	0	0	8044
-mmu04912	GnRH signaling pathway	1	0	89	0	0	0	8044
-mmu04020	Calcium signaling pathway	1	0	183	0	0	0	8044
-ko04962	Vasopressin-regulated water reabsorption	1	0	43	0	0	0	8044
-ko04512	ECM-receptor interaction	1	0	83	0	0	0	8044
-M00069	Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3	1	0	3	0	0	0	8044
-mmu00380	Tryptophan metabolism	1	0	46	0	0	0	8044
-mmu_M00086	beta-Oxidation, acyl-CoA synthesis	1	0	8	0	0	0	8044
-mmu00240	Pyrimidine metabolism	1	0	102	0	0	0	8044
-mmu00062	Fatty acid elongation	1	0	27	0	0	0	8044
-M00059	Glycosaminoglycan biosynthesis, heparan sulfate backbone	1	0	10	0	0	0	8044
-mmu03008	Ribosome biogenesis in eukaryotes	1	0	115	0	0	0	8044
-mmu04727	GABAergic synapse	1	0	88	0	0	0	8044
-mmu04730	Long-term depression	1	0	61	0	0	0	8044
-ko04930	Type II diabetes mellitus	1	0	48	0	0	0	8044
-ko04612	Antigen processing and presentation	1	0	89	0	0	0	8044
-mmu05321	Inflammatory bowel disease (IBD)	1	0	59	0	0	0	8044
-M00683	Hippo signaling	1	0	15	0	0	0	8044
-mmu_M00014	Glucuronate pathway (uronate pathway)	1	0	26	0	0	0	8044
-ko03460	Fanconi anemia pathway	1	0	51	0	0	0	8044
-M00694	cGMP signaling	1	0	10	0	0	0	8044
-ko00790	Folate biosynthesis	1	0	14	0	0	0	8044
-mmu03050	Proteasome	1	0	46	0	0	0	8044
-mmu_M00106	Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate	1	0	2	0	0	0	8044
-ko04062	Chemokine signaling pathway	1	0	185	0	0	0	8044
-M00182	RNA polymerase I, eukaryotes	1	0	11	0	0	0	8044
-ko04750	Inflammatory mediator regulation of TRP channels	1	0	125	0	0	0	8044
-ko03450	Non-homologous end-joining	1	0	13	0	0	0	8044
-mmu04136	Autophagy - other	1	0	32	0	0	0	8044
-ko00514	Other types of O-glycan biosynthesis	1	0	22	0	0	0	8044
-ko05206	MicroRNAs in cancer	1	0	280	0	0	0	8044
-ko03008	Ribosome biogenesis in eukaryotes	1	0	115	0	0	0	8044
-ko01200	Carbon metabolism	1	0	118	0	0	0	8044
-ko05030	Cocaine addiction	1	0	48	0	0	0	8044
-mmu00630	Glyoxylate and dicarboxylate metabolism	1	0	29	0	0	0	8044
-M00020	Serine biosynthesis, glycerate-3P => serine	1	0	3	0	0	0	8044
-M00401	Sec61 complex	1	0	7	0	0	0	8044
-mmu00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	1	0	20	0	0	0	8044
-ko05224	Breast cancer	1	0	144	0	0	0	8044
-mmu01523	Antifolate resistance	1	0	30	0	0	0	8044
-ko05211	Renal cell carcinoma	1	0	65	0	0	0	8044
-M00382	SCF-FBS complex	1	0	6	0	0	0	8044
-M00148	Succinate dehydrogenase (ubiquinone)	1	0	4	0	0	0	8044
-M00046	Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate	1	0	3	0	0	0	8044
-mmu01200	Carbon metabolism	1	0	118	0	0	0	8044
-M00549	Nucleotide sugar biosynthesis, glucose => UDP-glucose	1	0	7	0	0	0	8044
-ko00480	Glutathione metabolism	1	0	59	0	0	0	8044
-ko04976	Bile secretion	1	0	71	0	0	0	8044
-mmu_M00036	Leucine degradation, leucine => acetoacetate + acetyl-CoA	1	0	13	0	0	0	8044
-mmu_M00160	V-type ATPase, eukaryotes	1	0	24	0	0	0	8044
-mmu_M00284	Origin recognition complex	1	0	6	0	0	0	8044
-ko04950	Maturity onset diabetes of the young	1	0	27	0	0	0	8044
-M00685	Apoptotic machinery	1	0	4	0	0	0	8044
-ko01523	Antifolate resistance	1	0	30	0	0	0	8044
-M00686	Toll-like receptor signaling	1	0	15	0	0	0	8044
-ko04510	Focal adhesion	1	0	199	0	0	0	8044
-ko04960	Aldosterone-regulated sodium reabsorption	1	0	38	0	0	0	8044
-mmu04744	Phototransduction	1	0	27	0	0	0	8044
-mmu05144	Malaria	1	0	49	0	0	0	8044
-mmu05214	Glioma	1	0	64	0	0	0	8044
-ko04932	Non-alcoholic fatty liver disease (NAFLD)	1	0	151	0	0	0	8044
-ko04610	Complement and coagulation cascades	1	0	87	0	0	0	8044
-mmu00290	Valine, leucine and isoleucine biosynthesis	1	0	4	0	0	0	8044
-mmu_M00401	Sec61 complex	1	0	7	0	0	0	8044
-mmu_M00046	Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate	1	0	3	0	0	0	8044
-mmu03010	Ribosome	1	0	174	0	0	0	8044
-M00297	DNA-PK complex	1	0	3	0	0	0	8044
-ko04215	Apoptosis - multiple species	1	0	32	0	0	0	8044
-ko05215	Prostate cancer	1	0	87	0	0	0	8044
-mmu_M00400	p97-Ufd1-Npl4 complex	1	0	3	0	0	0	8044
-ko00220	Arginine biosynthesis	1	0	19	0	0	0	8044
-ko05322	Systemic lupus erythematosus	1	0	142	0	0	0	8044
-ko04657	IL-17 signaling pathway	1	0	91	0	0	0	8044
-ko05164	Influenza A	1	0	168	0	0	0	8044
-mmu05034	Alcoholism	1	0	199	0	0	0	8044
-mmu_M00152	Cytochrome bc1 complex	1	0	10	0	0	0	8044
-M00399	Cap binding complex	1	0	2	0	0	0	8044
-mmu04964	Proximal tubule bicarbonate reclamation	1	0	22	0	0	0	8044
-ko04917	Prolactin signaling pathway	1	0	72	0	0	0	8044
-M00077	Chondroitin sulfate degradation	1	0	10	0	0	0	8044
-mmu00040	Pentose and glucuronate interconversions	1	0	34	0	0	0	8044
-mmu04975	Fat digestion and absorption	1	0	40	0	0	0	8044
-M00067	Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid	1	0	2	0	0	0	8044
-mmu_M00129	Ascorbate biosynthesis, animals, glucose-1P => ascorbate	1	0	24	0	0	0	8044
-mmu_M00037	Melatonin biosynthesis, tryptophan => serotonin => melatonin	1	0	5	0	0	0	8044
-mmu_M00154	Cytochrome c oxidase	1	0	25	0	0	0	8044
-M00057	Glycosaminoglycan biosynthesis, linkage tetrasaccharide	1	0	5	0	0	0	8044
-ko04261	Adrenergic signaling in cardiomyocytes	1	0	147	0	0	0	8044
-mmu_M00065	GPI-anchor biosynthesis, core oligosaccharide	1	0	8	0	0	0	8044
-M00013	Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA	1	0	6	0	0	0	8044
-M00143	NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria	1	0	11	0	0	0	8044
-ko04136	Autophagy - other	1	0	32	0	0	0	8044
-mmu04930	Type II diabetes mellitus	1	0	48	0	0	0	8044
-ko00430	Taurine and hypotaurine metabolism	1	0	11	0	0	0	8044
-ko04710	Circadian rhythm	1	0	31	0	0	0	8044
-mmu_M00554	Nucleotide sugar biosynthesis, galactose => UDP-galactose	1	0	2	0	0	0	8044
-mmu04932	Non-alcoholic fatty liver disease (NAFLD)	1	0	151	0	0	0	8044
-ko03410	Base excision repair	1	0	35	0	0	0	8044
-ko04012	ErbB signaling pathway	1	0	85	0	0	0	8044
-mmu00601	Glycosphingolipid biosynthesis - lacto and neolacto series	1	0	27	0	0	0	8044
-ko00564	Glycerophospholipid metabolism	1	0	94	0	0	0	8044
-mmu04971	Gastric acid secretion	1	0	74	0	0	0	8044
-mmu00350	Tyrosine metabolism	1	0	39	0	0	0	8044
-M00405	THC complex	1	0	5	0	0	0	8044
-mmu00130	Ubiquinone and other terpenoid-quinone biosynthesis	1	0	11	0	0	0	8044
-ko04080	Neuroactive ligand-receptor interaction	1	0	285	0	0	0	8044
-mmu04728	Dopaminergic synapse	1	0	134	0	0	0	8044
-mmu_M00107	Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone	1	0	7	0	0	0	8044
-M00009	Citrate cycle (TCA cycle, Krebs cycle)	1	0	24	0	0	0	8044
-M00406	TREX complex	1	0	10	0	0	0	8044
-mmu04710	Circadian rhythm	1	0	31	0	0	0	8044
-mmu00260	Glycine, serine and threonine metabolism	1	0	40	0	0	0	8044
-mmu_M00681	Activin signaling	1	0	10	0	0	0	8044
-mmu04141	Protein processing in endoplasmic reticulum	1	0	167	0	0	0	8044
-M00107	Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone	1	0	7	0	0	0	8044
-mmu05332	Graft-versus-host disease	1	0	63	0	0	0	8044
-mmu05206	MicroRNAs in cancer	1	0	280	0	0	0	8044
-mmu_M00385	Cul4-DDB1-DDB2 complex	1	0	6	0	0	0	8044
-mmu05152	Tuberculosis	1	0	178	0	0	0	8044
-mmu_M00351	Spliceosome, U1-snRNP	1	0	11	0	0	0	8044
-ko04114	Oocyte meiosis	1	0	116	0	0	0	8044
-mmu04211	Longevity regulating pathway	1	0	90	0	0	0	8044
-M00359	Aminoacyl-tRNA biosynthesis, eukaryotes	1	0	38	0	0	0	8044
-M00034	Methionine salvage pathway	1	0	11	0	0	0	8044
-mmu04070	Phosphatidylinositol signaling system	1	0	96	0	0	0	8044
-mmu04725	Cholinergic synapse	1	0	113	0	0	0	8044
-ko04550	Signaling pathways regulating pluripotency of stem cells	1	0	137	0	0	0	8044
-mmu_M00413	FA core complex	1	0	10	0	0	0	8044
-mmu04978	Mineral absorption	1	0	44	0	0	0	8044
-mmu04072	Phospholipase D signaling pathway	1	0	147	0	0	0	8044
-mmu00310	Lysine degradation	1	0	59	0	0	0	8044
-mmu04215	Apoptosis - multiple species	1	0	32	0	0	0	8044
-mmu04750	Inflammatory mediator regulation of TRP channels	1	0	125	0	0	0	8044
-mmu_M00082	Fatty acid biosynthesis, initiation	1	0	3	0	0	0	8044
-ko04910	Insulin signaling pathway	1	0	141	0	0	0	8044
-ko00590	Arachidonic acid metabolism	1	0	89	0	0	0	8044
-mmu04721	Synaptic vesicle cycle	1	0	62	0	0	0	8044
-M00681	Activin signaling	1	0	10	0	0	0	8044
-mmu05150	Staphylococcus aureus infection	1	0	52	0	0	0	8044
-mmu_M00098	Acylglycerol degradation	1	0	10	0	0	0	8044
-mmu05330	Allograft rejection	1	0	62	0	0	0	8044
-mmu_M00047	Creatine pathway	1	0	6	0	0	0	8044
-ko04660	T cell receptor signaling pathway	1	0	103	0	0	0	8044
-M00307	Pyruvate oxidation, pyruvate => acetyl-CoA	1	0	5	0	0	0	8044
-mmu04145	Phagosome	1	0	182	0	0	0	8044
-mmu_M00680	TGF-beta signaling	1	0	8	0	0	0	8044
-mmu00564	Glycerophospholipid metabolism	1	0	94	0	0	0	8044
-ko04650	Natural killer cell mediated cytotoxicity	1	0	118	0	0	0	8044
-M00387	SCF-FBW7 complex	1	0	5	0	0	0	8044
-mmu00410	beta-Alanine metabolism	1	0	33	0	0	0	8044
-M00092	Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE	1	0	7	0	0	0	8044
-ko05100	Bacterial invasion of epithelial cells	1	0	76	0	0	0	8044
-ko04913	Ovarian steroidogenesis	1	0	58	0	0	0	8044
-mmu05203	Viral carcinogenesis	1	0	229	0	0	0	8044
-M00678	Hedgehog signaling	1	0	11	0	0	0	8044
-mmu_M00146	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	1	0	16	0	0	0	8044
-mmu04392	Hippo signaling pathway -multiple species	1	0	26	0	0	0	8044
-mmu_M00430	Exon junction complex (EJC)	1	0	22	0	0	0	8044
-mmu_M00685	Apoptotic machinery	1	0	4	0	0	0	8044
-mmu05016	Huntington's disease	1	0	192	0	0	0	8044
-mmu_M00355	Spliceosome, 35S U5-snRNP	1	0	36	0	0	0	8044
-mmu_M00381	SCF-SKP2 complex	1	0	5	0	0	0	8044
-M00289	RF-C complex	1	0	5	0	0	0	8044
-M00426	Survival motor neuron (SMN) complex	1	0	9	0	0	0	8044
-M00029	Urea cycle	1	0	6	0	0	0	8044
-mmu_M00052	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	1	0	11	0	0	0	8044
-mmu_M00380	SCF-BTRC complex	1	0	6	0	0	0	8044
-M00425	H/ACA ribonucleoprotein complex	1	0	4	0	0	0	8044
-mmu04640	Hematopoietic cell lineage	1	0	93	0	0	0	8044
-mmu04390	Hippo signaling pathway	1	0	154	0	0	0	8044
-ko00310	Lysine degradation	1	0	59	0	0	0	8044
-mmu05166	HTLV-I infection	1	0	281	0	0	0	8044
-ko05212	Pancreatic cancer	1	0	64	0	0	0	8044
-mmu03015	mRNA surveillance pathway	1	0	96	0	0	0	8044
-mmu04540	Gap junction	1	0	86	0	0	0	8044
-mmu_M00397	Lsm 1-7 complex	1	0	7	0	0	0	8044
-M00131	Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol	1	0	9	0	0	0	8044
-M00390	Exosome, archaea	1	0	4	0	0	0	8044
-mmu04064	NF-kappa B signaling pathway	1	0	98	0	0	0	8044
-ko04713	Circadian entrainment	1	0	98	0	0	0	8044
-mmu00531	Glycosaminoglycan degradation	1	0	21	0	0	0	8044
-M00072	N-glycosylation by oligosaccharyltransferase	1	0	7	0	0	0	8044
-mmu_M00293	DNA polymerase zeta  complex	1	0	2	0	0	0	8044
-ko04918	Thyroid hormone synthesis	1	0	73	0	0	0	8044
-M00089	Triacylglycerol biosynthesis	1	0	16	0	0	0	8044
-mmu05224	Breast cancer	1	0	144	0	0	0	8044
-mmu00450	Selenocompound metabolism	1	0	17	0	0	0	8044
-ko04668	TNF signaling pathway	1	0	107	0	0	0	8044
-mmu03020	RNA polymerase	1	0	28	0	0	0	8044
-mmu_M00072	N-glycosylation by oligosaccharyltransferase	1	0	7	0	0	0	8044
-mmu_M00006	Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P	1	0	5	0	0	0	8044
-mmu00100	Steroid biosynthesis	1	0	19	0	0	0	8044
-ko00270	Cysteine and methionine metabolism	1	0	48	0	0	0	8044
-ko04658	Th1 and Th2 cell differentiation	1	0	87	0	0	0	8044
-mmu_M00338	Cysteine biosynthesis, homocysteine + serine => cysteine	1	0	2	0	0	0	8044
-mmu03018	RNA degradation	1	0	81	0	0	0	8044
-mmu04114	Oocyte meiosis	1	0	116	0	0	0	8044
-mmu03022	Basal transcription factors	1	0	44	0	0	0	8044
-mmu_M00261	DNA polymerase alpha / primase complex	1	0	4	0	0	0	8044
-ko05321	Inflammatory bowel disease (IBD)	1	0	59	0	0	0	8044
-mmu00790	Folate biosynthesis	1	0	14	0	0	0	8044
-mmu00670	One carbon pool by folate	1	0	19	0	0	0	8044
-M00014	Glucuronate pathway (uronate pathway)	1	0	26	0	0	0	8044
-M00412	ESCRT-III complex	1	0	11	0	0	0	8044
-ko03022	Basal transcription factors	1	0	44	0	0	0	8044
-ko00900	Terpenoid backbone biosynthesis	1	0	23	0	0	0	8044
-ko05146	Amoebiasis	1	0	106	0	0	0	8044
-ko00440	Phosphonate and phosphinate metabolism	1	0	6	0	0	0	8044
-ko04146	Peroxisome	1	0	83	0	0	0	8044
-mmu04722	Neurotrophin signaling pathway	1	0	121	0	0	0	8044
-ko05230	Central carbon metabolism in cancer	1	0	64	0	0	0	8044
-mmu04071	Sphingolipid signaling pathway	1	0	122	0	0	0	8044
-mmu04210	Apoptosis	1	0	136	0	0	0	8044
-mmu00760	Nicotinate and nicotinamide metabolism	1	0	35	0	0	0	8044
-mmu_M00396	Lsm 2-8 complex	1	0	7	0	0	0	8044
-mmu_M00405	THC complex	1	0	5	0	0	0	8044
-mmu04140	Autophagy - animal	1	0	130	0	0	0	8044
-ko00360	Phenylalanine metabolism	1	0	23	0	0	0	8044
-ko04390	Hippo signaling pathway	1	0	154	0	0	0	8044
-M00135	GABA biosynthesis, eukaryotes, putrescine => GABA	1	0	9	0	0	0	8044
-ko00350	Tyrosine metabolism	1	0	39	0	0	0	8044
-mmu04917	Prolactin signaling pathway	1	0	72	0	0	0	8044
-M00052	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	1	0	11	0	0	0	8044
-mmu_M00099	Sphingosine biosynthesis	1	0	17	0	0	0	8044
-M00554	Nucleotide sugar biosynthesis, galactose => UDP-galactose	1	0	2	0	0	0	8044
-mmu04142	Lysosome	1	0	124	0	0	0	8044
-mmu00983	Drug metabolism - other enzymes	1	0	51	0	0	0	8044
-ko04024	cAMP signaling pathway	1	0	197	0	0	0	8044
-mmu04720	Long-term potentiation	1	0	67	0	0	0	8044
-mmu_M00182	RNA polymerase I, eukaryotes	1	0	11	0	0	0	8044
-mmu_M00147	NADH dehydrogenase (ubiquinone) 1 beta subcomplex	1	0	14	0	0	0	8044
-mmu04614	Renin-angiotensin system	1	0	35	0	0	0	8044
-mmu_M00128	Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone	1	0	5	0	0	0	8044
-ko04122	Sulfur relay system	1	0	8	0	0	0	8044
-M00160	V-type ATPase, eukaryotes	1	0	24	0	0	0	8044
-mmu04931	Insulin resistance	1	0	109	0	0	0	8044
-mmu04514	Cell adhesion molecules (CAMs)	1	0	167	0	0	0	8044
-ko00600	Sphingolipid metabolism	1	0	48	0	0	0	8044
-M00262	DNA polymerase delta complex	1	0	4	0	0	0	8044
-mmu04360	Axon guidance	1	0	175	0	0	0	8044
-ko00500	Starch and sucrose metabolism	1	0	33	0	0	0	8044
-mmu01230	Biosynthesis of amino acids	1	0	78	0	0	0	8044
-M00632	Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P	1	0	4	0	0	0	8044
-mmu03440	Homologous recombination	1	0	41	0	0	0	8044
-mmu_M00029	Urea cycle	1	0	6	0	0	0	8044
-mmu04972	Pancreatic secretion	1	0	103	0	0	0	8044
-mmu04970	Salivary secretion	1	0	78	0	0	0	8044
-M00693	Cell cycle - G2/M transition	1	0	10	0	0	0	8044
-mmu_M00007	Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P	1	0	6	0	0	0	8044
-mmu_M00424	Shelterin complex	1	0	7	0	0	0	8044
-mmu04080	Neuroactive ligand-receptor interaction	1	0	285	0	0	0	8044
-mmu00500	Starch and sucrose metabolism	1	0	33	0	0	0	8044
-ko00020	Citrate cycle (TCA cycle)	1	0	32	0	0	0	8044
-ko05033	Nicotine addiction	1	0	40	0	0	0	8044
-ko04015	Rap1 signaling pathway	1	0	213	0	0	0	8044
-mmu00600	Sphingolipid metabolism	1	0	48	0	0	0	8044
-ko04742	Taste transduction	1	0	88	0	0	0	8044
-M00290	Holo-TFIIH complex	1	0	10	0	0	0	8044
-ko01522	Endocrine resistance	1	0	93	0	0	0	8044
-mmu_M00426	Survival motor neuron (SMN) complex	1	0	9	0	0	0	8044
-mmu_M00359	Aminoacyl-tRNA biosynthesis, eukaryotes	1	0	38	0	0	0	8044
-mmu00511	Other glycan degradation	1	0	18	0	0	0	8044
-mmu_M00142	NADH:ubiquinone oxidoreductase, mitochondria	1	0	7	0	0	0	8044
-ko05217	Basal cell carcinoma	1	0	55	0	0	0	8044
-mmu00480	Glutathione metabolism	1	0	59	0	0	0	8044
-ko04724	Glutamatergic synapse	1	0	114	0	0	0	8044
-ko04933	AGE-RAGE signaling pathway in diabetic complications	1	0	100	0	0	0	8044
-mmu05100	Bacterial invasion of epithelial cells	1	0	76	0	0	0	8044
-ko04915	Estrogen signaling pathway	1	0	96	0	0	0	8044
-M00676	PI3K-Akt signaling	1	0	13	0	0	0	8044
-M00684	JAK-STAT signaling	1	0	19	0	0	0	8044
-ko04940	Type I diabetes mellitus	1	0	68	0	0	0	8044
-ko00920	Sulfur metabolism	1	0	11	0	0	0	8044
-M00410	ESCRT-II complex	1	0	3	0	0	0	8044
-mmu_M00689	MAPK (p38) signaling	1	0	22	0	0	0	8044
-ko00330	Arginine and proline metabolism	1	0	50	0	0	0	8044
-M00070	Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer	1	0	5	0	0	0	8044
-ko05144	Malaria	1	0	49	0	0	0	8044
-M00133	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine	1	0	4	0	0	0	8044
-mmu_M00056	O-glycan biosynthesis, mucin type core	1	0	24	0	0	0	8044
-ko05323	Rheumatoid arthritis	1	0	83	0	0	0	8044
-M00392	Ski complex	1	0	3	0	0	0	8044
-ko04144	Endocytosis	1	0	284	0	0	0	8044
-M00087	beta-Oxidation	1	0	13	0	0	0	8044
-M00428	eIF4F complex	1	0	8	0	0	0	8044
-M00129	Ascorbate biosynthesis, animals, glucose-1P => ascorbate	1	0	24	0	0	0	8044
-ko04392	Hippo signaling pathway -multiple species	1	0	26	0	0	0	8044
-ko04260	Cardiac muscle contraction	1	0	78	0	0	0	8044
-mmu00515	Mannose type O-glycan biosynthesis	1	0	23	0	0	0	8044
-ko00290	Valine, leucine and isoleucine biosynthesis	1	0	4	0	0	0	8044
-ko00591	Linoleic acid metabolism	1	0	50	0	0	0	8044
-mmu00430	Taurine and hypotaurine metabolism	1	0	11	0	0	0	8044
-M00027	GABA (gamma-Aminobutyrate) shunt	1	0	4	0	0	0	8044
-mmu00300	Lysine biosynthesis	1	0	2	0	0	0	8044
-mmu05410	Hypertrophic cardiomyopathy (HCM)	1	0	84	0	0	0	8044
-mmu_M00403	HRD1/SEL1 ERAD complex	1	0	13	0	0	0	8044
-ko03440	Homologous recombination	1	0	41	0	0	0	8044
-ko04740	Olfactory transduction	1	0	1119	0	0	0	8044
-mmu00620	Pyruvate metabolism	1	0	38	0	0	0	8044
-mmu04966	Collecting duct acid secretion	1	0	27	0	0	0	8044
-ko04924	Renin secretion	1	0	72	0	0	0	8044
-mmu00520	Amino sugar and nucleotide sugar metabolism	1	0	49	0	0	0	8044
-mmu04662	B cell receptor signaling pathway	1	0	72	0	0	0	8044
-mmu_M00002	Glycolysis, core module involving three-carbon compounds	1	0	13	0	0	0	8044
-M00695	cAMP signaling	1	0	15	0	0	0	8044
-mmu_M00076	Dermatan sulfate degradation	1	0	11	0	0	0	8044
-M00389	APC/C complex	1	0	14	0	0	0	8044
-mmu04660	T cell receptor signaling pathway	1	0	103	0	0	0	8044
-M00044	Tyrosine degradation, tyrosine => homogentisate	1	0	8	0	0	0	8044
-mmu_M00120	Coenzyme A biosynthesis, pantothenate => CoA	1	0	7	0	0	0	8044
-mmu05146	Amoebiasis	1	0	106	0	0	0	8044
-ko00140	Steroid hormone biosynthesis	1	0	87	0	0	0	8044
-ko04120	Ubiquitin mediated proteolysis	1	0	140	0	0	0	8044
-mmu_M00132	Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate	1	0	3	0	0	0	8044
-ko00071	Fatty acid degradation	1	0	49	0	0	0	8044
-mmu00471	D-Glutamine and D-glutamate metabolism	1	0	3	0	0	0	8044
-M00090	Phosphatidylcholine (PC) biosynthesis, choline => PC	1	0	6	0	0	0	8044
-mmu05412	Arrhythmogenic right ventricular cardiomyopathy (ARVC)	1	0	72	0	0	0	8044
-mmu05216	Thyroid cancer	1	0	29	0	0	0	8044
-M00741	Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA	1	0	4	0	0	0	8044
-mmu00061	Fatty acid biosynthesis	1	0	14	0	0	0	8044
-mmu_M00134	Polyamine biosynthesis, arginine => ornithine => putrescine	1	0	4	0	0	0	8044
-mmu_M00409	ESCRT-I complex	1	0	8	0	0	0	8044
-ko00380	Tryptophan metabolism	1	0	46	0	0	0	8044
-M00035	Methionine degradation	1	0	11	0	0	0	8044
-mmu04340	Hedgehog signaling pathway	1	0	44	0	0	0	8044
-mmu_M00295	BRCA1-associated genome surveillance complex (BASC)	1	0	16	0	0	0	8044
-mmu_M00392	Ski complex	1	0	3	0	0	0	8044
-mmu04911	Insulin secretion	1	0	85	0	0	0	8044
-M00352	Spliceosome, U2-snRNP	1	0	21	0	0	0	8044
-mmu03460	Fanconi anemia pathway	1	0	51	0	0	0	8044
-mmu04919	Thyroid hormone signaling pathway	1	0	115	0	0	0	8044
-M00036	Leucine degradation, leucine => acetoacetate + acetyl-CoA	1	0	13	0	0	0	8044
-mmu_M00388	ECS complex	1	0	12	0	0	0	8044
-mmu05322	Systemic lupus erythematosus	1	0	142	0	0	0	8044
-M00100	Sphingosine degradation	1	0	3	0	0	0	8044
-ko05210	Colorectal cancer	1	0	62	0	0	0	8044
-mmu_M00340	Proteasome, 20S core particle	1	0	15	0	0	0	8044
-mmu01210	2-Oxocarboxylic acid metabolism	1	0	19	0	0	0	8044
-ko04210	Apoptosis	1	0	136	0	0	0	8044
-mmu_M00057	Glycosaminoglycan biosynthesis, linkage tetrasaccharide	1	0	5	0	0	0	8044
-ko04640	Hematopoietic cell lineage	1	0	93	0	0	0	8044
-ko00620	Pyruvate metabolism	1	0	38	0	0	0	8044
-mmu01212	Fatty acid metabolism	1	0	52	0	0	0	8044
-mmu05223	Non-small cell lung cancer	1	0	58	0	0	0	8044
-mmu_M00341	Proteasome, 19S regulatory particle (PA700)	1	0	19	0	0	0	8044
-mmu05320	Autoimmune thyroid disease	1	0	77	0	0	0	8044
-M00152	Cytochrome bc1 complex	1	0	10	0	0	0	8044
-M00338	Cysteine biosynthesis, homocysteine + serine => cysteine	1	0	2	0	0	0	8044
-mmu_M00427	Nuclear pore complex	1	0	41	0	0	0	8044
-mmu_M00095	C5 isoprenoid biosynthesis, mevalonate pathway	1	0	11	0	0	0	8044
-mmu_M00004	Pentose phosphate pathway (Pentose phosphate cycle)	1	0	12	0	0	0	8044
-mmu04915	Estrogen signaling pathway	1	0	96	0	0	0	8044
-ko04540	Gap junction	1	0	86	0	0	0	8044
-ko00520	Amino sugar and nucleotide sugar metabolism	1	0	49	0	0	0	8044
-ko05031	Amphetamine addiction	1	0	68	0	0	0	8044
-mmu_M00683	Hippo signaling	1	0	15	0	0	0	8044
-mmu_M00068	Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer	1	0	2	0	0	0	8044
-M00050	Guanine ribonucleotide biosynthesis IMP => GDP,GTP	1	0	12	0	0	0	8044
-mmu_M00353	Spliceosome, Prp19/CDC5L complex	1	0	13	0	0	0	8044
-mmu04920	Adipocytokine signaling pathway	1	0	71	0	0	0	8044
-ko03020	RNA polymerase	1	0	28	0	0	0	8044
-mmu04918	Thyroid hormone synthesis	1	0	73	0	0	0	8044
-mmu04012	ErbB signaling pathway	1	0	85	0	0	0	8044
-mmu00740	Riboflavin metabolism	1	0	8	0	0	0	8044
-mmu_M00410	ESCRT-II complex	1	0	3	0	0	0	8044
-mmu04010	MAPK signaling pathway	1	0	252	0	0	0	8044
-ko04961	Endocrine and other factor-regulated calcium reabsorption	1	0	54	0	0	0	8044
-mmu_M00678	Hedgehog signaling	1	0	11	0	0	0	8044
-mmu04922	Glucagon signaling pathway	1	0	102	0	0	0	8044
-M00002	Glycolysis, core module involving three-carbon compounds	1	0	13	0	0	0	8044
-M00404	COPII complex	1	0	11	0	0	0	8044
-mmu_M00077	Chondroitin sulfate degradation	1	0	10	0	0	0	8044
-ko04810	Regulation of actin cytoskeleton	1	0	214	0	0	0	8044
-mmu00120	Primary bile acid biosynthesis	1	0	16	0	0	0	8044
-ko04370	VEGF signaling pathway	1	0	58	0	0	0	8044
-M00691	DNA damage-induced cell cycle checkpoints	1	0	7	0	0	0	8044
-mmu05204	Chemical carcinogenesis	1	0	93	0	0	0	8044
-mmu_M00425	H/ACA ribonucleoprotein complex	1	0	4	0	0	0	8044
-mmu_M00048	Inosine monophosphate biosynthesis, PRPP + glutamine => IMP	1	0	6	0	0	0	8044
-M00355	Spliceosome, 35S U5-snRNP	1	0	36	0	0	0	8044
-mmu05202	Transcriptional misregulation in cancer	1	0	177	0	0	0	8044
-M00391	Exosome, eukaryotes	1	0	10	0	0	0	8044
-mmu_M00682	Notch signaling	1	0	17	0	0	0	8044
-M00032	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA	1	0	11	0	0	0	8044
-ko04141	Protein processing in endoplasmic reticulum	1	0	167	0	0	0	8044
-mmu_M00010	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	1	0	10	0	0	0	8044
-mmu04924	Renin secretion	1	0	72	0	0	0	8044
-ko04070	Phosphatidylinositol signaling system	1	0	96	0	0	0	8044
-mmu_M00352	Spliceosome, U2-snRNP	1	0	21	0	0	0	8044
-mmu04810	Regulation of actin cytoskeleton	1	0	214	0	0	0	8044
-ko00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	1	0	20	0	0	0	8044
-mmu_M00011	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	1	0	14	0	0	0	8044
-ko00982	Drug metabolism - cytochrome P450	1	0	67	0	0	0	8044
-mmu_M00055	N-glycan precursor biosynthesis	1	0	14	0	0	0	8044
-ko00650	Butanoate metabolism	1	0	27	0	0	0	8044
-M00068	Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer	1	0	2	0	0	0	8044
-mmu_M00549	Nucleotide sugar biosynthesis, glucose => UDP-glucose	1	0	7	0	0	0	8044
-ko04721	Synaptic vesicle cycle	1	0	62	0	0	0	8044
-mmu04014	Ras signaling pathway	1	0	228	0	0	0	8044
-M00058	Glycosaminoglycan biosynthesis, chondroitin sulfate backbone	1	0	6	0	0	0	8044
-ko04925	Aldosterone synthesis and secretion	1	0	86	0	0	0	8044
-mmu05200	Pathways in cancer	1	0	393	0	0	0	8044
-ko00910	Nitrogen metabolism	1	0	17	0	0	0	8044
-ko03320	PPAR signaling pathway	1	0	85	0	0	0	8044
-mmu_M00297	DNA-PK complex	1	0	3	0	0	0	8044
-mmu04530	Tight junction	1	0	167	0	0	0	8044
-ko05145	Toxoplasmosis	1	0	108	0	0	0	8044
-mmu01521	EGFR tyrosine kinase inhibitor resistance	1	0	80	0	0	0	8044
-M00413	FA core complex	1	0	10	0	0	0	8044
-ko04145	Phagosome	1	0	182	0	0	0	8044
-ko04110	Cell cycle	1	0	124	0	0	0	8044
-mmu04630	Jak-STAT signaling pathway	1	0	157	0	0	0	8044
-mmu_M00393	TRAMP complex	1	0	4	0	0	0	8044
-mmu_M00009	Citrate cycle (TCA cycle, Krebs cycle)	1	0	24	0	0	0	8044
-ko03050	Proteasome	1	0	46	0	0	0	8044
-mmu_M00108	C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone	1	0	3	0	0	0	8044
-ko04972	Pancreatic secretion	1	0	103	0	0	0	8044
-M00293	DNA polymerase zeta  complex	1	0	2	0	0	0	8044
-ko03060	Protein export	1	0	30	0	0	0	8044
-mmu_M00075	N-glycan biosynthesis, complex type	1	0	16	0	0	0	8044
-ko04921	Oxytocin signaling pathway	1	0	153	0	0	0	8044
-mmu_M00361	Nucleotide sugar biosynthesis, eukaryotes	1	0	9	0	0	0	8044
-M00005	PRPP biosynthesis, ribose 5P => PRPP	1	0	4	0	0	0	8044
-ko04664	Fc epsilon RI signaling pathway	1	0	68	0	0	0	8044
-M00409	ESCRT-I complex	1	0	8	0	0	0	8044
-M00108	C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone	1	0	3	0	0	0	8044
-M00006	Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P	1	0	5	0	0	0	8044
-M00130	Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4	1	0	22	0	0	0	8044
-mmu_M00027	GABA (gamma-Aminobutyrate) shunt	1	0	4	0	0	0	8044
-mmu_M00404	COPII complex	1	0	11	0	0	0	8044
-M00073	N-glycan precursor trimming	1	0	6	0	0	0	8044
-ko05202	Transcriptional misregulation in cancer	1	0	177	0	0	0	8044
-ko00300	Lysine biosynthesis	1	0	2	0	0	0	8044
-ko04914	Progesterone-mediated oocyte maturation	1	0	87	0	0	0	8044
-mmu05161	Hepatitis B	1	0	143	0	0	0	8044
-mmu05414	Dilated cardiomyopathy	1	0	89	0	0	0	8044
-ko05034	Alcoholism	1	0	199	0	0	0	8044
-mmu05169	Epstein-Barr virus infection	1	0	216	0	0	0	8044
-mmu04723	Retrograde endocannabinoid signaling	1	0	102	0	0	0	8044
-mmu05231	Choline metabolism in cancer	1	0	99	0	0	0	8044
-mmu_M00296	BER complex	1	0	10	0	0	0	8044
-mmu00980	Metabolism of xenobiotics by cytochrome P450	1	0	65	0	0	0	8044
-mmu00524	Neomycin, kanamycin and gentamicin biosynthesis	1	0	5	0	0	0	8044
-M00098	Acylglycerol degradation	1	0	10	0	0	0	8044
-M00147	NADH dehydrogenase (ubiquinone) 1 beta subcomplex	1	0	14	0	0	0	8044
-M00151	Cytochrome bc1 complex respiratory unit	1	0	3	0	0	0	8044
-mmu_M00402	Translocon-associated protein (TRAP) complex	1	0	4	0	0	0	8044
-mmu_M00003	Gluconeogenesis, oxaloacetate => fructose-6P	1	0	19	0	0	0	8044
-ko00510	N-Glycan biosynthesis	1	0	49	0	0	0	8044
-M00689	MAPK (p38) signaling	1	0	22	0	0	0	8044
-mmu_M00399	Cap binding complex	1	0	2	0	0	0	8044
-M00395	Decapping complex	1	0	6	0	0	0	8044
-mmu03430	Mismatch repair	1	0	22	0	0	0	8044
-mmu04664	Fc epsilon RI signaling pathway	1	0	68	0	0	0	8044
-M00396	Lsm 2-8 complex	1	0	7	0	0	0	8044
-M00351	Spliceosome, U1-snRNP	1	0	11	0	0	0	8044
-mmu_M00133	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine	1	0	4	0	0	0	8044
-mmu04213	Longevity regulating pathway - multiple species	1	0	62	0	0	0	8044
-mmu00982	Drug metabolism - cytochrome P450	1	0	67	0	0	0	8044
-mmu_M00151	Cytochrome bc1 complex respiratory unit	1	0	3	0	0	0	8044
-M00361	Nucleotide sugar biosynthesis, eukaryotes	1	0	9	0	0	0	8044
-mmu00750	Vitamin B6 metabolism	1	0	9	0	0	0	8044
-mmu04310	Wnt signaling pathway	1	0	146	0	0	0	8044
-ko05220	Chronic myeloid leukemia	1	0	71	0	0	0	8044
-mmu00072	Synthesis and degradation of ketone bodies	1	0	11	0	0	0	8044
-ko00240	Pyrimidine metabolism	1	0	102	0	0	0	8044
-ko00030	Pentose phosphate pathway	1	0	32	0	0	0	8044
-ko04614	Renin-angiotensin system	1	0	35	0	0	0	8044
-ko05016	Huntington's disease	1	0	192	0	0	0	8044
-mmu00603	Glycosphingolipid biosynthesis - globo and isoglobo series	1	0	16	0	0	0	8044
-M00103	Cholecalciferol biosynthesis	1	0	2	0	0	0	8044
-M00001	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	1	0	27	0	0	0	8044
-mmu_M00143	NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria	1	0	11	0	0	0	8044
-ko00052	Galactose metabolism	1	0	32	0	0	0	8044
-mmu05168	Herpes simplex infection	1	0	213	0	0	0	8044
-M00692	Cell cycle - G1/S transition	1	0	13	0	0	0	8044
-mmu_M00307	Pyruvate oxidation, pyruvate => acetyl-CoA	1	0	5	0	0	0	8044
-ko00760	Nicotinate and nicotinamide metabolism	1	0	35	0	0	0	8044
-mmu00220	Arginine biosynthesis	1	0	19	0	0	0	8044
-ko04621	NOD-like receptor signaling pathway	1	0	169	0	0	0	8044
-ko00062	Fatty acid elongation	1	0	27	0	0	0	8044
-ko00750	Vitamin B6 metabolism	1	0	9	0	0	0	8044
-ko04964	Proximal tubule bicarbonate reclamation	1	0	22	0	0	0	8044
-mmu04973	Carbohydrate digestion and absorption	1	0	43	0	0	0	8044
-M00078	Heparan sulfate degradation	1	0	9	0	0	0	8044
-ko04514	Cell adhesion molecules (CAMs)	1	0	167	0	0	0	8044
-mmu05217	Basal cell carcinoma	1	0	55	0	0	0	8044
-mmu04260	Cardiac muscle contraction	1	0	78	0	0	0	8044
-M00384	Cul3-SPOP complex	1	0	5	0	0	0	8044
-M00049	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	1	0	20	0	0	0	8044
-M00263	DNA polymerase epsilon complex	1	0	4	0	0	0	8044
-ko04150	mTOR signaling pathway	1	0	153	0	0	0	8044
-mmu_M00684	JAK-STAT signaling	1	0	19	0	0	0	8044
-ko05150	Staphylococcus aureus infection	1	0	52	0	0	0	8044
-mmu04130	SNARE interactions in vesicular transport	1	0	33	0	0	0	8044
-ko00190	Oxidative phosphorylation	1	0	134	0	0	0	8044
-ko05160	Hepatitis C	1	0	134	0	0	0	8044
-ko04672	Intestinal immune network for IgA production	1	0	43	0	0	0	8044
-mmu04350	TGF-beta signaling pathway	1	0	85	0	0	0	8044
-ko05412	Arrhythmogenic right ventricular cardiomyopathy (ARVC)	1	0	72	0	0	0	8044
-mmu05020	Prion diseases	1	0	34	0	0	0	8044
-ko05132	Salmonella infection	1	0	78	0	0	0	8044
-ko03010	Ribosome	1	0	174	0	0	0	8044
-mmu_M00354	Spliceosome, U4/U6.U5 tri-snRNP	1	0	31	0	0	0	8044
-mmu03320	PPAR signaling pathway	1	0	85	0	0	0	8044
-mmu04510	Focal adhesion	1	0	199	0	0	0	8044
-mmu_M00686	Toll-like receptor signaling	1	0	15	0	0	0	8044
-mmu04610	Complement and coagulation cascades	1	0	87	0	0	0	8044
-ko05340	Primary immunodeficiency	1	0	36	0	0	0	8044
-ko05222	Small cell lung cancer	1	0	83	0	0	0	8044
-ko04340	Hedgehog signaling pathway	1	0	44	0	0	0	8044
-M00393	TRAMP complex	1	0	4	0	0	0	8044
-M00132	Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate	1	0	3	0	0	0	8044
-M00091	Phosphatidylcholine (PC) biosynthesis, PE => PC	1	0	1	0	0	0	8044
-ko04728	Dopaminergic synapse	1	0	134	0	0	0	8044
-M00158	F-type ATPase, eukaryotes	1	0	17	0	0	0	8044
-mmu_M00158	F-type ATPase, eukaryotes	1	0	17	0	0	0	8044
-M00056	O-glycan biosynthesis, mucin type core	1	0	24	0	0	0	8044
-mmu02010	ABC transporters	1	0	46	0	0	0	8044
-M00055	N-glycan precursor biosynthesis	1	0	14	0	0	0	8044
-ko04916	Melanogenesis	1	0	100	0	0	0	8044
-mmu04974	Protein digestion and absorption	1	0	90	0	0	0	8044
-ko04064	NF-kappa B signaling pathway	1	0	98	0	0	0	8044
-mmu04612	Antigen processing and presentation	1	0	89	0	0	0	8044
-M00065	GPI-anchor biosynthesis, core oligosaccharide	1	0	8	0	0	0	8044
-ko00472	D-Arginine and D-ornithine metabolism	1	0	1	0	0	0	8044
-mmu00604	Glycosphingolipid biosynthesis - ganglio series	1	0	15	0	0	0	8044
-ko04666	Fc gamma R-mediated phagocytosis	1	0	87	0	0	0	8044
-ko00512	Mucin type O-glycan biosynthesis	1	0	28	0	0	0	8044
-mmu04916	Melanogenesis	1	0	100	0	0	0	8044
-M00066	Lactosylceramide biosynthesis	1	0	2	0	0	0	8044
-mmu04512	ECM-receptor interaction	1	0	83	0	0	0	8044
-mmu_M00059	Glycosaminoglycan biosynthesis, heparan sulfate backbone	1	0	10	0	0	0	8044
-mmu00440	Phosphonate and phosphinate metabolism	1	0	6	0	0	0	8044
-ko05162	Measles	1	0	136	0	0	0	8044
-ko04670	Leukocyte transendothelial migration	1	0	117	0	0	0	8044
-mmu_M00079	Keratan sulfate degradation	1	0	5	0	0	0	8044
-ko05152	Tuberculosis	1	0	178	0	0	0	8044
-ko04152	AMPK signaling pathway	1	0	126	0	0	0	8044
-M00291	MRN complex	1	0	3	0	0	0	8044
-ko05143	African trypanosomiasis	1	0	36	0	0	0	8044
-mmu00565	Ether lipid metabolism	1	0	44	0	0	0	8044
-mmu04550	Signaling pathways regulating pluripotency of stem cells	1	0	137	0	0	0	8044
-mmu04650	Natural killer cell mediated cytotoxicity	1	0	118	0	0	0	8044
-mmu04621	NOD-like receptor signaling pathway	1	0	169	0	0	0	8044
-ko04130	SNARE interactions in vesicular transport	1	0	33	0	0	0	8044
-mmu_M00094	Ceramide biosynthesis	1	0	13	0	0	0	8044
-ko05410	Hypertrophic cardiomyopathy (HCM)	1	0	84	0	0	0	8044
-mmu_M00005	PRPP biosynthesis, ribose 5P => PRPP	1	0	4	0	0	0	8044
-mmu04144	Endocytosis	1	0	284	0	0	0	8044
-ko00730	Thiamine metabolism	1	0	15	0	0	0	8044
-mmu_M00294	DNA polymerase gamma complex	1	0	2	0	0	0	8044
-mmu00561	Glycerolipid metabolism	1	0	59	0	0	0	8044
-mmu_M00135	GABA biosynthesis, eukaryotes, putrescine => GABA	1	0	9	0	0	0	8044
-ko04723	Retrograde endocannabinoid signaling	1	0	102	0	0	0	8044
-M00071	Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer	1	0	6	0	0	0	8044
-ko04977	Vitamin digestion and absorption	1	0	24	0	0	0	8044
-mmu04724	Glutamatergic synapse	1	0	114	0	0	0	8044
-M00106	Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate	1	0	2	0	0	0	8044
-M00051	Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP	1	0	3	0	0	0	8044
-mmu00591	Linoleic acid metabolism	1	0	50	0	0	0	8044
-mmu00910	Nitrogen metabolism	1	0	17	0	0	0	8044
-M00047	Creatine pathway	1	0	6	0	0	0	8044
-M00095	C5 isoprenoid biosynthesis, mevalonate pathway	1	0	11	0	0	0	8044
-ko00980	Metabolism of xenobiotics by cytochrome P450	1	0	65	0	0	0	8044
-mmu_M00395	Decapping complex	1	0	6	0	0	0	8044
-ko04966	Collecting duct acid secretion	1	0	27	0	0	0	8044
-mmu_M00288	RPA complex	1	0	3	0	0	0	8044
-mmu04060	Cytokine-cytokine receptor interaction	1	0	261	0	0	0	8044
-mmu05323	Rheumatoid arthritis	1	0	83	0	0	0	8044
-ko00562	Inositol phosphate metabolism	1	0	70	0	0	0	8044
-mmu_M00406	TREX complex	1	0	10	0	0	0	8044
-ko05014	Amyotrophic lateral sclerosis (ALS)	1	0	52	0	0	0	8044
-ko00630	Glyoxylate and dicarboxylate metabolism	1	0	29	0	0	0	8044
-mmu05220	Chronic myeloid leukemia	1	0	71	0	0	0	8044
-mmu_M00073	N-glycan precursor trimming	1	0	6	0	0	0	8044
-mmu_M00691	DNA damage-induced cell cycle checkpoints	1	0	7	0	0	0	8044
-ko04623	Cytosolic DNA-sensing pathway	1	0	61	0	0	0	8044
-mmu05218	Melanoma	1	0	69	0	0	0	8044
-M00284	Origin recognition complex	1	0	6	0	0	0	8044
-mmu00730	Thiamine metabolism	1	0	15	0	0	0	8044
-mmu05222	Small cell lung cancer	1	0	83	0	0	0	8044
-mmu_M00690	MAPK (ERK5) signaling	1	0	4	0	0	0	8044
-mmu04110	Cell cycle	1	0	124	0	0	0	8044
-mmu04062	Chemokine signaling pathway	1	0	185	0	0	0	8044
-mmu_M00092	Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE	1	0	7	0	0	0	8044
-mmu03450	Non-homologous end-joining	1	0	13	0	0	0	8044
-mmu04380	Osteoclast differentiation	1	0	130	0	0	0	8044
-M00690	MAPK (ERK5) signaling	1	0	4	0	0	0	8044
-mmu00051	Fructose and mannose metabolism	1	0	35	0	0	0	8044
-mmu_M00687	MAPK (ERK1/2) signaling	1	0	8	0	0	0	8044
-ko02010	ABC transporters	1	0	46	0	0	0	8044
-mmu00020	Citrate cycle (TCA cycle)	1	0	32	0	0	0	8044
-ko04072	Phospholipase D signaling pathway	1	0	147	0	0	0	8044
-M00353	Spliceosome, Prp19/CDC5L complex	1	0	13	0	0	0	8044
-M00398	Sm core complex	1	0	8	0	0	0	8044
-mmu_M00101	Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol	1	0	10	0	0	0	8044
-M00075	N-glycan biosynthesis, complex type	1	0	16	0	0	0	8044
-ko00780	Biotin metabolism	1	0	3	0	0	0	8044
-mmu04152	AMPK signaling pathway	1	0	126	0	0	0	8044
-ko04137	Mitophagy - animal	1	0	63	0	0	0	8044
-mmu05211	Renal cell carcinoma	1	0	65	0	0	0	8044
-mmu05219	Bladder cancer	1	0	41	0	0	0	8044
-mmu01040	Biosynthesis of unsaturated fatty acids	1	0	28	0	0	0	8044
-M00076	Dermatan sulfate degradation	1	0	11	0	0	0	8044
-ko00010	Glycolysis / Gluconeogenesis	1	0	66	0	0	0	8044
-mmu04371	Apelin signaling pathway	1	0	140	0	0	0	8044
-M00003	Gluconeogenesis, oxaloacetate => fructose-6P	1	0	19	0	0	0	8044
-ko04659	Th17 cell differentiation	1	0	102	0	0	0	8044
-M00101	Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol	1	0	10	0	0	0	8044
-mmu_M00632	Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P	1	0	4	0	0	0	8044
-mmu04961	Endocrine and other factor-regulated calcium reabsorption	1	0	54	0	0	0	8044
-mmu03410	Base excision repair	1	0	35	0	0	0	8044
-M00295	BRCA1-associated genome surveillance complex (BASC)	1	0	16	0	0	0	8044
-mmu05031	Amphetamine addiction	1	0	68	0	0	0	8044
-mmu05145	Toxoplasmosis	1	0	108	0	0	0	8044
-mmu04923	Regulation of lipolysis in adipocytes	1	0	55	0	0	0	8044
-mmu00270	Cysteine and methionine metabolism	1	0	48	0	0	0	8044
-ko03030	DNA replication	1	0	35	0	0	0	8044
-mmu00780	Biotin metabolism	1	0	3	0	0	0	8044
-M00296	BER complex	1	0	10	0	0	0	8044
-mmu_M00100	Sphingosine degradation	1	0	3	0	0	0	8044
-M00261	DNA polymerase alpha / primase complex	1	0	4	0	0	0	8044
-M00687	MAPK (ERK1/2) signaling	1	0	8	0	0	0	8044
-mmu05215	Prostate cancer	1	0	87	0	0	0	8044
-M00415	Fatty acid biosynthesis, elongation, endoplasmic reticulum	1	0	13	0	0	0	8044
-ko04970	Salivary secretion	1	0	78	0	0	0	8044
-mmu04150	mTOR signaling pathway	1	0	153	0	0	0	8044
-mmu04330	Notch signaling pathway	1	0	49	0	0	0	8044
+mmu00140	Steroid hormone biosynthesis	0.00232726734074957	-6.06306051481934	87	4	0.0769230769230769	52	8044	394436,107141,53973,380997	Ugt1a1,Cyp2c50,Cyp3a41a,Cyp2d12
+ko00140	Steroid hormone biosynthesis	0.00232726734074957	-6.06306051481934	87	4	0.0769230769230769	52	8044	53973,380997,394436,107141	Cyp3a41a,Cyp2d12,Ugt1a1,Cyp2c50
+mmu00830	Retinol metabolism	0.00252871675344777	-5.98004331699425	89	4	0.0769230769230769	52	8044	53973,13082,394436,107141	Cyp3a41a,Cyp26a1,Ugt1a1,Cyp2c50
+ko00830	Retinol metabolism	0.00252871675344777	-5.98004331699425	89	4	0.0769230769230769	52	8044	107141,394436,13082,53973	Cyp2c50,Ugt1a1,Cyp26a1,Cyp3a41a
+mmu_M00066	Lactosylceramide biosynthesis	0.0128879005824244	-4.3514663471018	2	1	0.0192307692307692	52	8044	56386	B4galt6
+M00066	Lactosylceramide biosynthesis	0.0128879005824244	-4.3514663471018	2	1	0.0192307692307692	52	8044	56386	B4galt6
+ko03060	Protein export	0.0158840234289076	-4.14244149071374	30	2	0.0384615384615385	52	8044	66541,66212	Immp1l,Sec61b
+mmu03060	Protein export	0.0158840234289076	-4.14244149071374	30	2	0.0384615384615385	52	8044	66212,66541	Sec61b,Immp1l
+mmu05204	Chemical carcinogenesis	0.0219866546476916	-3.81731961660735	93	3	0.0576923076923077	52	8044	394436,107141,53973	Ugt1a1,Cyp2c50,Cyp3a41a
+ko05204	Chemical carcinogenesis	0.0219866546476916	-3.81731961660735	93	3	0.0576923076923077	52	8044	107141,394436,53973	Cyp2c50,Ugt1a1,Cyp3a41a
+M00384	Cul3-SPOP complex	0.0319148633559969	-3.44468344178111	5	1	0.0192307692307692	52	8044	26554	Cul3
+mmu_M00037	Melatonin biosynthesis, tryptophan => serotonin => melatonin	0.0319148633559969	-3.44468344178111	5	1	0.0192307692307692	52	8044	107626	Asmt
+mmu_M00384	Cul3-SPOP complex	0.0319148633559969	-3.44468344178111	5	1	0.0192307692307692	52	8044	26554	Cul3
+M00037	Melatonin biosynthesis, tryptophan => serotonin => melatonin	0.0319148633559969	-3.44468344178111	5	1	0.0192307692307692	52	8044	107626	Asmt
+mmu00591	Linoleic acid metabolism	0.0412216811588973	-3.18879091932246	50	2	0.0384615384615385	52	8044	53973,107141	Cyp3a41a,Cyp2c50
+ko00591	Linoleic acid metabolism	0.0412216811588973	-3.18879091932246	50	2	0.0384615384615385	52	8044	53973,107141	Cyp3a41a,Cyp2c50
+mmu_M00401	Sec61 complex	0.0443991836877813	-3.1145341951233	7	1	0.0192307692307692	52	8044	66212	Sec61b
+M00401	Sec61 complex	0.0443991836877813	-3.1145341951233	7	1	0.0192307692307692	52	8044	66212	Sec61b
+ko04750	Inflammatory mediator regulation of TRP channels	0.0466632644243956	-3.06479805289018	125	3	0.0576923076923077	52	8044	18751,171382,107141	Prkcb,Trpm8,Cyp2c50
+mmu04750	Inflammatory mediator regulation of TRP channels	0.0466632644243956	-3.06479805289018	125	3	0.0576923076923077	52	8044	107141,171382,18751	Cyp2c50,Trpm8,Prkcb
+mmu04726	Serotonergic synapse	0.0533348381324159	-2.93116553783166	132	3	0.0576923076923077	52	8044	107141,18751,380997	Cyp2c50,Prkcb,Cyp2d12
+M00131	Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol	0.0567255644718247	-2.86953029734195	9	1	0.0192307692307692	52	8044	234515	Inpp4b
+mmu_M00131	Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol	0.0567255644718247	-2.86953029734195	9	1	0.0192307692307692	52	8044	234515	Inpp4b
+ko05412	Arrhythmogenic right ventricular cardiomyopathy (ARVC)	0.0786869399663104	-2.54227808439038	72	2	0.0384615384615385	52	8044	24052,21416	Sgcd,Tcf7l2
+mmu05412	Arrhythmogenic right ventricular cardiomyopathy (ARVC)	0.0786869399663104	-2.54227808439038	72	2	0.0384615384615385	52	8044	21416,24052	Tcf7l2,Sgcd
+ko04010	MAPK signaling pathway	0.0791262430365877	-2.5367106888581	252	4	0.0769230769230769	52	8044	17347,18751,224105,193740	Mknk2,Prkcb,Pak2,Hspa1a
+mmu04010	MAPK signaling pathway	0.0791262430365877	-2.5367106888581	252	4	0.0769230769230769	52	8044	193740,224105,18751,17347	Hspa1a,Pak2,Prkcb,Mknk2
+mmu_M00353	Spliceosome, Prp19/CDC5L complex	0.08091232118967	-2.51438916503515	13	1	0.0192307692307692	52	8044	193740	Hspa1a
+M00353	Spliceosome, Prp19/CDC5L complex	0.08091232118967	-2.51438916503515	13	1	0.0192307692307692	52	8044	193740	Hspa1a
+mmu_M00055	N-glycan precursor biosynthesis	0.0868633309394874	-2.44341930423994	14	1	0.0192307692307692	52	8044	66789	Alg14
+ko00790	Folate biosynthesis	0.0868633309394874	-2.44341930423994	14	1	0.0192307692307692	52	8044	56738	Mocs1
+M00055	N-glycan precursor biosynthesis	0.0868633309394874	-2.44341930423994	14	1	0.0192307692307692	52	8044	66789	Alg14
+mmu00790	Folate biosynthesis	0.0868633309394874	-2.44341930423994	14	1	0.0192307692307692	52	8044	56738	Mocs1
+mmu05164	Influenza A	0.0942460550986192	-2.36184630924756	168	3	0.0576923076923077	52	8044	16646,193740,18751	Kpna1,Hspa1a,Prkcb
+ko05164	Influenza A	0.0942460550986192	-2.36184630924756	168	3	0.0576923076923077	52	8044	16646,193740,18751	Kpna1,Hspa1a,Prkcb
+mmu04360	Axon guidance	0.103374043643217	-2.26940137701634	175	3	0.0576923076923077	52	8044	241568,210801,224105	Lrrc4c,Unc5d,Pak2
+ko04360	Axon guidance	0.103374043643217	-2.26940137701634	175	3	0.0576923076923077	52	8044	224105,210801,241568	Pak2,Unc5d,Lrrc4c
+mmu04911	Insulin secretion	0.104319488740942	-2.26029708168867	85	2	0.0384615384615385	52	8044	16532,18751	Kcnu1,Prkcb
+mmu04012	ErbB signaling pathway	0.104319488740942	-2.26029708168867	85	2	0.0384615384615385	52	8044	224105,18751	Pak2,Prkcb
+ko04012	ErbB signaling pathway	0.104319488740942	-2.26029708168867	85	2	0.0384615384615385	52	8044	224105,18751	Pak2,Prkcb
+mmu05206	MicroRNAs in cancer	0.106239158712254	-2.24206251203298	280	4	0.0769230769230769	52	8044	100628572,387222,18751,723930	Mir101c,Mir29a,Prkcb,Mir335
+ko05206	MicroRNAs in cancer	0.106239158712254	-2.24206251203298	280	4	0.0769230769230769	52	8044	100628572,387222,18751,723930	Mir101c,Mir29a,Prkcb,Mir335
+mmu05416	Viral myocarditis	0.106377247409927	-2.24076356507392	86	2	0.0384615384615385	52	8044	24052,110557	Sgcd,H2-Q6
+ko04144	Endocytosis	0.110424957584747	-2.20341910560878	284	4	0.0769230769230769	52	8044	268451,110557,193740,54673	Rab11fip4,H2-Q6,Hspa1a,Sh3glb1
+mmu04144	Endocytosis	0.110424957584747	-2.20341910560878	284	4	0.0769230769230769	52	8044	110557,268451,54673,193740	H2-Q6,Rab11fip4,Sh3glb1,Hspa1a
+mmu04612	Antigen processing and presentation	0.112616402571612	-2.18376790273447	89	2	0.0384615384615385	52	8044	110557,193740	H2-Q6,Hspa1a
+ko04612	Antigen processing and presentation	0.112616402571612	-2.18376790273447	89	2	0.0384615384615385	52	8044	193740,110557	Hspa1a,H2-Q6
+mmu04062	Chemokine signaling pathway	0.117002234751115	-2.14556224392992	185	3	0.0576923076923077	52	8044	18751,12775,56838	Prkcb,Ccr7,Ccl28
+ko04062	Chemokine signaling pathway	0.117002234751115	-2.14556224392992	185	3	0.0576923076923077	52	8044	18751,12775,56838	Prkcb,Ccr7,Ccl28
+mmu04070	Phosphatidylinositol signaling system	0.127530877215845	-2.05939676946118	96	2	0.0384615384615385	52	8044	234515,18751	Inpp4b,Prkcb
+ko04070	Phosphatidylinositol signaling system	0.127530877215845	-2.05939676946118	96	2	0.0384615384615385	52	8044	234515,18751	Inpp4b,Prkcb
+mmu04916	Melanogenesis	0.136256065752731	-1.99321932714364	100	2	0.0384615384615385	52	8044	18751,21416	Prkcb,Tcf7l2
+ko04916	Melanogenesis	0.136256065752731	-1.99321932714364	100	2	0.0384615384615385	52	8044	21416,18751	Tcf7l2,Prkcb
+mmu_M00129	Ascorbate biosynthesis, animals, glucose-1P => ascorbate	0.144333017211686	-1.93563202986942	24	1	0.0192307692307692	52	8044	394436	Ugt1a1
+M00129	Ascorbate biosynthesis, animals, glucose-1P => ascorbate	0.144333017211686	-1.93563202986942	24	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu05146	Amoebiasis	0.149586525993135	-1.89988028438883	106	2	0.0384615384615385	52	8044	20723,18751	Serpinb9,Prkcb
+ko05146	Amoebiasis	0.149586525993135	-1.89988028438883	106	2	0.0384615384615385	52	8044	18751,20723	Prkcb,Serpinb9
+mmu04066	HIF-1 signaling pathway	0.151834162284323	-1.88496639135379	107	2	0.0384615384615385	52	8044	18751,17347	Prkcb,Mknk2
+M00014	Glucuronate pathway (uronate pathway)	0.155393663684046	-1.86179361611382	26	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu_M00014	Glucuronate pathway (uronate pathway)	0.155393663684046	-1.86179361611382	26	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu05168	Herpes simplex infection	0.158414304662533	-1.8425414964663	213	3	0.0576923076923077	52	8044	667373,20684,110557	Ifit1bl1,Sp100,H2-Q6
+ko05168	Herpes simplex infection	0.158414304662533	-1.8425414964663	213	3	0.0576923076923077	52	8044	20684,667373,110557	Sp100,Ifit1bl1,H2-Q6
+ko04950	Maturity onset diabetes of the young	0.160871280228235	-1.82715073545758	27	1	0.0192307692307692	52	8044	18096	Nkx6-1
+mmu04950	Maturity onset diabetes of the young	0.160871280228235	-1.82715073545758	27	1	0.0192307692307692	52	8044	18096	Nkx6-1
+ko00053	Ascorbate and aldarate metabolism	0.160871280228235	-1.82715073545758	27	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu00053	Ascorbate and aldarate metabolism	0.160871280228235	-1.82715073545758	27	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu05169	Epstein-Barr virus infection	0.163100897420073	-1.81338626710131	216	3	0.0576923076923077	52	8044	22631,193740,110557	Ywhaz,Hspa1a,H2-Q6
+ko05169	Epstein-Barr virus infection	0.163100897420073	-1.81338626710131	216	3	0.0576923076923077	52	8044	110557,22631,193740	H2-Q6,Ywhaz,Hspa1a
+mmu05216	Thyroid cancer	0.171722193405919	-1.76187726255385	29	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko05216	Thyroid cancer	0.171722193405919	-1.76187726255385	29	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko01523	Antifolate resistance	0.177095923406169	-1.73106375305699	30	1	0.0192307692307692	52	8044	26357	Abcg2
+mmu01523	Antifolate resistance	0.177095923406169	-1.73106375305699	30	1	0.0192307692307692	52	8044	26357	Abcg2
+mmu05203	Viral carcinogenesis	0.183883955181811	-1.69345039869413	229	3	0.0576923076923077	52	8044	110557,22631,20684	H2-Q6,Ywhaz,Sp100
+ko05203	Viral carcinogenesis	0.183883955181811	-1.69345039869413	229	3	0.0576923076923077	52	8044	20684,22631,110557	Sp100,Ywhaz,H2-Q6
+mmu04071	Sphingolipid signaling pathway	0.186281779667628	-1.68049480719002	122	2	0.0384615384615385	52	8044	18201,18751	Nsmaf,Prkcb
+ko04071	Sphingolipid signaling pathway	0.186281779667628	-1.68049480719002	122	2	0.0384615384615385	52	8044	18751,18201	Prkcb,Nsmaf
+ko05020	Prion diseases	0.198250993941238	-1.61822140490477	34	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko00040	Pentose and glucuronate interconversions	0.198250993941238	-1.61822140490477	34	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu00040	Pentose and glucuronate interconversions	0.198250993941238	-1.61822140490477	34	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu05020	Prion diseases	0.198250993941238	-1.61822140490477	34	1	0.0192307692307692	52	8044	193740	Hspa1a
+mmu04270	Vascular smooth muscle contraction	0.202731884885155	-1.59587093703056	129	2	0.0384615384615385	52	8044	16532,18751	Kcnu1,Prkcb
+ko04270	Vascular smooth muscle contraction	0.202731884885155	-1.59587093703056	129	2	0.0384615384615385	52	8044	16532,18751	Kcnu1,Prkcb
+mmu05143	African trypanosomiasis	0.208627575150869	-1.56720455363297	36	1	0.0192307692307692	52	8044	18751	Prkcb
+M00355	Spliceosome, 35S U5-snRNP	0.208627575150869	-1.56720455363297	36	1	0.0192307692307692	52	8044	193740	Hspa1a
+mmu_M00355	Spliceosome, 35S U5-snRNP	0.208627575150869	-1.56720455363297	36	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko05143	African trypanosomiasis	0.208627575150869	-1.56720455363297	36	1	0.0192307692307692	52	8044	18751	Prkcb
+M00677	Wnt signaling	0.218872408016198	-1.51926633074802	38	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu04960	Aldosterone-regulated sodium reabsorption	0.218872408016198	-1.51926633074802	38	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04960	Aldosterone-regulated sodium reabsorption	0.218872408016198	-1.51926633074802	38	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu_M00677	Wnt signaling	0.218872408016198	-1.51926633074802	38	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu01100	Metabolic pathways	0.218958685647565	-1.51887221697341	1313	11	0.211538461538462	52	8044	234515,56738,13082,107626,56386,107141,81600,53973,320951,66789,394436	Inpp4b,Mocs1,Cyp26a1,Asmt,B4galt6,Cyp2c50,Chia1,Cyp3a41a,Pisd,Alg14,Ugt1a1
+ko00860	Porphyrin and chlorophyll metabolism	0.233996212013988	-1.45245035172987	41	1	0.0192307692307692	52	8044	394436	Ugt1a1
+ko03440	Homologous recombination	0.233996212013988	-1.45245035172987	41	1	0.0192307692307692	52	8044	368203	Brcc3dc
+mmu00860	Porphyrin and chlorophyll metabolism	0.233996212013988	-1.45245035172987	41	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu03440	Homologous recombination	0.233996212013988	-1.45245035172987	41	1	0.0192307692307692	52	8044	368203	Brcc3dc
+mmu05161	Hepatitis B	0.236088815789406	-1.44354720666324	143	2	0.0384615384615385	52	8044	22631,18751	Ywhaz,Prkcb
+mmu04310	Wnt signaling pathway	0.243289267405189	-1.41350414276249	146	2	0.0384615384615385	52	8044	21416,18751	Tcf7l2,Prkcb
+ko04310	Wnt signaling pathway	0.243289267405189	-1.41350414276249	146	2	0.0384615384615385	52	8044	18751,21416	Prkcb,Tcf7l2
+mmu04973	Carbohydrate digestion and absorption	0.243918806930911	-1.4109198675452	43	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04672	Intestinal immune network for IgA production	0.243918806930911	-1.4109198675452	43	1	0.0192307692307692	52	8044	56838	Ccl28
+mmu04672	Intestinal immune network for IgA production	0.243918806930911	-1.4109198675452	43	1	0.0192307692307692	52	8044	56838	Ccl28
+ko04973	Carbohydrate digestion and absorption	0.243918806930911	-1.4109198675452	43	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04340	Hedgehog signaling pathway	0.248832720449927	-1.39097441370179	44	1	0.0192307692307692	52	8044	26554	Cul3
+ko04340	Hedgehog signaling pathway	0.248832720449927	-1.39097441370179	44	1	0.0192307692307692	52	8044	26554	Cul3
+mmu02010	ABC transporters	0.25856676469235	-1.35260134104166	46	1	0.0192307692307692	52	8044	26357	Abcg2
+ko02010	ABC transporters	0.25856676469235	-1.35260134104166	46	1	0.0192307692307692	52	8044	26357	Abcg2
+ko00380	Tryptophan metabolism	0.25856676469235	-1.35260134104166	46	1	0.0192307692307692	52	8044	107626	Asmt
+mmu00380	Tryptophan metabolism	0.25856676469235	-1.35260134104166	46	1	0.0192307692307692	52	8044	107626	Asmt
+mmu04150	mTOR signaling pathway	0.260129000320647	-1.34657761593143	153	2	0.0384615384615385	52	8044	78757,18751	Rictor,Prkcb
+ko04150	mTOR signaling pathway	0.260129000320647	-1.34657761593143	153	2	0.0384615384615385	52	8044	78757,18751	Rictor,Prkcb
+mmu04390	Hippo signaling pathway	0.26253747335235	-1.33736145151107	154	2	0.0384615384615385	52	8044	21416,22631	Tcf7l2,Ywhaz
+ko04390	Hippo signaling pathway	0.26253747335235	-1.33736145151107	154	2	0.0384615384615385	52	8044	21416,22631	Tcf7l2,Ywhaz
+ko00600	Sphingolipid metabolism	0.26817706466529	-1.31610782758062	48	1	0.0192307692307692	52	8044	56386	B4galt6
+mmu00600	Sphingolipid metabolism	0.26817706466529	-1.31610782758062	48	1	0.0192307692307692	52	8044	56386	B4galt6
+ko00510	N-Glycan biosynthesis	0.272936293362143	-1.29851686867714	49	1	0.0192307692307692	52	8044	66789	Alg14
+mmu00520	Amino sugar and nucleotide sugar metabolism	0.272936293362143	-1.29851686867714	49	1	0.0192307692307692	52	8044	81600	Chia1
+mmu00510	N-Glycan biosynthesis	0.272936293362143	-1.29851686867714	49	1	0.0192307692307692	52	8044	66789	Alg14
+ko00520	Amino sugar and nucleotide sugar metabolism	0.272936293362143	-1.29851686867714	49	1	0.0192307692307692	52	8044	81600	Chia1
+mmu05213	Endometrial cancer	0.277665162994303	-1.28133934088473	50	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko05213	Endometrial cancer	0.277665162994303	-1.28133934088473	50	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu00983	Drug metabolism - other enzymes	0.282363863467661	-1.26455874377591	51	1	0.0192307692307692	52	8044	394436	Ugt1a1
+ko00983	Drug metabolism - other enzymes	0.282363863467661	-1.26455874377591	51	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu04530	Tight junction	0.293845702951469	-1.22470046930258	167	2	0.0384615384615385	52	8044	231830,242894	Micall2,Actr3b
+mmu04514	Cell adhesion molecules (CAMs)	0.293845702951469	-1.22470046930258	167	2	0.0384615384615385	52	8044	241568,110557	Lrrc4c,H2-Q6
+mmu04141	Protein processing in endoplasmic reticulum	0.293845702951469	-1.22470046930258	167	2	0.0384615384615385	52	8044	66212,193740	Sec61b,Hspa1a
+ko04514	Cell adhesion molecules (CAMs)	0.293845702951469	-1.22470046930258	167	2	0.0384615384615385	52	8044	110557,241568	H2-Q6,Lrrc4c
+ko04530	Tight junction	0.293845702951469	-1.22470046930258	167	2	0.0384615384615385	52	8044	231830,242894	Micall2,Actr3b
+ko04141	Protein processing in endoplasmic reticulum	0.293845702951469	-1.22470046930258	167	2	0.0384615384615385	52	8044	193740,66212	Hspa1a,Sec61b
+mmu04961	Endocrine and other factor-regulated calcium reabsorption	0.296280831277627	-1.21644752012468	54	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04961	Endocrine and other factor-regulated calcium reabsorption	0.296280831277627	-1.21644752012468	54	1	0.0192307692307692	52	8044	18751	Prkcb
+ko05221	Acute myeloid leukemia	0.300860730752441	-1.20110780983672	55	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu05217	Basal cell carcinoma	0.300860730752441	-1.20110780983672	55	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu05221	Acute myeloid leukemia	0.300860730752441	-1.20110780983672	55	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko05217	Basal cell carcinoma	0.300860730752441	-1.20110780983672	55	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko03010	Ribosome	0.310656293244862	-1.16906814436486	174	2	0.0384615384615385	52	8044	64659,100861501	Mrps14,Gm22291
+mmu03010	Ribosome	0.310656293244862	-1.16906814436486	174	2	0.0384615384615385	52	8044	100861501,64659	Gm22291,Mrps14
+ko05134	Legionellosis	0.314425737705375	-1.15700735884709	58	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko05223	Non-small cell lung cancer	0.314425737705375	-1.15700735884709	58	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04370	VEGF signaling pathway	0.314425737705375	-1.15700735884709	58	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05134	Legionellosis	0.314425737705375	-1.15700735884709	58	1	0.0192307692307692	52	8044	193740	Hspa1a
+mmu05223	Non-small cell lung cancer	0.314425737705375	-1.15700735884709	58	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04370	VEGF signaling pathway	0.314425737705375	-1.15700735884709	58	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04730	Long-term depression	0.327732515384068	-1.11555750517838	61	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04730	Long-term depression	0.327732515384068	-1.11555750517838	61	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04145	Phagosome	0.329779376150265	-1.10933140522599	182	2	0.0384615384615385	52	8044	66212,110557	Sec61b,H2-Q6
+mmu04145	Phagosome	0.329779376150265	-1.10933140522599	182	2	0.0384615384615385	52	8044	110557,66212	H2-Q6,Sec61b
+ko04213	Longevity regulating pathway - multiple species	0.332111559503444	-1.10228434390786	62	1	0.0192307692307692	52	8044	193740	Hspa1a
+mmu05210	Colorectal cancer	0.332111559503444	-1.10228434390786	62	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu05330	Allograft rejection	0.332111559503444	-1.10228434390786	62	1	0.0192307692307692	52	8044	110557	H2-Q6
+mmu04213	Longevity regulating pathway - multiple species	0.332111559503444	-1.10228434390786	62	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko05330	Allograft rejection	0.332111559503444	-1.10228434390786	62	1	0.0192307692307692	52	8044	110557	H2-Q6
+ko05210	Colorectal cancer	0.332111559503444	-1.10228434390786	62	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu05332	Graft-versus-host disease	0.336462624254508	-1.08926820811829	63	1	0.0192307692307692	52	8044	110557	H2-Q6
+ko05332	Graft-versus-host disease	0.336462624254508	-1.08926820811829	63	1	0.0192307692307692	52	8044	110557	H2-Q6
+ko04137	Mitophagy - animal	0.336462624254508	-1.08926820811829	63	1	0.0192307692307692	52	8044	17684	Cited2
+mmu04137	Mitophagy - animal	0.336462624254508	-1.08926820811829	63	1	0.0192307692307692	52	8044	17684	Cited2
+ko05214	Glioma	0.340785884944807	-1.07650090230017	64	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05214	Glioma	0.340785884944807	-1.07650090230017	64	1	0.0192307692307692	52	8044	18751	Prkcb
+ko00980	Metabolism of xenobiotics by cytochrome P450	0.345081515765675	-1.06397461227826	65	1	0.0192307692307692	52	8044	394436	Ugt1a1
+mmu05211	Renal cell carcinoma	0.345081515765675	-1.06397461227826	65	1	0.0192307692307692	52	8044	224105	Pak2
+mmu00980	Metabolism of xenobiotics by cytochrome P450	0.345081515765675	-1.06397461227826	65	1	0.0192307692307692	52	8044	394436	Ugt1a1
+ko05211	Renal cell carcinoma	0.345081515765675	-1.06397461227826	65	1	0.0192307692307692	52	8044	224105	Pak2
+ko05140	Leishmaniasis	0.349349689875729	-1.05168188170204	66	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05140	Leishmaniasis	0.349349689875729	-1.05168188170204	66	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu00982	Drug metabolism - cytochrome P450	0.353590579334214	-1.03961559072793	67	1	0.0192307692307692	52	8044	394436	Ugt1a1
+ko04720	Long-term potentiation	0.353590579334214	-1.03961559072793	67	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04720	Long-term potentiation	0.353590579334214	-1.03961559072793	67	1	0.0192307692307692	52	8044	18751	Prkcb
+ko00982	Drug metabolism - cytochrome P450	0.353590579334214	-1.03961559072793	67	1	0.0192307692307692	52	8044	394436	Ugt1a1
+ko05031	Amphetamine addiction	0.357804355176619	-1.02776893588372	68	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05031	Amphetamine addiction	0.357804355176619	-1.02776893588372	68	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04940	Type I diabetes mellitus	0.357804355176619	-1.02776893588372	68	1	0.0192307692307692	52	8044	110557	H2-Q6
+mmu04940	Type I diabetes mellitus	0.357804355176619	-1.02776893588372	68	1	0.0192307692307692	52	8044	110557	H2-Q6
+mmu00562	Inositol phosphate metabolism	0.366151244823628	-1.00470879371673	70	1	0.0192307692307692	52	8044	234515	Inpp4b
+ko00562	Inositol phosphate metabolism	0.366151244823628	-1.00470879371673	70	1	0.0192307692307692	52	8044	234515	Inpp4b
+mmu04510	Focal adhesion	0.369932693548783	-0.994434199218988	199	2	0.0384615384615385	52	8044	224105,18751	Pak2,Prkcb
+ko04510	Focal adhesion	0.369932693548783	-0.994434199218988	199	2	0.0384615384615385	52	8044	18751,224105	Prkcb,Pak2
+mmu04976	Bile secretion	0.370284695447555	-0.993483122061014	71	1	0.0192307692307692	52	8044	26357	Abcg2
+ko04976	Bile secretion	0.370284695447555	-0.993483122061014	71	1	0.0192307692307692	52	8044	26357	Abcg2
+mmu04662	B cell receptor signaling pathway	0.374391706087974	-0.982452687166876	72	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04662	B cell receptor signaling pathway	0.374391706087974	-0.982452687166876	72	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04520	Adherens junction	0.374391706087974	-0.982452687166876	72	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu04520	Adherens junction	0.374391706087974	-0.982452687166876	72	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu04918	Thyroid hormone synthesis	0.378472442571182	-0.971612015700546	73	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04918	Thyroid hormone synthesis	0.378472442571182	-0.971612015700546	73	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04971	Gastric acid secretion	0.382527069719464	-0.960955857711259	74	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04971	Gastric acid secretion	0.382527069719464	-0.960955857711259	74	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05320	Autoimmune thyroid disease	0.394535928056826	-0.930045070455654	77	1	0.0192307692307692	52	8044	110557	H2-Q6
+ko05320	Autoimmune thyroid disease	0.394535928056826	-0.930045070455654	77	1	0.0192307692307692	52	8044	110557	H2-Q6
+mmu04970	Salivary secretion	0.39848774577794	-0.920078532095601	78	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04970	Salivary secretion	0.39848774577794	-0.920078532095601	78	1	0.0192307692307692	52	8044	18751	Prkcb
+ko01521	EGFR tyrosine kinase inhibitor resistance	0.406315638931627	-0.900624985634887	80	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu01521	EGFR tyrosine kinase inhibitor resistance	0.406315638931627	-0.900624985634887	80	1	0.0192307692307692	52	8044	18751	Prkcb
+ko03018	RNA degradation	0.410192031051839	-0.891129860514917	81	1	0.0192307692307692	52	8044	12228	Btg3
+mmu03018	RNA degradation	0.410192031051839	-0.891129860514917	81	1	0.0192307692307692	52	8044	12228	Btg3
+ko05410	Hypertrophic cardiomyopathy (HCM)	0.421672869116168	-0.863525457230401	84	1	0.0192307692307692	52	8044	24052	Sgcd
+mmu05410	Hypertrophic cardiomyopathy (HCM)	0.421672869116168	-0.863525457230401	84	1	0.0192307692307692	52	8044	24052	Sgcd
+ko04540	Gap junction	0.429204693057293	-0.84582133385552	86	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04540	Gap junction	0.429204693057293	-0.84582133385552	86	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04925	Aldosterone synthesis and secretion	0.429204693057293	-0.84582133385552	86	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04925	Aldosterone synthesis and secretion	0.429204693057293	-0.84582133385552	86	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04666	Fc gamma R-mediated phagocytosis	0.432934443747177	-0.837168962563796	87	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04666	Fc gamma R-mediated phagocytosis	0.432934443747177	-0.837168962563796	87	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05215	Prostate cancer	0.432934443747177	-0.837168962563796	87	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko05215	Prostate cancer	0.432934443747177	-0.837168962563796	87	1	0.0192307692307692	52	8044	21416	Tcf7l2
+mmu04014	Ras signaling pathway	0.436191468408477	-0.829673984304381	228	2	0.0384615384615385	52	8044	18751,224105	Prkcb,Pak2
+ko04727	GABAergic synapse	0.436640288773919	-0.82864556066762	88	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04727	GABAergic synapse	0.436640288773919	-0.82864556066762	88	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu00590	Arachidonic acid metabolism	0.440322378390048	-0.820248142188239	89	1	0.0192307692307692	52	8044	107141	Cyp2c50
+ko00590	Arachidonic acid metabolism	0.440322378390048	-0.820248142188239	89	1	0.0192307692307692	52	8044	107141	Cyp2c50
+mmu04912	GnRH signaling pathway	0.440322378390048	-0.820248142188239	89	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04912	GnRH signaling pathway	0.440322378390048	-0.820248142188239	89	1	0.0192307692307692	52	8044	18751	Prkcb
+ko05414	Dilated cardiomyopathy	0.440322378390048	-0.820248142188239	89	1	0.0192307692307692	52	8044	24052	Sgcd
+mmu05414	Dilated cardiomyopathy	0.440322378390048	-0.820248142188239	89	1	0.0192307692307692	52	8044	24052	Sgcd
+mmu05032	Morphine addiction	0.451227603247843	-0.79578340325855	92	1	0.0192307692307692	52	8044	18751	Prkcb
+ko05032	Morphine addiction	0.451227603247843	-0.79578340325855	92	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu00564	Glycerophospholipid metabolism	0.458381689031208	-0.780053059773843	94	1	0.0192307692307692	52	8044	320951	Pisd
+ko00564	Glycerophospholipid metabolism	0.458381689031208	-0.780053059773843	94	1	0.0192307692307692	52	8044	320951	Pisd
+mmu04915	Estrogen signaling pathway	0.465444280970476	-0.764762886592608	96	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko04915	Estrogen signaling pathway	0.465444280970476	-0.764762886592608	96	1	0.0192307692307692	52	8044	193740	Hspa1a
+mmu04713	Circadian entrainment	0.472416526529748	-0.749894211084267	98	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04064	NF-kappa B signaling pathway	0.472416526529748	-0.749894211084267	98	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04713	Circadian entrainment	0.472416526529748	-0.749894211084267	98	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04064	NF-kappa B signaling pathway	0.472416526529748	-0.749894211084267	98	1	0.0192307692307692	52	8044	18751	Prkcb
+ko05231	Choline metabolism in cancer	0.475869124146599	-0.742612411828049	99	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05231	Choline metabolism in cancer	0.475869124146599	-0.742612411828049	99	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04933	AGE-RAGE signaling pathway in diabetic complications	0.479299559079258	-0.735429492743412	100	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04933	AGE-RAGE signaling pathway in diabetic complications	0.479299559079258	-0.735429492743412	100	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04723	Retrograde endocannabinoid signaling	0.486094498022597	-0.721352233607009	102	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04723	Retrograde endocannabinoid signaling	0.486094498022597	-0.721352233607009	102	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04972	Pancreatic secretion	0.489459278443945	-0.714454010576362	103	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04660	T cell receptor signaling pathway	0.489459278443945	-0.714454010576362	103	1	0.0192307692307692	52	8044	224105	Pak2
+mmu04660	T cell receptor signaling pathway	0.489459278443945	-0.714454010576362	103	1	0.0192307692307692	52	8044	224105	Pak2
+ko04972	Pancreatic secretion	0.489459278443945	-0.714454010576362	103	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05145	Toxoplasmosis	0.505961741908067	-0.681294221430505	108	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko05145	Toxoplasmosis	0.505961741908067	-0.681294221430505	108	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko04060	Cytokine-cytokine receptor interaction	0.506989193706746	-0.679265589805982	261	2	0.0384615384615385	52	8044	12775,56838	Ccr7,Ccl28
+mmu04060	Cytokine-cytokine receptor interaction	0.506989193706746	-0.679265589805982	261	2	0.0384615384615385	52	8044	56838,12775	Ccl28,Ccr7
+mmu04931	Insulin resistance	0.509198887744812	-0.67491659662018	109	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04725	Cholinergic synapse	0.521940719740054	-0.650201261264718	113	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04724	Glutamatergic synapse	0.525075139439409	-0.644213903889865	114	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04724	Glutamatergic synapse	0.525075139439409	-0.644213903889865	114	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu03008	Ribosome biogenesis in eukaryotes	0.528189400814694	-0.638300345934047	115	1	0.0192307692307692	52	8044	100861501	Gm22291
+mmu04919	Thyroid hormone signaling pathway	0.528189400814694	-0.638300345934047	115	1	0.0192307692307692	52	8044	18751	Prkcb
+ko03008	Ribosome biogenesis in eukaryotes	0.528189400814694	-0.638300345934047	115	1	0.0192307692307692	52	8044	100861501	Gm22291
+ko04114	Oocyte meiosis	0.531283631002016	-0.632459255331655	116	1	0.0192307692307692	52	8044	22631	Ywhaz
+mmu04114	Oocyte meiosis	0.531283631002016	-0.632459255331655	116	1	0.0192307692307692	52	8044	22631	Ywhaz
+mmu04670	Leukocyte transendothelial migration	0.534357956330867	-0.626689334385268	117	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04670	Leukocyte transendothelial migration	0.534357956330867	-0.626689334385268	117	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04650	Natural killer cell mediated cytotoxicity	0.537412502352242	-0.62098931855286	118	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04650	Natural killer cell mediated cytotoxicity	0.537412502352242	-0.62098931855286	118	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04110	Cell cycle	0.555331346577707	-0.588190322521023	124	1	0.0192307692307692	52	8044	22631	Ywhaz
+ko04110	Cell cycle	0.555331346577707	-0.588190322521023	124	1	0.0192307692307692	52	8044	22631	Ywhaz
+mmu04380	Osteoclast differentiation	0.572568923428122	-0.557622160532608	130	1	0.0192307692307692	52	8044	320832	Sirpb1a
+ko04140	Autophagy - animal	0.572568923428122	-0.557622160532608	130	1	0.0192307692307692	52	8044	54673	Sh3glb1
+mmu04140	Autophagy - animal	0.572568923428122	-0.557622160532608	130	1	0.0192307692307692	52	8044	54673	Sh3glb1
+ko04380	Osteoclast differentiation	0.572568923428122	-0.557622160532608	130	1	0.0192307692307692	52	8044	320832	Sirpb1a
+mmu03040	Spliceosome	0.57816780902622	-0.547891125411515	132	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko03040	Spliceosome	0.57816780902622	-0.547891125411515	132	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko05160	Hepatitis C	0.583694747514673	-0.538377125417174	134	1	0.0192307692307692	52	8044	667373	Ifit1bl1
+mmu04728	Dopaminergic synapse	0.583694747514673	-0.538377125417174	134	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05160	Hepatitis C	0.583694747514673	-0.538377125417174	134	1	0.0192307692307692	52	8044	667373	Ifit1bl1
+ko04728	Dopaminergic synapse	0.583694747514673	-0.538377125417174	134	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05162	Measles	0.589150645513397	-0.529073363154378	136	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko05162	Measles	0.589150645513397	-0.529073363154378	136	1	0.0192307692307692	52	8044	193740	Hspa1a
+ko04120	Ubiquitin mediated proteolysis	0.59985289077412	-0.511070835871155	140	1	0.0192307692307692	52	8044	26554	Cul3
+mmu04120	Ubiquitin mediated proteolysis	0.59985289077412	-0.511070835871155	140	1	0.0192307692307692	52	8044	26554	Cul3
+mmu04910	Insulin signaling pathway	0.602485437546284	-0.506691783957088	141	1	0.0192307692307692	52	8044	17347	Mknk2
+ko04910	Insulin signaling pathway	0.602485437546284	-0.506691783957088	141	1	0.0192307692307692	52	8044	17347	Mknk2
+mmu05224	Breast cancer	0.610281576341825	-0.493834827759176	144	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko05224	Breast cancer	0.610281576341825	-0.493834827759176	144	1	0.0192307692307692	52	8044	21416	Tcf7l2
+ko04921	Oxytocin signaling pathway	0.632781170077815	-0.457630619485625	153	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04921	Oxytocin signaling pathway	0.632781170077815	-0.457630619485625	153	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04022	cGMP-PKG signaling pathway	0.66748145059293	-0.404243678467752	168	1	0.0192307692307692	52	8044	16532	Kcnu1
+mmu04022	cGMP-PKG signaling pathway	0.66748145059293	-0.404243678467752	168	1	0.0192307692307692	52	8044	16532	Kcnu1
+mmu04621	NOD-like receptor signaling pathway	0.669676849861108	-0.4009599965879	169	1	0.0192307692307692	52	8044	368203	Brcc3dc
+ko04621	NOD-like receptor signaling pathway	0.669676849861108	-0.4009599965879	169	1	0.0192307692307692	52	8044	368203	Brcc3dc
+mmu05202	Transcriptional misregulation in cancer	0.686735715709275	-0.375805754063954	177	1	0.0192307692307692	52	8044	12775	Ccr7
+ko05202	Transcriptional misregulation in cancer	0.686735715709275	-0.375805754063954	177	1	0.0192307692307692	52	8044	12775	Ccr7
+mmu04020	Calcium signaling pathway	0.698959890115033	-0.358161920204406	183	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04020	Calcium signaling pathway	0.698959890115033	-0.358161920204406	183	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu05200	Pathways in cancer	0.729599024664966	-0.315260177030795	393	2	0.0384615384615385	52	8044	21416,18751	Tcf7l2,Prkcb
+mmu05205	Proteoglycans in cancer	0.741633310478001	-0.298900348697698	206	1	0.0192307692307692	52	8044	18751	Prkcb
+ko05205	Proteoglycans in cancer	0.741633310478001	-0.298900348697698	206	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04015	Rap1 signaling pathway	0.753400196179513	-0.283158723331991	213	1	0.0192307692307692	52	8044	18751	Prkcb
+mmu04015	Rap1 signaling pathway	0.753400196179513	-0.283158723331991	213	1	0.0192307692307692	52	8044	18751	Prkcb
+ko04810	Regulation of actin cytoskeleton	0.755037686890002	-0.280987614568296	214	1	0.0192307692307692	52	8044	224105	Pak2
+mmu04810	Regulation of actin cytoskeleton	0.755037686890002	-0.280987614568296	214	1	0.0192307692307692	52	8044	224105	Pak2
+ko05166	HTLV-I infection	0.843545320980678	-0.17014164876472	281	1	0.0192307692307692	52	8044	110557	H2-Q6
+mmu05166	HTLV-I infection	0.843545320980678	-0.17014164876472	281	1	0.0192307692307692	52	8044	110557	H2-Q6
+mmu04151	PI3K-Akt signaling pathway	0.899104439582355	-0.10635607819651	346	1	0.0192307692307692	52	8044	22631	Ywhaz
+ko04151	PI3K-Akt signaling pathway	0.899104439582355	-0.10635607819651	346	1	0.0192307692307692	52	8044	22631	Ywhaz
+mmu04740	Olfactory transduction	0.996182515813929	-0.00382478937638563	1119	2	0.0384615384615385	52	8044	258859,258724	Or1f19,Or6c208
+ko04740	Olfactory transduction	0.996182515813929	-0.00382478937638563	1119	2	0.0384615384615385	52	8044	258859,258724	Or1f19,Or6c208
+mmu00750	Vitamin B6 metabolism	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+M00135	GABA biosynthesis, eukaryotes, putrescine => GABA	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+mmu_M00078	Heparan sulfate degradation	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+M00078	Heparan sulfate degradation	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+M00361	Nucleotide sugar biosynthesis, eukaryotes	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+mmu_M00361	Nucleotide sugar biosynthesis, eukaryotes	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+mmu_M00426	Survival motor neuron (SMN) complex	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+mmu_M00135	GABA biosynthesis, eukaryotes, putrescine => GABA	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+ko00750	Vitamin B6 metabolism	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+M00426	Survival motor neuron (SMN) complex	0.999999999984091	-1.59092439263755e-11	9	0	0	52	8044
+ko00730	Thiamine metabolism	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+mmu00730	Thiamine metabolism	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+M00695	cAMP signaling	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+ko00604	Glycosphingolipid biosynthesis - ganglio series	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+mmu_M00686	Toll-like receptor signaling	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+M00340	Proteasome, 20S core particle	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+mmu_M00340	Proteasome, 20S core particle	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+M00686	Toll-like receptor signaling	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+M00683	Hippo signaling	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+mmu00604	Glycosphingolipid biosynthesis - ganglio series	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+mmu_M00695	cAMP signaling	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+mmu_M00683	Hippo signaling	0.999999999984915	-1.50848636152641e-11	15	0	0	52	8044
+M00049	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	0.999999999986857	-1.31426112057801e-11	20	0	0	52	8044
+ko00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	0.999999999986857	-1.31426112057801e-11	20	0	0	52	8044
+mmu_M00679	BMP signaling	0.999999999986857	-1.31426112057801e-11	20	0	0	52	8044
+mmu_M00049	Adenine ribonucleotide biosynthesis, IMP => ADP,ATP	0.999999999986857	-1.31426112057801e-11	20	0	0	52	8044
+mmu00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	0.999999999986857	-1.31426112057801e-11	20	0	0	52	8044
+M00679	BMP signaling	0.999999999986857	-1.31426112057801e-11	20	0	0	52	8044
+mmu00120	Primary bile acid biosynthesis	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+ko00120	Primary bile acid biosynthesis	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+M00146	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+mmu_M00089	Triacylglycerol biosynthesis	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+M00075	N-glycan biosynthesis, complex type	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+mmu_M00146	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+M00089	Triacylglycerol biosynthesis	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+M00295	BRCA1-associated genome surveillance complex (BASC)	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+M00181	RNA polymerase III, eukaryotes	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+mmu00603	Glycosphingolipid biosynthesis - globo and isoglobo series	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+mmu_M00181	RNA polymerase III, eukaryotes	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+mmu_M00295	BRCA1-associated genome surveillance complex (BASC)	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+mmu_M00075	N-glycan biosynthesis, complex type	0.999999999988352	-1.16484311482728e-11	16	0	0	52	8044
+M00396	Lsm 2-8 complex	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00397	Lsm 1-7 complex	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00142	NADH:ubiquinone oxidoreductase, mitochondria	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00549	Nucleotide sugar biosynthesis, glucose => UDP-glucose	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00107	Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00120	Coenzyme A biosynthesis, pantothenate => CoA	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00691	DNA damage-induced cell cycle checkpoints	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00072	N-glycosylation by oligosaccharyltransferase	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00396	Lsm 2-8 complex	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00092	Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00092	Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00120	Coenzyme A biosynthesis, pantothenate => CoA	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00072	N-glycosylation by oligosaccharyltransferase	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00397	Lsm 1-7 complex	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00107	Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00424	Shelterin complex	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00424	Shelterin complex	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+mmu_M00691	DNA damage-induced cell cycle checkpoints	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00549	Nucleotide sugar biosynthesis, glucose => UDP-glucose	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+M00142	NADH:ubiquinone oxidoreductase, mitochondria	0.999999999991566	-8.43438290921332e-12	7	0	0	52	8044
+ko05340	Primary immunodeficiency	0.999999999992218	-7.78247501005128e-12	36	0	0	52	8044
+mmu05340	Primary immunodeficiency	0.999999999992218	-7.78247501005128e-12	36	0	0	52	8044
+mmu00061	Fatty acid biosynthesis	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+mmu_M00389	APC/C complex	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+ko00061	Fatty acid biosynthesis	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+mmu_M00147	NADH dehydrogenase (ubiquinone) 1 beta subcomplex	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+M00389	APC/C complex	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+mmu_M00011	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+M00011	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+mmu00533	Glycosaminoglycan biosynthesis - keratan sulfate	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+ko00533	Glycosaminoglycan biosynthesis - keratan sulfate	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+M00147	NADH dehydrogenase (ubiquinone) 1 beta subcomplex	0.999999999993617	-6.38346479401372e-12	14	0	0	52	8044
+ko01210	2-Oxocarboxylic acid metabolism	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu_M00003	Gluconeogenesis, oxaloacetate => fructose-6P	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+M00003	Gluconeogenesis, oxaloacetate => fructose-6P	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+M00684	JAK-STAT signaling	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+ko00100	Steroid biosynthesis	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu00100	Steroid biosynthesis	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu_M00684	JAK-STAT signaling	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu01210	2-Oxocarboxylic acid metabolism	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu_M00341	Proteasome, 19S regulatory particle (PA700)	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+M00341	Proteasome, 19S regulatory particle (PA700)	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+ko00670	One carbon pool by folate	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu00670	One carbon pool by folate	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+mmu00220	Arginine biosynthesis	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+ko00220	Arginine biosynthesis	0.999999999993743	-6.25707893539313e-12	19	0	0	52	8044
+ko04215	Apoptosis - multiple species	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+mmu00030	Pentose phosphate pathway	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+ko04136	Autophagy - other	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+mmu04136	Autophagy - other	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+mmu00052	Galactose metabolism	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+ko00030	Pentose phosphate pathway	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+mmu04215	Apoptosis - multiple species	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+ko00052	Galactose metabolism	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+ko00020	Citrate cycle (TCA cycle)	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+mmu00020	Citrate cycle (TCA cycle)	0.999999999993869	-6.13130530777579e-12	32	0	0	52	8044
+mmu00350	Tyrosine metabolism	0.999999999994115	-5.88536812734291e-12	39	0	0	52	8044
+ko00350	Tyrosine metabolism	0.999999999994115	-5.88536812734291e-12	39	0	0	52	8044
+ko05218	Melanoma	0.999999999994293	-5.7072742425929e-12	69	0	0	52	8044
+mmu05218	Melanoma	0.999999999994293	-5.7072742425929e-12	69	0	0	52	8044
+ko01524	Platinum drug resistance	0.999999999994454	-5.54633683509036e-12	76	0	0	52	8044
+mmu05100	Bacterial invasion of epithelial cells	0.999999999994454	-5.54633683509036e-12	76	0	0	52	8044
+ko05100	Bacterial invasion of epithelial cells	0.999999999994454	-5.54633683509036e-12	76	0	0	52	8044
+mmu01524	Platinum drug resistance	0.999999999994454	-5.54633683509036e-12	76	0	0	52	8044
+ko04640	Hematopoietic cell lineage	0.99999999999484	-5.15985554792303e-12	93	0	0	52	8044
+ko01522	Endocrine resistance	0.99999999999484	-5.15985554792303e-12	93	0	0	52	8044
+mmu04640	Hematopoietic cell lineage	0.99999999999484	-5.15985554792303e-12	93	0	0	52	8044
+mmu01522	Endocrine resistance	0.99999999999484	-5.15985554792303e-12	93	0	0	52	8044
+ko04657	IL-17 signaling pathway	0.999999999995788	-4.21156159657952e-12	91	0	0	52	8044
+mmu04657	IL-17 signaling pathway	0.999999999995788	-4.21156159657952e-12	91	0	0	52	8044
+mmu04068	FoxO signaling pathway	0.999999999996458	-3.54228955629913e-12	132	0	0	52	8044
+mmu04550	Signaling pathways regulating pluripotency of stem cells	0.999999999997722	-2.27776601372499e-12	137	0	0	52	8044
+ko04550	Signaling pathways regulating pluripotency of stem cells	0.999999999997722	-2.27776601372499e-12	137	0	0	52	8044
+mmu00072	Synthesis and degradation of ketone bodies	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu00920	Sulfur metabolism	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00076	Dermatan sulfate degradation	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00182	RNA polymerase I, eukaryotes	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+ko00130	Ubiquinone and other terpenoid-quinone biosynthesis	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00180	RNA polymerase II, eukaryotes	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00351	Spliceosome, U1-snRNP	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00404	COPII complex	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00052	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00035	Methionine degradation	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00678	Hedgehog signaling	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00351	Spliceosome, U1-snRNP	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00032	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+ko00072	Synthesis and degradation of ketone bodies	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00180	RNA polymerase II, eukaryotes	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00076	Dermatan sulfate degradation	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00034	Methionine salvage pathway	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00182	RNA polymerase I, eukaryotes	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+ko00430	Taurine and hypotaurine metabolism	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00034	Methionine salvage pathway	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+ko00920	Sulfur metabolism	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00035	Methionine degradation	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00095	C5 isoprenoid biosynthesis, mevalonate pathway	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu00430	Taurine and hypotaurine metabolism	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00678	Hedgehog signaling	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00143	NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00143	NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00095	C5 isoprenoid biosynthesis, mevalonate pathway	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00052	Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00412	ESCRT-III complex	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00032	Lysine degradation, lysine => saccharopine => acetoacetyl-CoA	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu00130	Ubiquinone and other terpenoid-quinone biosynthesis	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu_M00412	ESCRT-III complex	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+M00404	COPII complex	0.999999999997914	-2.08631324075696e-12	11	0	0	52	8044
+mmu04668	TNF signaling pathway	0.999999999998314	-1.68603929927518e-12	107	0	0	52	8044
+ko04668	TNF signaling pathway	0.999999999998314	-1.68603929927518e-12	107	0	0	52	8044
+mmu_M00177	Ribosome, eukaryotes	0.999999999998421	-1.57924584229644e-12	95	0	0	52	8044
+M00177	Ribosome, eukaryotes	0.999999999998421	-1.57924584229644e-12	95	0	0	52	8044
+mmu03050	Proteasome	0.999999999999097	-9.02484789374479e-13	46	0	0	52	8044
+ko03050	Proteasome	0.999999999999097	-9.02484789374479e-13	46	0	0	52	8044
+ko04142	Lysosome	0.999999999999288	-7.12277378478464e-13	124	0	0	52	8044
+mmu04611	Platelet activation	0.999999999999288	-7.12277378478464e-13	124	0	0	52	8044
+mmu04142	Lysosome	0.999999999999288	-7.12277378478464e-13	124	0	0	52	8044
+ko04210	Apoptosis	1.00000000000006	6.05992052466254e-14	136	0	0	52	8044
+mmu04210	Apoptosis	1.00000000000006	6.05992052466254e-14	136	0	0	52	8044
+mmu04975	Fat digestion and absorption	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+mmu00260	Glycine, serine and threonine metabolism	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+ko04216	Ferroptosis	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+ko05033	Nicotine addiction	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+ko00260	Glycine, serine and threonine metabolism	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+mmu05033	Nicotine addiction	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+mmu04216	Ferroptosis	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+ko04975	Fat digestion and absorption	1.00000000000008	8.42590469577031e-14	40	0	0	52	8044
+M00359	Aminoacyl-tRNA biosynthesis, eukaryotes	1.00000000000035	3.49137048645046e-13	38	0	0	52	8044
+mmu00620	Pyruvate metabolism	1.00000000000035	3.49137048645046e-13	38	0	0	52	8044
+ko00620	Pyruvate metabolism	1.00000000000035	3.49137048645046e-13	38	0	0	52	8044
+mmu_M00359	Aminoacyl-tRNA biosynthesis, eukaryotes	1.00000000000035	3.49137048645046e-13	38	0	0	52	8044
+ko04966	Collecting duct acid secretion	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+ko00650	Butanoate metabolism	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+mmu04744	Phototransduction	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+ko04744	Phototransduction	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+mmu04966	Collecting duct acid secretion	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+mmu_M00001	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+mmu00062	Fatty acid elongation	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+ko00601	Glycosphingolipid biosynthesis - lacto and neolacto series	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+mmu00650	Butanoate metabolism	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+mmu00601	Glycosphingolipid biosynthesis - lacto and neolacto series	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+ko00062	Fatty acid elongation	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+M00001	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	1.00000000000041	4.0600937930148e-13	27	0	0	52	8044
+ko00240	Pyrimidine metabolism	1.00000000000098	9.81876331647015e-13	102	0	0	52	8044
+ko04922	Glucagon signaling pathway	1.00000000000098	9.81876331647015e-13	102	0	0	52	8044
+mmu00240	Pyrimidine metabolism	1.00000000000098	9.81876331647015e-13	102	0	0	52	8044
+mmu04922	Glucagon signaling pathway	1.00000000000098	9.81876331647015e-13	102	0	0	52	8044
+mmu04659	Th17 cell differentiation	1.00000000000098	9.81876331647015e-13	102	0	0	52	8044
+ko04659	Th17 cell differentiation	1.00000000000098	9.81876331647015e-13	102	0	0	52	8044
+mmu00760	Nicotinate and nicotinamide metabolism	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+mmu00051	Fructose and mannose metabolism	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+mmu04614	Renin-angiotensin system	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+ko03410	Base excision repair	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+ko03030	DNA replication	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+ko00051	Fructose and mannose metabolism	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+mmu03410	Base excision repair	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+ko04614	Renin-angiotensin system	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+mmu03030	DNA replication	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+ko00760	Nicotinate and nicotinamide metabolism	1.00000000000098	9.82323053529637e-13	35	0	0	52	8044
+mmu00360	Phenylalanine metabolism	1.00000000000194	1.94388115388424e-12	23	0	0	52	8044
+ko00515	Mannose type O-glycan biosynthesis	1.00000000000194	1.94388115388424e-12	23	0	0	52	8044
+mmu00900	Terpenoid backbone biosynthesis	1.00000000000194	1.94388115388424e-12	23	0	0	52	8044
+ko00360	Phenylalanine metabolism	1.00000000000194	1.94388115388424e-12	23	0	0	52	8044
+mmu00515	Mannose type O-glycan biosynthesis	1.00000000000194	1.94388115388424e-12	23	0	0	52	8044
+ko00900	Terpenoid backbone biosynthesis	1.00000000000194	1.94388115388424e-12	23	0	0	52	8044
+mmu03020	RNA polymerase	1.00000000000215	2.15335761023209e-12	28	0	0	52	8044
+ko03020	RNA polymerase	1.00000000000215	2.15335761023209e-12	28	0	0	52	8044
+mmu01040	Biosynthesis of unsaturated fatty acids	1.00000000000215	2.15335761023209e-12	28	0	0	52	8044
+ko01040	Biosynthesis of unsaturated fatty acids	1.00000000000215	2.15335761023209e-12	28	0	0	52	8044
+ko00512	Mucin type O-glycan biosynthesis	1.00000000000215	2.15335761023209e-12	28	0	0	52	8044
+mmu00512	Mucin type O-glycan biosynthesis	1.00000000000215	2.15335761023209e-12	28	0	0	52	8044
+mmu04974	Protein digestion and absorption	1.00000000000269	2.68624977309837e-12	90	0	0	52	8044
+ko04974	Protein digestion and absorption	1.00000000000269	2.68624977309837e-12	90	0	0	52	8044
+mmu04211	Longevity regulating pathway	1.00000000000269	2.68624977309837e-12	90	0	0	52	8044
+mmu_M00688	MAPK (JNK) signaling	1.00000000000282	2.81922110096124e-12	21	0	0	52	8044
+M00688	MAPK (JNK) signaling	1.00000000000282	2.81922110096124e-12	21	0	0	52	8044
+mmu_M00352	Spliceosome, U2-snRNP	1.00000000000282	2.81922110096124e-12	21	0	0	52	8044
+mmu00531	Glycosaminoglycan degradation	1.00000000000282	2.81922110096124e-12	21	0	0	52	8044
+M00352	Spliceosome, U2-snRNP	1.00000000000282	2.81922110096124e-12	21	0	0	52	8044
+ko00531	Glycosaminoglycan degradation	1.00000000000282	2.81922110096124e-12	21	0	0	52	8044
+M00689	MAPK (p38) signaling	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu_M00430	Exon junction complex (EJC)	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu_M00689	MAPK (p38) signaling	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu03430	Mismatch repair	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu_M00130	Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu04964	Proximal tubule bicarbonate reclamation	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu00514	Other types of O-glycan biosynthesis	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+ko04964	Proximal tubule bicarbonate reclamation	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+M00430	Exon junction complex (EJC)	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+ko03430	Mismatch repair	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+M00130	Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+ko00514	Other types of O-glycan biosynthesis	1.00000000000295	2.95039157082602e-12	22	0	0	52	8044
+mmu00300	Lysine biosynthesis	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00083	Fatty acid biosynthesis, elongation	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00338	Cysteine biosynthesis, homocysteine + serine => cysteine	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00293	DNA polymerase zeta  complex	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+ko00300	Lysine biosynthesis	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00103	Cholecalciferol biosynthesis	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00067	Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00399	Cap binding complex	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00554	Nucleotide sugar biosynthesis, galactose => UDP-galactose	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00103	Cholecalciferol biosynthesis	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00554	Nucleotide sugar biosynthesis, galactose => UDP-galactose	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00399	Cap binding complex	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00083	Fatty acid biosynthesis, elongation	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00338	Cysteine biosynthesis, homocysteine + serine => cysteine	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00293	DNA polymerase zeta  complex	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00106	Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00068	Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00067	Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00106	Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00294	DNA polymerase gamma complex	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu_M00068	Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+M00294	DNA polymerase gamma complex	1.0000000000032	3.19918755793376e-12	2	0	0	52	8044
+mmu04930	Type II diabetes mellitus	1.00000000000357	3.56977477538463e-12	48	0	0	52	8044
+mmu05030	Cocaine addiction	1.00000000000357	3.56977477538463e-12	48	0	0	52	8044
+mmu00270	Cysteine and methionine metabolism	1.00000000000357	3.56977477538463e-12	48	0	0	52	8044
+ko05030	Cocaine addiction	1.00000000000357	3.56977477538463e-12	48	0	0	52	8044
+ko04930	Type II diabetes mellitus	1.00000000000357	3.56977477538463e-12	48	0	0	52	8044
+ko00270	Cysteine and methionine metabolism	1.00000000000357	3.56977477538463e-12	48	0	0	52	8044
+M00118	Glutathione biosynthesis, glutamate => glutathione	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00051	Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00297	DNA-PK complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00020	Serine biosynthesis, glycerate-3P => serine	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00151	Cytochrome bc1 complex respiratory unit	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00082	Fatty acid biosynthesis, initiation	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00392	Ski complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00100	Sphingosine degradation	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00297	DNA-PK complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00046	Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00082	Fatty acid biosynthesis, initiation	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00020	Serine biosynthesis, glycerate-3P => serine	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+ko00471	D-Glutamine and D-glutamate metabolism	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00132	Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00400	p97-Ufd1-Npl4 complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00288	RPA complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00046	Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00108	C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00069	Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00291	MRN complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00100	Sphingosine degradation	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+ko00785	Lipoic acid metabolism	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu00780	Biotin metabolism	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00118	Glutathione biosynthesis, glutamate => glutathione	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00108	C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00392	Ski complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00408	ESCRT-0 complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00151	Cytochrome bc1 complex respiratory unit	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+ko00780	Biotin metabolism	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu00785	Lipoic acid metabolism	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00291	MRN complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00288	RPA complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00069	Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00410	ESCRT-II complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00132	Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00400	p97-Ufd1-Npl4 complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00051	Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+M00410	ESCRT-II complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu00471	D-Glutamine and D-glutamate metabolism	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu_M00408	ESCRT-0 complex	1.00000000000377	3.77192320240591e-12	3	0	0	52	8044
+mmu05012	Parkinson's disease	1.00000000000387	3.87124158824811e-12	144	0	0	52	8044
+M00043	Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine	1.00000000000398	3.97693423331846e-12	1	0	0	52	8044
+mmu00472	D-Arginine and D-ornithine metabolism	1.00000000000398	3.97693423331846e-12	1	0	0	52	8044
+mmu_M00043	Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine	1.00000000000398	3.97693423331846e-12	1	0	0	52	8044
+ko00472	D-Arginine and D-ornithine metabolism	1.00000000000398	3.97693423331846e-12	1	0	0	52	8044
+M00091	Phosphatidylcholine (PC) biosynthesis, PE => PC	1.00000000000398	3.97693423331846e-12	1	0	0	52	8044
+mmu_M00091	Phosphatidylcholine (PC) biosynthesis, PE => PC	1.00000000000398	3.97693423331846e-12	1	0	0	52	8044
+ko00280	Valine, leucine and isoleucine degradation	1.0000000000044	4.40233136342987e-12	56	0	0	52	8044
+mmu00280	Valine, leucine and isoleucine degradation	1.0000000000044	4.40233136342987e-12	56	0	0	52	8044
+ko00250	Alanine, aspartate and glutamate metabolism	1.00000000000449	4.49433023993689e-12	37	0	0	52	8044
+mmu00250	Alanine, aspartate and glutamate metabolism	1.00000000000449	4.49433023993689e-12	37	0	0	52	8044
+mmu04620	Toll-like receptor signaling pathway	1.00000000000456	4.5592517817775e-12	99	0	0	52	8044
+ko04620	Toll-like receptor signaling pathway	1.00000000000456	4.5592517817775e-12	99	0	0	52	8044
+ko04152	AMPK signaling pathway	1.00000000000525	5.24985815055398e-12	126	0	0	52	8044
+mmu04152	AMPK signaling pathway	1.00000000000525	5.24985815055398e-12	126	0	0	52	8044
+mmu_M00013	Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00386	Cul4-DDB1-CSA complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00047	Creatine pathway	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00029	Urea cycle	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00141	C1-unit interconversion, eukaryotes	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00386	Cul4-DDB1-CSA complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00007	Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+ko00232	Caffeine metabolism	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00048	Inosine monophosphate biosynthesis, PRPP + glutamine => IMP	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu00440	Phosphonate and phosphinate metabolism	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00090	Phosphatidylcholine (PC) biosynthesis, choline => PC	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu00232	Caffeine metabolism	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00395	Decapping complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00048	Inosine monophosphate biosynthesis, PRPP + glutamine => IMP	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00071	Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00385	Cul4-DDB1-DDB2 complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00090	Phosphatidylcholine (PC) biosynthesis, choline => PC	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00382	SCF-FBS complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00380	SCF-BTRC complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00382	SCF-FBS complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00285	MCM complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00073	N-glycan precursor trimming	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+ko00440	Phosphonate and phosphinate metabolism	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00007	Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00284	Origin recognition complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00285	MCM complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00385	Cul4-DDB1-DDB2 complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00058	Glycosaminoglycan biosynthesis, chondroitin sulfate backbone	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00380	SCF-BTRC complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00085	Fatty acid biosynthesis, elongation, mitochondria	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00141	C1-unit interconversion, eukaryotes	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00383	ECV complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00029	Urea cycle	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00284	Origin recognition complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00058	Glycosaminoglycan biosynthesis, chondroitin sulfate backbone	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00047	Creatine pathway	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00109	C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00383	ECV complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00013	Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00109	C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00085	Fatty acid biosynthesis, elongation, mitochondria	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00395	Decapping complex	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+M00073	N-glycan precursor trimming	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu_M00071	Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer	1.0000000000053	5.29783769808869e-12	6	0	0	52	8044
+mmu05034	Alcoholism	1.00000000000588	5.88018714429861e-12	199	0	0	52	8044
+ko05034	Alcoholism	1.00000000000588	5.88018714429861e-12	199	0	0	52	8044
+mmu_M00428	eIF4F complex	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+ko00400	Phenylalanine, tyrosine and tryptophan biosynthesis	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00398	Sm core complex	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00398	Sm core complex	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00065	GPI-anchor biosynthesis, core oligosaccharide	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00086	beta-Oxidation, acyl-CoA synthesis	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00680	TGF-beta signaling	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00044	Tyrosine degradation, tyrosine => homogentisate	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00687	MAPK (ERK1/2) signaling	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu00740	Riboflavin metabolism	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00110	C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00409	ESCRT-I complex	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00409	ESCRT-I complex	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu04122	Sulfur relay system	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+ko04122	Sulfur relay system	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00110	C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00687	MAPK (ERK1/2) signaling	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00065	GPI-anchor biosynthesis, core oligosaccharide	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00680	TGF-beta signaling	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00428	eIF4F complex	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu_M00044	Tyrosine degradation, tyrosine => homogentisate	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+ko00740	Riboflavin metabolism	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu00400	Phenylalanine, tyrosine and tryptophan biosynthesis	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+M00086	beta-Oxidation, acyl-CoA synthesis	1.00000000000589	5.88627702810286e-12	8	0	0	52	8044
+mmu04722	Neurotrophin signaling pathway	1.00000000000603	6.02936573293862e-12	121	0	0	52	8044
+ko04722	Neurotrophin signaling pathway	1.00000000000603	6.02936573293862e-12	121	0	0	52	8044
+mmu_M00087	beta-Oxidation	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+ko03450	Non-homologous end-joining	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00403	HRD1/SEL1 ERAD complex	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00692	Cell cycle - G1/S transition	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00415	Fatty acid biosynthesis, elongation, endoplasmic reticulum	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00415	Fatty acid biosynthesis, elongation, endoplasmic reticulum	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00036	Leucine degradation, leucine => acetoacetate + acetyl-CoA	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00002	Glycolysis, core module involving three-carbon compounds	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00676	PI3K-Akt signaling	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu03450	Non-homologous end-joining	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00403	HRD1/SEL1 ERAD complex	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00087	beta-Oxidation	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00036	Leucine degradation, leucine => acetoacetate + acetyl-CoA	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00676	PI3K-Akt signaling	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00002	Glycolysis, core module involving three-carbon compounds	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00094	Ceramide biosynthesis	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00094	Ceramide biosynthesis	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+M00692	Cell cycle - G1/S transition	1.00000000000632	6.31634252215055e-12	13	0	0	52	8044
+mmu_M00289	RF-C complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+ko00524	Neomycin, kanamycin and gentamicin biosynthesis	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00405	THC complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00042	Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00414	Bloom's syndrome complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00070	Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00057	Glycosaminoglycan biosynthesis, linkage tetrasaccharide	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00381	SCF-SKP2 complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00079	Keratan sulfate degradation	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00387	SCF-FBW7 complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00128	Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu00524	Neomycin, kanamycin and gentamicin biosynthesis	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00414	Bloom's syndrome complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00079	Keratan sulfate degradation	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00387	SCF-FBW7 complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00006	Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00070	Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00405	THC complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00128	Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00381	SCF-SKP2 complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00289	RF-C complex	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00006	Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00042	Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00307	Pyruvate oxidation, pyruvate => acetyl-CoA	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00307	Pyruvate oxidation, pyruvate => acetyl-CoA	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+mmu_M00057	Glycosaminoglycan biosynthesis, linkage tetrasaccharide	1.00000000000658	6.58190552232437e-12	5	0	0	52	8044
+M00388	ECS complex	1.00000000000671	6.71227291151511e-12	12	0	0	52	8044
+M00050	Guanine ribonucleotide biosynthesis IMP => GDP,GTP	1.00000000000671	6.71227291151511e-12	12	0	0	52	8044
+mmu_M00388	ECS complex	1.00000000000671	6.71227291151511e-12	12	0	0	52	8044
+mmu_M00004	Pentose phosphate pathway (Pentose phosphate cycle)	1.00000000000671	6.71227291151511e-12	12	0	0	52	8044
+M00004	Pentose phosphate pathway (Pentose phosphate cycle)	1.00000000000671	6.71227291151511e-12	12	0	0	52	8044
+mmu_M00050	Guanine ribonucleotide biosynthesis IMP => GDP,GTP	1.00000000000671	6.71227291151511e-12	12	0	0	52	8044
+mmu04024	cAMP signaling pathway	1.0000000000071	7.09854512476521e-12	197	0	0	52	8044
+ko04024	cAMP signaling pathway	1.0000000000071	7.09854512476521e-12	197	0	0	52	8044
+mmu00330	Arginine and proline metabolism	1.00000000000715	7.14515251412739e-12	50	0	0	52	8044
+ko00330	Arginine and proline metabolism	1.00000000000715	7.14515251412739e-12	50	0	0	52	8044
+mmu04130	SNARE interactions in vesicular transport	1.0000000000072	7.19613429832719e-12	33	0	0	52	8044
+ko04130	SNARE interactions in vesicular transport	1.0000000000072	7.19613429832719e-12	33	0	0	52	8044
+mmu00410	beta-Alanine metabolism	1.0000000000072	7.19613429832719e-12	33	0	0	52	8044
+mmu00500	Starch and sucrose metabolism	1.0000000000072	7.19613429832719e-12	33	0	0	52	8044
+ko00410	beta-Alanine metabolism	1.0000000000072	7.19613429832719e-12	33	0	0	52	8044
+ko00500	Starch and sucrose metabolism	1.0000000000072	7.19613429832719e-12	33	0	0	52	8044
+mmu00190	Oxidative phosphorylation	1.0000000000072	7.19902145841409e-12	134	0	0	52	8044
+ko00190	Oxidative phosphorylation	1.0000000000072	7.19902145841409e-12	134	0	0	52	8044
+mmu05133	Pertussis	1.00000000000734	7.33547479221432e-12	75	0	0	52	8044
+ko05133	Pertussis	1.00000000000734	7.33547479221432e-12	75	0	0	52	8044
+mmu_M00077	Chondroitin sulfate degradation	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00152	Cytochrome bc1 complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00681	Activin signaling	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00290	Holo-TFIIH complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00296	BER complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00101	Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00694	cGMP signaling	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00413	FA core complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00098	Acylglycerol degradation	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00391	Exosome, eukaryotes	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00290	Holo-TFIIH complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00010	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00406	TREX complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00413	FA core complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00681	Activin signaling	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00693	Cell cycle - G2/M transition	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00010	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00693	Cell cycle - G2/M transition	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00077	Chondroitin sulfate degradation	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00059	Glycosaminoglycan biosynthesis, heparan sulfate backbone	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00101	Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00694	cGMP signaling	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00406	TREX complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00296	BER complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00059	Glycosaminoglycan biosynthesis, heparan sulfate backbone	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00152	Cytochrome bc1 complex	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+mmu_M00391	Exosome, eukaryotes	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+M00098	Acylglycerol degradation	1.00000000000737	7.37487436380526e-12	10	0	0	52	8044
+ko04260	Cardiac muscle contraction	1.00000000000773	7.73475912954355e-12	78	0	0	52	8044
+ko05132	Salmonella infection	1.00000000000773	7.73475912954355e-12	78	0	0	52	8044
+ko01230	Biosynthesis of amino acids	1.00000000000773	7.73475912954355e-12	78	0	0	52	8044
+mmu05132	Salmonella infection	1.00000000000773	7.73475912954355e-12	78	0	0	52	8044
+mmu01230	Biosynthesis of amino acids	1.00000000000773	7.73475912954355e-12	78	0	0	52	8044
+mmu04260	Cardiac muscle contraction	1.00000000000773	7.73475912954355e-12	78	0	0	52	8044
+mmu05418	Fluid shear stress and atherosclerosis	1.00000000000787	7.87162499014048e-12	145	0	0	52	8044
+ko05418	Fluid shear stress and atherosclerosis	1.00000000000787	7.87162499014048e-12	145	0	0	52	8044
+ko05014	Amyotrophic lateral sclerosis (ALS)	1.0000000000087	8.7031101652999e-12	52	0	0	52	8044
+ko05150	Staphylococcus aureus infection	1.0000000000087	8.7031101652999e-12	52	0	0	52	8044
+mmu05014	Amyotrophic lateral sclerosis (ALS)	1.0000000000087	8.7031101652999e-12	52	0	0	52	8044
+ko01212	Fatty acid metabolism	1.0000000000087	8.7031101652999e-12	52	0	0	52	8044
+mmu05150	Staphylococcus aureus infection	1.0000000000087	8.7031101652999e-12	52	0	0	52	8044
+mmu01212	Fatty acid metabolism	1.0000000000087	8.7031101652999e-12	52	0	0	52	8044
+mmu04962	Vasopressin-regulated water reabsorption	1.00000000000931	9.30842154643864e-12	43	0	0	52	8044
+ko04962	Vasopressin-regulated water reabsorption	1.00000000000931	9.30842154643864e-12	43	0	0	52	8044
+ko00010	Glycolysis / Gluconeogenesis	1.0000000000096	9.60340314234876e-12	66	0	0	52	8044
+mmu00010	Glycolysis / Gluconeogenesis	1.0000000000096	9.60340314234876e-12	66	0	0	52	8044
+ko00970	Aminoacyl-tRNA biosynthesis	1.0000000000096	9.60340314234876e-12	66	0	0	52	8044
+mmu00970	Aminoacyl-tRNA biosynthesis	1.0000000000096	9.60340314234876e-12	66	0	0	52	8044
+mmu04923	Regulation of lipolysis in adipocytes	1.00000000000964	9.64202417460704e-12	55	0	0	52	8044
+ko00561	Glycerolipid metabolism	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+mmu00480	Glutathione metabolism	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+mmu00310	Lysine degradation	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+mmu05321	Inflammatory bowel disease (IBD)	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+ko00480	Glutathione metabolism	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+ko05321	Inflammatory bowel disease (IBD)	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+mmu00561	Glycerolipid metabolism	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+ko00310	Lysine degradation	1.00000000000967	9.66588101061432e-12	59	0	0	52	8044
+M00262	DNA polymerase delta complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00286	GINS complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00690	MAPK (ERK5) signaling	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00148	Succinate dehydrogenase (ubiquinone)	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00741	Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00027	GABA (gamma-Aminobutyrate) shunt	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00263	DNA polymerase epsilon complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00632	Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00685	Apoptotic machinery	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+ko00290	Valine, leucine and isoleucine biosynthesis	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00390	Exosome, archaea	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00402	Translocon-associated protein (TRAP) complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00015	Proline biosynthesis, glutamate => proline	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00632	Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00263	DNA polymerase epsilon complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00134	Polyamine biosynthesis, arginine => ornithine => putrescine	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00005	PRPP biosynthesis, ribose 5P => PRPP	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00015	Proline biosynthesis, glutamate => proline	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00027	GABA (gamma-Aminobutyrate) shunt	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00261	DNA polymerase alpha / primase complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00148	Succinate dehydrogenase (ubiquinone)	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00741	Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00425	H/ACA ribonucleoprotein complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00393	TRAMP complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00390	Exosome, archaea	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00685	Apoptotic machinery	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00134	Polyamine biosynthesis, arginine => ornithine => putrescine	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00262	DNA polymerase delta complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00133	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00261	DNA polymerase alpha / primase complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00286	GINS complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00690	MAPK (ERK5) signaling	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00425	H/ACA ribonucleoprotein complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00005	PRPP biosynthesis, ribose 5P => PRPP	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00133	Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu_M00402	Translocon-associated protein (TRAP) complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu00290	Valine, leucine and isoleucine biosynthesis	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+M00393	TRAMP complex	1.0000000000099	9.89976774626902e-12	4	0	0	52	8044
+mmu04913	Ovarian steroidogenesis	1.00000000001	1.00006136720794e-11	58	0	0	52	8044
+ko04913	Ovarian steroidogenesis	1.00000000001	1.00006136720794e-11	58	0	0	52	8044
+ko04742	Taste transduction	1.00000000001011	1.01067504638325e-11	88	0	0	52	8044
+mmu04742	Taste transduction	1.00000000001011	1.01067504638325e-11	88	0	0	52	8044
+ko03015	mRNA surveillance pathway	1.00000000001017	1.01670522437543e-11	96	0	0	52	8044
+mmu03015	mRNA surveillance pathway	1.00000000001017	1.01670522437543e-11	96	0	0	52	8044
+mmu04512	ECM-receptor interaction	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+mmu05222	Small cell lung cancer	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+ko05323	Rheumatoid arthritis	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+ko05222	Small cell lung cancer	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+mmu04146	Peroxisome	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+ko04146	Peroxisome	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+mmu05323	Rheumatoid arthritis	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+ko04512	ECM-receptor interaction	1.00000000001062	1.06230306894358e-11	83	0	0	52	8044
+ko04917	Prolactin signaling pathway	1.00000000001075	1.07524796638186e-11	72	0	0	52	8044
+ko04924	Renin secretion	1.00000000001075	1.07524796638186e-11	72	0	0	52	8044
+mmu04924	Renin secretion	1.00000000001075	1.07524796638186e-11	72	0	0	52	8044
+mmu04917	Prolactin signaling pathway	1.00000000001075	1.07524796638186e-11	72	0	0	52	8044
+ko03013	RNA transport	1.00000000001086	1.08555687281326e-11	167	0	0	52	8044
+mmu03013	RNA transport	1.00000000001086	1.08555687281326e-11	167	0	0	52	8044
+ko05310	Asthma	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+ko00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+mmu_M00154	Cytochrome c oxidase	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+mmu00592	alpha-Linolenic acid metabolism	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+mmu05310	Asthma	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+ko00592	alpha-Linolenic acid metabolism	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+ko00340	Histidine metabolism	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+mmu00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+M00154	Cytochrome c oxidase	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+mmu00340	Histidine metabolism	1.00000000001148	1.14819918024646e-11	25	0	0	52	8044
+M00160	V-type ATPase, eukaryotes	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+ko00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+M00056	O-glycan biosynthesis, mucin type core	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+mmu_M00056	O-glycan biosynthesis, mucin type core	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+mmu04977	Vitamin digestion and absorption	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+mmu00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+ko04977	Vitamin digestion and absorption	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+mmu_M00009	Citrate cycle (TCA cycle, Krebs cycle)	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+mmu_M00160	V-type ATPase, eukaryotes	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+M00009	Citrate cycle (TCA cycle, Krebs cycle)	1.00000000001186	1.18625082486207e-11	24	0	0	52	8044
+mmu05152	Tuberculosis	1.00000000001203	1.202576059864e-11	178	0	0	52	8044
+ko05152	Tuberculosis	1.00000000001203	1.202576059864e-11	178	0	0	52	8044
+ko04392	Hippo signaling pathway -multiple species	1.00000000001222	1.22236064016117e-11	26	0	0	52	8044
+mmu04392	Hippo signaling pathway -multiple species	1.00000000001222	1.22236064016117e-11	26	0	0	52	8044
+ko04320	Dorso-ventral axis formation	1.00000000001222	1.22236064016117e-11	26	0	0	52	8044
+mmu04320	Dorso-ventral axis formation	1.00000000001222	1.22236064016117e-11	26	0	0	52	8044
+ko05220	Chronic myeloid leukemia	1.00000000001297	1.29717049228341e-11	71	0	0	52	8044
+mmu05220	Chronic myeloid leukemia	1.00000000001297	1.29717049228341e-11	71	0	0	52	8044
+mmu04920	Adipocytokine signaling pathway	1.00000000001297	1.29717049228341e-11	71	0	0	52	8044
+ko04920	Adipocytokine signaling pathway	1.00000000001297	1.29717049228341e-11	71	0	0	52	8044
+mmu03320	PPAR signaling pathway	1.00000000001304	1.3035631806825e-11	85	0	0	52	8044
+ko04350	TGF-beta signaling pathway	1.00000000001304	1.3035631806825e-11	85	0	0	52	8044
+mmu04350	TGF-beta signaling pathway	1.00000000001304	1.3035631806825e-11	85	0	0	52	8044
+ko03320	PPAR signaling pathway	1.00000000001304	1.3035631806825e-11	85	0	0	52	8044
+mmu05230	Central carbon metabolism in cancer	1.00000000001326	1.32612940313568e-11	64	0	0	52	8044
+ko05212	Pancreatic cancer	1.00000000001326	1.32612940313568e-11	64	0	0	52	8044
+ko05230	Central carbon metabolism in cancer	1.00000000001326	1.32612940313568e-11	64	0	0	52	8044
+mmu05212	Pancreatic cancer	1.00000000001326	1.32612940313568e-11	64	0	0	52	8044
+mmu05142	Chagas disease (American trypanosomiasis)	1.00000000001356	1.35598012592181e-11	101	0	0	52	8044
+ko05142	Chagas disease (American trypanosomiasis)	1.00000000001356	1.35598012592181e-11	101	0	0	52	8044
+mmu04630	Jak-STAT signaling pathway	1.00000000001391	1.39083677282237e-11	157	0	0	52	8044
+ko04630	Jak-STAT signaling pathway	1.00000000001391	1.39083677282237e-11	157	0	0	52	8044
+ko05322	Systemic lupus erythematosus	1.00000000001398	1.39810747956072e-11	142	0	0	52	8044
+mmu05322	Systemic lupus erythematosus	1.00000000001398	1.39810747956072e-11	142	0	0	52	8044
+ko00630	Glyoxylate and dicarboxylate metabolism	1.00000000001422	1.42221961858671e-11	29	0	0	52	8044
+mmu00630	Glyoxylate and dicarboxylate metabolism	1.00000000001422	1.42221961858671e-11	29	0	0	52	8044
+mmu05016	Huntington's disease	1.00000000001424	1.42442247995751e-11	192	0	0	52	8044
+ko05016	Huntington's disease	1.00000000001424	1.42442247995751e-11	192	0	0	52	8044
+mmu00640	Propanoate metabolism	1.0000000000143	1.42991448402966e-11	31	0	0	52	8044
+mmu_M00354	Spliceosome, U4/U6.U5 tri-snRNP	1.0000000000143	1.42991448402966e-11	31	0	0	52	8044
+M00354	Spliceosome, U4/U6.U5 tri-snRNP	1.0000000000143	1.42991448402966e-11	31	0	0	52	8044
+ko00640	Propanoate metabolism	1.0000000000143	1.42991448402966e-11	31	0	0	52	8044
+mmu04710	Circadian rhythm	1.0000000000143	1.42991448402966e-11	31	0	0	52	8044
+ko04710	Circadian rhythm	1.0000000000143	1.42991448402966e-11	31	0	0	52	8044
+ko04932	Non-alcoholic fatty liver disease (NAFLD)	1.00000000001452	1.4520530091506e-11	151	0	0	52	8044
+mmu04932	Non-alcoholic fatty liver disease (NAFLD)	1.00000000001452	1.4520530091506e-11	151	0	0	52	8044
+mmu04664	Fc epsilon RI signaling pathway	1.00000000001476	1.47556480144248e-11	68	0	0	52	8044
+ko04622	RIG-I-like receptor signaling pathway	1.00000000001476	1.47556480144248e-11	68	0	0	52	8044
+mmu04115	p53 signaling pathway	1.00000000001476	1.47556480144248e-11	68	0	0	52	8044
+ko04115	p53 signaling pathway	1.00000000001476	1.47556480144248e-11	68	0	0	52	8044
+mmu04622	RIG-I-like receptor signaling pathway	1.00000000001476	1.47556480144248e-11	68	0	0	52	8044
+ko04664	Fc epsilon RI signaling pathway	1.00000000001476	1.47556480144248e-11	68	0	0	52	8044
+mmu04371	Apelin signaling pathway	1.00000000001532	1.53233609123081e-11	140	0	0	52	8044
+ko04072	Phospholipase D signaling pathway	1.00000000001552	1.55155235441449e-11	147	0	0	52	8044
+ko04261	Adrenergic signaling in cardiomyocytes	1.00000000001552	1.55155235441449e-11	147	0	0	52	8044
+mmu04261	Adrenergic signaling in cardiomyocytes	1.00000000001552	1.55155235441449e-11	147	0	0	52	8044
+mmu04072	Phospholipase D signaling pathway	1.00000000001552	1.55155235441449e-11	147	0	0	52	8044
+mmu_M00099	Sphingosine biosynthesis	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+ko00910	Nitrogen metabolism	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+mmu_M00682	Notch signaling	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+M00158	F-type ATPase, eukaryotes	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+M00099	Sphingosine biosynthesis	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+mmu00450	Selenocompound metabolism	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+ko00450	Selenocompound metabolism	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+M00682	Notch signaling	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+mmu_M00158	F-type ATPase, eukaryotes	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+mmu00910	Nitrogen metabolism	1.00000000001602	1.60182707416368e-11	17	0	0	52	8044
+M00337	Immunoproteasome	1.00000000001707	1.70697686715665e-11	18	0	0	52	8044
+mmu_M00337	Immunoproteasome	1.00000000001707	1.70697686715665e-11	18	0	0	52	8044
+ko00770	Pantothenate and CoA biosynthesis	1.00000000001707	1.70697686715665e-11	18	0	0	52	8044
+mmu00770	Pantothenate and CoA biosynthesis	1.00000000001707	1.70697686715665e-11	18	0	0	52	8044
+ko00511	Other glycan degradation	1.00000000001707	1.70697686715665e-11	18	0	0	52	8044
+mmu00511	Other glycan degradation	1.00000000001707	1.70697686715665e-11	18	0	0	52	8044
+mmu04978	Mineral absorption	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+ko04978	Mineral absorption	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+ko00565	Ether lipid metabolism	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+mmu03022	Basal transcription factors	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+mmu03420	Nucleotide excision repair	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+ko03022	Basal transcription factors	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+mmu00565	Ether lipid metabolism	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+ko03420	Nucleotide excision repair	1.00000000001716	1.71605631357954e-11	44	0	0	52	8044
+mmu05144	Malaria	1.00000000001773	1.77311995609583e-11	49	0	0	52	8044
+ko04330	Notch signaling pathway	1.00000000001773	1.77311995609583e-11	49	0	0	52	8044
+mmu00071	Fatty acid degradation	1.00000000001773	1.77311995609583e-11	49	0	0	52	8044
+mmu04330	Notch signaling pathway	1.00000000001773	1.77311995609583e-11	49	0	0	52	8044
+ko00071	Fatty acid degradation	1.00000000001773	1.77311995609583e-11	49	0	0	52	8044
+ko05144	Malaria	1.00000000001773	1.77311995609583e-11	49	0	0	52	8044
+mmu04721	Synaptic vesicle cycle	1.00000000001803	1.8026015835099e-11	62	0	0	52	8044
+ko04721	Synaptic vesicle cycle	1.00000000001803	1.8026015835099e-11	62	0	0	52	8044
+mmu03460	Fanconi anemia pathway	1.0000000000189	1.8903483484209e-11	51	0	0	52	8044
+ko03460	Fanconi anemia pathway	1.0000000000189	1.8903483484209e-11	51	0	0	52	8044
+ko04080	Neuroactive ligand-receptor interaction	1.00000000001917	1.9166942875458e-11	285	0	0	52	8044
+mmu04080	Neuroactive ligand-receptor interaction	1.00000000001917	1.9166942875458e-11	285	0	0	52	8044
+mmu01200	Carbon metabolism	1.00000000001994	1.99416964941021e-11	118	0	0	52	8044
+ko01200	Carbon metabolism	1.00000000001994	1.99416964941021e-11	118	0	0	52	8044
+mmu04658	Th1 and Th2 cell differentiation	1.00000000002294	2.29398025534276e-11	87	0	0	52	8044
+mmu04914	Progesterone-mediated oocyte maturation	1.00000000002294	2.29398025534276e-11	87	0	0	52	8044
+mmu04610	Complement and coagulation cascades	1.00000000002294	2.29398025534276e-11	87	0	0	52	8044
+ko04610	Complement and coagulation cascades	1.00000000002294	2.29398025534276e-11	87	0	0	52	8044
+ko04658	Th1 and Th2 cell differentiation	1.00000000002294	2.29398025534276e-11	87	0	0	52	8044
+ko04914	Progesterone-mediated oocyte maturation	1.00000000002294	2.29398025534276e-11	87	0	0	52	8044
+mmu_M00427	Nuclear pore complex	1.00000000002327	2.32713331381645e-11	41	0	0	52	8044
+M00427	Nuclear pore complex	1.00000000002327	2.32713331381645e-11	41	0	0	52	8044
+ko05219	Bladder cancer	1.00000000002327	2.32713331381645e-11	41	0	0	52	8044
+mmu05219	Bladder cancer	1.00000000002327	2.32713331381645e-11	41	0	0	52	8044
+mmu04623	Cytosolic DNA-sensing pathway	1.00000000002901	2.9013508261972e-11	61	0	0	52	8044
+ko04623	Cytosolic DNA-sensing pathway	1.00000000002901	2.9013508261972e-11	61	0	0	52	8044
+mmu05010	Alzheimer's disease	1.00000000002932	2.93171047568578e-11	175	0	0	52	8044
+ko05010	Alzheimer's disease	1.00000000002932	2.93171047568578e-11	175	0	0	52	8044
+mmu00230	Purine metabolism	1.00000000003046	3.04643749142803e-11	176	0	0	52	8044
+ko00230	Purine metabolism	1.00000000003046	3.04643749142803e-11	176	0	0	52	8044
