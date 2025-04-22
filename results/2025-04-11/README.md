@@ -21,9 +21,9 @@
 
 | cluster id | annotation file | GO |
 | :-: | :-: | :-: |
-| all | [all.annotation](filtered_anova_anno.tsv) | <a href="https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_anno/geneOntology.html" target="_blank"> View GO Results</a> |
-| cluster1 | [cluster1.annotation](filtered_anova_cluster1_anno.tsv) | <a href="https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster1_anno/geneOntology.html" target="_blank"> View GO Results</a> |
-| cluster2 | [cluster2.annotation](filtered_anova_cluster2_anno.tsv) | <a href="https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster2_anno/geneOntology.html" target="_blank"> View GO Results</a> |
-| cluster3 | [cluster3.annotation](filtered_anova_cluster3_anno.tsv) | <a href="https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster3_anno/geneOntology.html" target="_blank"> View GO Results</a> |
-| cluster4 | [cluster4.annotation](filtered_anova_cluster4_anno.tsv) | <a href="https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster4_anno/geneOntology.html" target="_blank"> View GO Results</a> |
-| cluster5 | [cluster5.annotation](filtered_anova_cluster5_anno.tsv) | <a href="https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster5_anno/geneOntology.html" target="_blank"> View GO Results</a> |
+| all | [all.annotation](filtered_anova_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_anno_go/geneOntology.html ) |
+| cluster1 | [cluster1.annotation](filtered_anova_cluster1_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster1_anno_go/geneOntology.html ) |
+| cluster2 | [cluster2.annotation](filtered_anova_cluster2_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster2_anno_go/geneOntology.html ) |
+| cluster3 | [cluster3.annotation](filtered_anova_cluster3_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster3_anno_go/geneOntology.html ) |
+| cluster4 | [cluster4.annotation](filtered_anova_cluster4_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster4_anno_go/geneOntology.html ) |
+| cluster5 | [cluster5.annotation](filtered_anova_cluster5_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_cluster5_anno_go/geneOntology.html ) |
