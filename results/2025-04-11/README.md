@@ -1,5 +1,4 @@
 
-
 ## Filtering Outliers 
 - Outliers: E1, E2, W1, Y1, Y2
 
