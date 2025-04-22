@@ -22,15 +22,15 @@ echo '
 | Heatmap |
 | :-: | 
 |  ![filtered_heatmap]( filtered_anova_heatmap.png ) |
+'> $o
 
+echo '
 ## Annotation Per cluster
 
 | cluster id | file |
-| :-: | :-: |
-'> $o
-
+| :-: | :-: |'
 for f in $odir/filtered*anno.tsv;do
     n=` echo $f | grep -o "cluster\d" `
-    echo " | $n | [$n.annotation](${f##*/}) |" >> $o
+    echo "| $n | [$n.annotation](${f##*/}) |" >> $o
 done
 
