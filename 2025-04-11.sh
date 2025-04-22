@@ -4,27 +4,33 @@ mkdir -p $odir
 cp $idir/*.png $odir/
 cp $idir/filtered*.tsv $odir/
 o=$odir/README.md
+
 echo '
-## Detect Outlier 
 
-Filtered out E1, E2, W1, Y1, Y2
+## Filtering Outliers 
+- Outliers: E1, E2, W1, Y1, Y2
 
-![sample_correlation](merged_anova_pval005_cor.png )
+| before | after |
+| :-: | :-: |
+| ![sample_correlation](merged_anova_pval005_cor.png ) | ![filtered_correlation]( filtered_anova_cor.png ) |
 
 ## ANOVA and Clustering
-- Used perent of C methylation of filtered samples
-- 0.05 p-value threshold of F-statistics of mean/var difference
-- 5 clusters given methylation patterns 
+- Used percent C methylation from filtered samples
+- Applied a p-value threshold of 0.05 based on F-statistics for mean/variance differences (ANOVA)
+- Grouped samples into 5 clusters based on methylation patterns
 
-![filtered_correlation]( filtered_anova_cor.png )
-
-![filtered_heatmap]( filtered_anova_heatmap.png )
+| Heatmap |
+| :-: | 
+|  ![filtered_heatmap]( filtered_anova_heatmap.png ) |
 
 ## Annotation Per cluster
+
+| cluster id | file |
+| :-: | :-: |
 '> $o
 
 for f in $odir/filtered*anno.tsv;do
     n=` echo $f | grep -o "cluster\d" `
-    echo "- [$n](${f##*/})" >> $o
+    echo " | $n | [$n.annotation](${f##*/}) |" >> $o
 done
 
