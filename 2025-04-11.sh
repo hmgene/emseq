@@ -28,7 +28,7 @@ echo '
 ## Annotation Per cluster
 
 | cluster id | file |
-| :-: | :-: |'
+| :-: | :-: |' >> $o
 for f in $odir/filtered*anno.tsv;do
     n=` echo $f | grep -o "cluster\d" `
     echo "| $n | [$n.annotation](${f##*/}) |" >> $o
