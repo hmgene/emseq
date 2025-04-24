@@ -57,7 +57,7 @@ echo '
 Summary
 | GO process Summary Heatmap |
 | :-: |
-| ![goh]("'$odir/go_bp_heatmap.png'") |
+| ![goh](go_bp_heatmap.png) |
 
 Details
 | cluster id | annotation file | GO |
