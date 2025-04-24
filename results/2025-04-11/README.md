@@ -1,4 +1,5 @@
 
+
 ## Filtering Outliers 
 - Outliers: E1, E2, W1, Y1, Y2
 
@@ -16,8 +17,14 @@
 |  ![filtered_heatmap]( filtered_anova_heatmap.png ) |
 
 
-## Annotation Per cluster
 
+## Functional Annotation Per Cluster
+Summary
+| GO process Summary Heatmap |
+| :-: |
+| ![goh]("results/2025-04-11/go_bp_heatmap.png") |
+
+Details
 | cluster id | annotation file | GO |
 | :-: | :-: | :-: |
 | all | [all.annotation](filtered_anova_anno.tsv) | [go]( https://raw.githack.com/hmgene/emseq/main/results/2025-04-11/filtered_anova_anno_go/geneOntology.html ) |
