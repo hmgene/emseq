@@ -22,7 +22,7 @@
 Summary
 | GO process Summary Heatmap |
 | :-: |
-| ![goh]("results/2025-04-11/go_bp_heatmap.png") |
+| ![goh](go_bp_heatmap.png) |
 
 Details
 | cluster id | annotation file | GO |
