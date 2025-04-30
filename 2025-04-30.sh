@@ -76,10 +76,11 @@ echo '## Update : '`date`'
 | cluster_id | table |
 | :-: | :-: |' > $o
 for i in 1 2 3 5;do
-    echo "| cluster_$i | [$i](/$odir/filt_cluster$i.tsv |" >> $o
+    echo "| cluster_$i | [$i](/$odir/filt_cluster$i.tsv) |" >> $o
 done
 git add -A
 git commit -am wooutlier
+git push
 
 exit
 anno(){
