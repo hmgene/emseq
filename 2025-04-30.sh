@@ -46,9 +46,17 @@ Rscript -e '
     h =Heatmap(m)
     row_dend <- row_dend(h)
     clusters <- cutree(as.hclust(row_dend), k = 4)
-    png(file=paste0(o,"_heatmap.png"))
+
+##intersectBed -b data/cpgIslandExt.bed -a <( tail -n+2 results/2025-04-30/filt_anova.tsv | awk '$(NF)<0.05' ) |cut -f 1-4 > results/2025-04-30/incpgi.bed 
+x=read.table("results/2025-04-30/incpgi.bed",header=F)
+colnames(x)=c("chr","start","end","strand")
+x$CpG=T
+y=merge(df,x,all.x=T)
+y$CpG[is.na(y$CpG)]=F
+    right_anno=rowAnnotation(CpG= y[i,]$CpG)
     top_anno = HeatmapAnnotation(foo = anno_boxplot(m, height = unit(2, "cm")))
-    Heatmap(m,top_annotation= top_anno,row_split=clusters,show_row_names=F,cluster_columns=F,column_split=g)
+    png(file=paste0(o,"_heatmap.png"))
+    Heatmap(m,top_annotation= top_anno,right_annotation=right_anno,row_split=clusters,show_row_names=F,cluster_columns=F,column_split=g)
     dev.off()
 
     for (k in unique(clusters)) {
@@ -78,6 +86,7 @@ echo '## Update : '`date`'
 for i in 1 2 3 5;do
     echo "| cluster_$i | [$i](/$odir/filt_cluster$i.tsv) |" >> $o
 done
+
 git add -A
 git commit -am wooutlier
 git push
