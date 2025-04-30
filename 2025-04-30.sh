@@ -68,14 +68,13 @@ echo '## Update : '`date`'
 ## Results
 - ANOVA results : [anova](/'$odir/filt_anova.tsv')
 - Pval < '$pval' significant sites
+
 | Heatmap | 
 | :-: |
-| [hm](/'$h') |
+| ![hm](/'$h') |
 
-- Clusters
 | cluster_id | table |
-| :-: | :-: |
-' > $o
+| :-: | :-: |' > $o
 for i in 1 2 3 5;do
     echo "| cluster_$i | [$i](/$odir/filt_cluster$i.tsv |" >> $o
 done
