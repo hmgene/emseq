@@ -45,7 +45,7 @@ Rscript -e '
     m=t(scale(t(m)))
     h =Heatmap(m)
     row_dend <- row_dend(h)
-    clusters <- cutree(as.hclust(row_dend), k = 5)
+    clusters <- cutree(as.hclust(row_dend), k = 4)
     png(file=paste0(o,"_heatmap.png"))
     top_anno = HeatmapAnnotation(foo = anno_boxplot(m, height = unit(2, "cm")))
     Heatmap(m,top_annotation= top_anno,row_split=clusters,show_row_names=F,cluster_columns=F,column_split=g)
@@ -87,7 +87,7 @@ anno(){
 i=filtered_anova.tsv
 o=${i%.tsv}_anno
 annotatePeaks.pl $i mm10 -go ${o}_go -annStats $o.stats > $o.tsv 
-for i in 1 2 3 4 5;do
+for i in 1 2 3 4;do
     continue;
     #i=merged_anova_pval005_cluster$i.tsv
     i=filtered_anova_cluster$i.tsv
