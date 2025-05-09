@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="mm10" nextAutoscaleGroup="3" version="8">
+    <Resources>
+        <Resource path="/Users/hyunminkim/git/emseq/gY.bedGraph" type="bedgraph"/>
+        <Resource path="/Users/hyunminkim/git/emseq/gW.bedGraph" type="bedgraph"/>
+    </Resources>
+    <Panel height="408" name="DataPanel" width="1257">
+        <Track attributeKey="gY.bedGraph" autoScale="false" autoscaleGroup="2" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="97" id="/Users/hyunminkim/git/emseq/gY.bedGraph" name="gY.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="56.153847" minimum="-34.714256" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="gY.bedGraph" autoScale="false" autoscaleGroup="2" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="97" id="/Users/hyunminkim/git/emseq/gY.bedGraph" name="gY.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="56.153847" minimum="-34.714256" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="gW.bedGraph" autoScale="false" autoscaleGroup="2" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="97" id="/Users/hyunminkim/git/emseq/gW.bedGraph" name="gW.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="56.153847" minimum="-34.714256" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="gW.bedGraph" autoScale="false" autoscaleGroup="2" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="97" id="/Users/hyunminkim/git/emseq/gW.bedGraph" name="gW.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="56.153847" minimum="-34.714256" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="497" name="FeaturePanel" width="1257">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="true" visible="true"/>
+        <Track attributeKey="Refseq Curated" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;218.0;255,255,255;0,0,178" displayMode="SQUISHED" fontSize="10" groupByStrand="false" height="109" id="https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz" name="Refseq Curated" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.7536764705882353"/>
+    <Regions>
+        <Region chromosome="chr10" description="Lin28b" end="55470201" start="35376618"/>
+        <Region chromosome="chr10" description="Hmga2" end="130476469" start="110361267"/>
+        <Region chromosome="chr16" description="Hic2" end="27263430" start="7233586"/>
+        <Region chromosome="chr16" description="Igf2bp2" end="32163299" start="12059008"/>
+        <Region chromosome="chr6" description="Igf2bp3" end="59214954" start="39085217"/>
+    </Regions>
+    <GeneList name="Regions of Interest">
+        chr10:35376619-55470201
+chr10:110361268-130476469
+chr16:7233587-27263430
+chr16:12059009-32163299
+chr6:39085218-59214954
+
+        <Frame chr="chr10" end="5.5470201E7" name="chr10:35376619-55470201" start="3.5376618E7"/>
+        <Frame chr="chr10" end="1.30476469E8" name="chr10:110361268-130476469" start="1.10361267E8"/>
+        <Frame chr="chr16" end="2.726343E7" name="chr16:7233587-27263430" start="7233586.0"/>
+        <Frame chr="chr16" end="3.2163299E7" name="chr16:12059009-32163299" start="1.2059008E7"/>
+        <Frame chr="chr6" end="5.9214954E7" name="chr6:39085218-59214954" start="3.9085217E7"/>
+    </GeneList>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

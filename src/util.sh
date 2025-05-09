@@ -1,4 +1,16 @@
 
+cutn(){
+local tmp=`mktemp -d`;
+cat $1 > $tmp/a
+Rscript <( echo '
+    library(data.table)
+    cols=strsplit("'$2'",",")[[1]];
+    tt=fread("'$tmp/a'"); 
+    fwrite(tt[,..cols],"'$tmp/b'",sep="\t",na = "NA",quote=F)
+')
+tail -n+2 $tmp/b 
+}
+
 merge(){
 python <( echo 'import sys
 import pandas as pd
