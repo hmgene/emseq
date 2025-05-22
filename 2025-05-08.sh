@@ -1,11 +1,22 @@
 input="bigdata/2025-04-11/merged.tsv"
-output="results/2025-05-08/anova"
-odir=${output%/*}
-mkdir -p $odir 
+odir="results/2025-05-08; mkdir -p $odir 
 o=$odir/README.md
+run-mult(){
+    multibin ${output}_multi results/2025-05-08/anova_10bp.tsv	results/2025-05-08/anova_1bp.tsv	results/2025-05-08/anova_50bp.tsv
+}
+
 . src/util.sh;
-cutn ${output}_multi.tsv chr,start,end,min_pval,gW_10,gY_10 | awk -v OFS="\t" '$4<1{ b=int($2/10)*10;print $1,b,b+10,$5;}' | sort -k1,1 -k2,3n > gW.bedGraph 
-cutn ${output}_multi.tsv chr,start,end,min_pval,gW_10,gY_10 | awk -v OFS="\t" '$4<1{ b=int($2/10)*10;print $1,b,b+10,$6;}' | sort -k1,1 -k2,3n > gY.bedGraph 
+#cutn ${output}_multi.tsv chr,start,end,min_pval,gW_10,gY_10,strand | awk -v OFS="\t" '$4<1 && $7=="+"{ b=int($2/10)*10;print $1,b,b+10,$5;}' | sort -k1,1 -k2,3n > $odir/gW_10bp_pos.bedGraph 
+#cutn ${output}_multi.tsv chr,start,end,min_pval,gW_10,gY_10,strand | awk -v OFS="\t" '$4<1 && $7=="-"{ b=int($2/10)*10;print $1,b,b+10,$5;}' | sort -k1,1 -k2,3n > $odir/gW_10bp_neg.bedGraph 
+#cutn ${output}_multi.tsv chr,start,end,min_pval,gW_10,gY_10,strand | awk -v OFS="\t" '$4<1 && $7=="+"{ b=int($2/10)*10;print $1,b,b+10,$6;}' | sort -k1,1 -k2,3n > $odir/gY_10bp_pos.bedGraph 
+#cutn ${output}_multi.tsv chr,start,end,min_pval,gW_10,gY_10,strand | awk -v OFS="\t" '$4<1 && $7=="-"{ b=int($2/10)*10;print $1,b,b+10,$6;}' | sort -k1,1 -k2,3n > $odir/gY_10bp_neg.bedGraph 
+
+target_genes=( Hic2 Lin28b Igf2bp2 Igf2bp3 and Hmga2 )
+grep -wf <( echo ${target_genes[@]} | tr " " "\n" ) data/gene.bed | sort -k1,1 -k2,3n |\
+tee >( awk -v OFS="\t" '{ print $1, $2-1000000,$3+1000000,$4,$5,$6;}' > target_region_1M.bed) |\
+closestBed -d -a stdin -b <( cutn ${output}_multi.tsv chr,start,end,min_pval | sort -k1,1 -k2,3n )
+cat data/gene.bed | sort -k1,1 -k2,3n |\
+windowBed -w 10000 -a stdin -b <( cutn ${output}_multi.tsv chr,start,end,min_pval | awk '$4<0.05' | sort -k1,1 -k2,3n )
 exit
 
 mamba activate r4.4
@@ -106,13 +117,7 @@ peakHeatmap_multiple_Sets(peak = files[[4]],
 
 
 
-target_genes=( Hic2 Lin28b Igf2bp2 Igf2bp3 and Hmga2 )
-grep -wf <( echo ${target_genes[@]} | tr " " "\n" ) data/gene.bed | sort -k1,1 -k2,3n |\
-tee >( awk -v OFS="\t" '{ print $1, $2-10000000,$3+10000000,$4,$5,$6;}' > target_region.bed) |\
-closestBed -d -a stdin -b <( cutn ${output}_multi.tsv chr,start,end,min_pval | sort -k1,1 -k2,3n )
 
-cat data/gene.bed | sort -k1,1 -k2,3n |\
-windowBed -w 10000 -a stdin -b <( cutn ${output}_multi.tsv chr,start,end,min_pval | awk '$4<0.05' | sort -k1,1 -k2,3n )
 
 exit
 
@@ -123,9 +128,6 @@ run-anova(){
     for b in 1 10 50;do
         anova $input $b 1 > ${output}_${b}bp.tsv
     done
-}
-run-mult(){
-    multibin ${output}_multi results/2025-05-08/anova_10bp.tsv	results/2025-05-08/anova_1bp.tsv	results/2025-05-08/anova_50bp.tsv
 }
 
 

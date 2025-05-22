@@ -1,0 +1,12 @@
+bigdata/emseq-2025-04-11/2-year_1/out
+bigdata/emseq-2025-04-11/2-year_2/out
+bigdata/emseq-2025-04-11/2-year_3/out
+bigdata/emseq-2025-04-11/2-year_4/out
+bigdata/emseq-2025-04-11/E18pt5_1/out
+bigdata/emseq-2025-04-11/E18pt5_2/out
+bigdata/emseq-2025-04-11/E18pt5_3/out
+bigdata/emseq-2025-04-11/E18pt5_4/out
+bigdata/emseq-2025-04-11/Week4_1/out
+bigdata/emseq-2025-04-11/Week4_2/out
+bigdata/emseq-2025-04-11/Week4_3/out
+bigdata/emseq-2025-04-11/Week4_4/out

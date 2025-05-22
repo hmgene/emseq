@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" locus="chr1:152129280-152315615" nextAutoscaleGroup="41" version="8">
+    <Resources>
+        <Resource path="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/mpeak/K562_H3K27ac_HiChIP_GSM8542521_1k.peak.p-4.bed" type="bed"/>
+        <Resource path="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/neo/K562_H3K27ac_HiChIP_GSM8542521.20k.seg.bedGraph" type="bedgraph"/>
+        <Resource path="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/4dn/neo/K562_MboI_4DNFIWT9VIMS.10k.seg.bedGraph" type="bedgraph"/>
+        <Resource path="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/archive/K562_H3K27ac_HiChIP_GSM8542521_1k.bedGraph" type="bedgraph"/>
+        <Resource path="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/4dn/neo/K562_MboI_4DNFIWT9VIMS.20k.seg.bedGraph" type="bedgraph"/>
+        <Resource path="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/neo/K562_H3K27ac_HiChIP_GSM8542521.10k.seg.bedGraph" type="bedgraph"/>
+    </Resources>
+    <Panel height="450" name="DataPanel" width="1257">
+        <Track attributeKey="K562_MboI_4DNFIWT9VIMS.20k.seg.bedGraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="61" id="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/4dn/neo/K562_MboI_4DNFIWT9VIMS.20k.seg.bedGraph" name="K562_MboI_4DNFIWT9VIMS.20k.seg.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K562_MboI_4DNFIWT9VIMS.10k.seg.bedGraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="61" id="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/4dn/neo/K562_MboI_4DNFIWT9VIMS.10k.seg.bedGraph" name="K562_MboI_4DNFIWT9VIMS.10k.seg.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K562_H3K27ac_HiChIP_GSM8542521.20k.seg.bedGraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="62" id="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/neo/K562_H3K27ac_HiChIP_GSM8542521.20k.seg.bedGraph" name="K562_H3K27ac_HiChIP_GSM8542521.20k.seg.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K562_H3K27ac_HiChIP_GSM8542521.10k.seg.bedGraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="61" id="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/neo/K562_H3K27ac_HiChIP_GSM8542521.10k.seg.bedGraph" name="K562_H3K27ac_HiChIP_GSM8542521.10k.seg.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K562_H3K27ac_HiChIP_GSM8542521_1k.bedGraph" autoScale="false" autoscaleGroup="40" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" height="62" id="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/archive/K562_H3K27ac_HiChIP_GSM8542521_1k.bedGraph" name="K562_H3K27ac_HiChIP_GSM8542521_1k.bedGraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="539.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K562_H3K27ac_HiChIP_GSM8542521_1k.peak.p-4.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="/Users/hyunminkim/git/cnv-hichip-pub/bigdata/geo/mpeak/K562_H3K27ac_HiChIP_GSM8542521_1k.peak.p-4.bed" name="K562_H3K27ac_HiChIP_GSM8542521_1k.peak.p-4.bed" visible="true"/>
+    </Panel>
+    <Panel height="87" name="FeaturePanel" width="1257">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Genes" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;836.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" height="67" id="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz" name="Refseq Genes" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.8308823529411765"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
