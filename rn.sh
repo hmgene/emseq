@@ -61,9 +61,9 @@ echo "
 5x10b bigdata/filtered.5x.10bp.anova.tsv.gz
 3x1b bigdata/filtered.3x.1bp.anova.tsv.gz
 5x1b bigdata/filtered.5x.1bp.anova.tsv.gz
-" | hm bismark-merge-anova -  $odir/multi_res_coro
+" | hm bismark-merge-anova -  $odir/multi_res_cor
 echo "## Multi resolution Correlation
- [!corr]($odir/multi_res_cor_heatmap.png)
+ [!corr](multi_res_cor_heatmap.png)
 " >> $out
 
 
