@@ -1,0 +1,13 @@
+sample group
+E1 E
+E2 E
+E3 E
+E4 E
+W1 W
+W2 W
+W3 W
+W4 W
+Y1 Y
+Y2 Y
+Y3 Y
+Y4 Y

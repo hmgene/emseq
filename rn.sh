@@ -1,13 +1,176 @@
 ## mapping summary
 
-echo "File Total_Reads Aligned_Reads" | tr " " "\t" > summary.tsv
-for f in bigdata/methylseq/*/out/bismark/summary/bismark_summary_report.txt;do
-    s=`cut -d"/" -f 3  $f`;
-    tail -n+2 $f |  cut -f 1-3 >> summary.tsv
-done
+input="
+Y1 bigdata/methylseq/2-year_1/out/bismark/methylation_calls/methylation_coverage/2-year_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+Y2 bigdata/methylseq/2-year_2/out/bismark/methylation_calls/methylation_coverage/2-year_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+Y3 bigdata/methylseq/2-year_3/out/bismark/methylation_calls/methylation_coverage/2-year_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+Y4 bigdata/methylseq/2-year_4/out/bismark/methylation_calls/methylation_coverage/2-year_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+E1 bigdata/methylseq/E18pt5_1/out/bismark/methylation_calls/methylation_coverage/E18pt5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+E2 bigdata/methylseq/E18pt5_2/out/bismark/methylation_calls/methylation_coverage/E18pt5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+E3 bigdata/methylseq/E18pt5_3/out/bismark/methylation_calls/methylation_coverage/E18pt5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+E4 bigdata/methylseq/E18pt5_4/out/bismark/methylation_calls/methylation_coverage/E18pt5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+W1 bigdata/methylseq/Week4_1/out/bismark/methylation_calls/methylation_coverage/Week4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+W2 bigdata/methylseq/Week4_2/out/bismark/methylation_calls/methylation_coverage/Week4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+W3 bigdata/methylseq/Week4_3/out/bismark/methylation_calls/methylation_coverage/Week4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+W4 bigdata/methylseq/Week4_4/out/bismark/methylation_calls/methylation_coverage/Week4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz
+"  
+echo "sample group
+E1 E
+E2 E
+E3 E
+E4 E
+W1 W
+W2 W
+W3 W
+W4 W
+Y1 Y
+Y2 Y
+Y3 Y
+Y4 Y" > meta.txt
 
+#scp hxk728@pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/filtered.*.*bp.anova.tsv.gz" bigdata/
+
+#for x in 3x 5x;do
+#for b in 1bp 10bp;do
+#for i in E W Y;do
+#    gunzip -dc bigdata/filtered.$x.$b.anova.tsv.gz | hm cutn - chrom,start,end,mean_${i} | tail -n+2 | awk -vOFS="\t" '{print $1,int($2),int($3),$4;}'  > results/mean_${i}.$x.$b.bedGraph
+#done
+#done
+#done
+
+#echo " 
+#3x10b bigdata/filtered.3x.10bp.anova.tsv.gz
+#5x10b bigdata/filtered.5x.10bp.anova.tsv.gz
+#3x1b bigdata/filtered.3x.1bp.anova.tsv.gz
+#5x1b bigdata/filtered.5x.1bp.anova.tsv.gz
+#" | hm bismark-merge-anova -  o
+
+#hm bismark-anno bigdata/filtered.3x.10bp.anova.tsv.gz mm10 results/filtered.3x.10bp.anova.anno
+t=read.table(text="
+Lin28b
+Hmga2
+Hic2
+Igf2bp2
+Igf2bp3
+")
+tt=fread("results/filtered.3x.10bp.anova.anno.tsv")
+tt1=tt[`Gene Name` %in% t$V1] 
+p= as.matrix(tt1[,grep("_perc",names(tt1),value=T),with=F] )
+rownames(p) <- make.unique(paste0(tt1$`Gene Name`,".",substr(tt1$Annotation,1,10),".",tt1$chrom,":",tt1$start,"-",tt1$end))
+pdf("results/target_heatmap.pdf")
+Heatmap(p, row_names_gp = grid::gpar(fontsize = 5))
+dev.off()
+pdf("results/target_heatmap_scaled.pdf")
+Heatmap(t(scale(t(p))), row_names_gp = grid::gpar(fontsize = 5))
+dev.off()
+###start trend
+library(ggplot2)
+library(data.table)
+library(reshape2)
+
+tt[, `:=` (
+  trend_EW = fifelse(mean_W > mean_E, "up", fifelse(mean_W < mean_E, "dn", "no_change")),
+  trend_WY = fifelse(mean_Y > mean_W, "up", fifelse(mean_Y < mean_W, "dn", "no_change"))
+)]
+# Now classify the full trend E → W → Y
+tt[, trend_class := paste(trend_EW, trend_WY, sep = "_")]
+
+# Melt data to long format for ggplot (E, W, Y as condition)
+tt_long <- melt(tt, id.vars = c("trend_class"), measure.vars = c("mean_E", "mean_W", "mean_Y"),
+                variable.name = "condition", value.name = "methylation")
+# Clean up condition names
+tt_long[, condition := gsub("mean_", "", condition)]
+trend_counts <- tt[, .N, by = trend_class]
+
+# Create a new label including count
+trend_counts[, trend_label := paste0(trend_class, "\n(n=", N, ")")]
+
+# Merge back with the long-form data
+tt_long <- merge(tt_long, trend_counts[, .(trend_class, trend_label)], by = "trend_class")
+
+ggplot(tt_long, aes(x = trend_label, y = methylation, fill = condition)) +
+  geom_violin(trim = FALSE, scale = "width", position = position_dodge(width = 0.8)) +
+  stat_summary(fun = median, geom = "point", shape = 23, size = 2, 
+               position = position_dodge(width = 0.8)) +
+  labs(title = "Methylation Trends by Class", 
+       x = "Trend Class (E→W→Y)", 
+       y = "Methylation (%)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+fwrite(file="results/filtered.3x.10bp.anova.anno.trend.tsv",tt)
+
+
+###end
+
+
+
+
+x= unlist(lapply(tt$Annotation, function(x) strsplit(x," ")[[1]][1] )
+library(ggplot2)
+tt[, group := sapply(Annotation, function(x) strsplit(x, " ")[[1]][1])]
+mean_vals <- tt[, .(
+  mean_E = mean(mean_E, na.rm = TRUE),
+  mean_W = mean(mean_W, na.rm = TRUE),
+  mean_Y = mean(mean_Y, na.rm = TRUE)
+), by = group]
+
+mean_vals_long <- melt(mean_vals, id.vars = "group", variable.name = "condition", value.name = "mean_value")
+ggplot(mean_vals_long, aes(x = group, y = mean_value, fill = condition)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_minimal() + labs(title = "Mean Values per Group", x = "Group", y = "Mean Value") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+## distributions
+tt_melt <- melt(tt, id.vars = "group",
+                measure.vars = c("mean_E", "mean_W", "mean_Y"),
+                variable.name = "condition",
+                value.name = "methylation")
+
+# Remove NA values
+tt_melt <- tt_melt[!is.na(methylation)]
+
+# Plot: Methylation distribution for each group across 3 conditions
+ggplot(tt_melt, aes(x = methylation, fill = condition)) +
+  geom_density(alpha = 0.4) +
+  facet_wrap(~group, scales = "free_y") +
+  theme_minimal() +
+  labs(title = "Distribution of Methylation by Group (E, W, Y)",
+       x = "Methylation (%)",
+       y = "Density") +
+  theme(text = element_text(size = 12))
+
+
+
+
+## run this on HPC
+##echo "$input"| grep -v "^$" | hm bismark-merge-cov - 5 | gzip -c > bigdata/merged.x5.cov.gz 
+##scp hxk728@pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/merged.x5.cov.gz bigdata/
+##scp hxk728@pioneer.case.edu:/mnt/vstor/SOM_GENE_BEG33/data/emseq/merged.3x.cov.gz bigdata/
+##hm bismark-anova bigdata/filtered.3x.cov.gz meta.txt 0.05 > bigdata/filtered.cov.anova.tsv
 exit
 
+#hm bismark-cov-bin bigdata/filtered.cov.gz 1 | hm bismark-anova -  meta.txt 0.001 > bigdata/filtered.cov.${bz}bp.anova.p-3.tsv
+#hm bismark-cov-groupfilter bigdata/merged.5x.cov.gz meta.txt 2 5 | gzip -c > bigdata/filtered.5x.cov.gz 
+#hm bismark-cov-groupfilter bigdata/merged.5x.cov.gz meta.txt 2 5 | gzip -c > bigdata/filtered.3x.cov.gz 
+
+exit
+#hm bismark-cov-bin bigdata/filtered.cov.gz 10 | hm bismark-anova - meta.txt 0.05 > bigdata/filtered.cov.10b.anova.tsv
+#for i in E W Y;do
+#    hm cutn bigdata/filtered.cov.10b.anova.tsv chrom,start,end,mean_${i} | tail -n+2 | awk -vOFS="\t" '{print $1,int($2),int($3),$4;}'  > results/mean_${i}.bedGraph
+#done
+
+exit
+summary(){
+fir=1
+for f in bigdata/methylseq/*/out/bismark/summary/bismark_summary_report.txt;do
+    s=`cut -d"/" -f 3  $f`;
+    if [ "$fir" -eq 0 ];then head -n 1 $f > summary.tsv; fir=0; fi
+    tail -n+2 $f   >> summary.tsv
+done
+}
+
+targetting(){
 target=( 
 Lin28b
 Hmga2
@@ -16,7 +179,8 @@ Igf2bp2
 Igf2bp3
 )
 
-#hm ucsc-refflat mm10 | grep -wf <( echo ${target[@]} | tr " " "\n" ) | hm ucsc-refflat2bed12 - | cut -f 1-6  | hm bed5p - | hm bedw - 4000 > target_tss4k.bed
+hm ucsc-refflat mm10 | grep -wf <( echo ${target[@]} | tr " " "\n" ) | hm ucsc-refflat2bed12 - | cut -f 1-6  | tee target.bed |\
+tee >( hm bedw - 100000 > target_w100k.bed ) | hm bed5p - | hm bedw - 4000 > target_tss4k.bed
 
 fn(){
     s=`echo $1 | cut -d"/" -f 3`
@@ -26,41 +190,13 @@ fn(){
     echo "$s.."
     gunzip -dc $1 | awk '$5+$6 > 2' | hm bismark-cov2bg - $b | hm bg2bw - mm10 > $o
 };export -f fn;
-#parallel -j 3 fn {}  ::: bigdata/methylseq/*/out/bismark/methylation_calls/methylation_coverage/*.deduplicated.bismark.cov.gz 
+parallel -j 3 fn {}  ::: bigdata/methylseq/*/out/bismark/methylation_calls/methylation_coverage/*.deduplicated.bismark.cov.gz 
+}
 
 for f in bigdata/methylseq/*/out/bismark/methylation_calls/methylation_coverage/*.deduplicated.bismark.cov.gz;do
     s=`echo $f | cut -d"/" -f 3`
     echo "$s $f"
-done > input.txt 
-
-import pandas as pd
-import sys
-inp = pd.read_csv(sys.stdin,sep=" ",header=None)
-d=null
-for i, row in inp.iterrows():
-    s = row[0]
-    f = row[1]
-    tt=pd.read_csv(f,header=None,sep="\t")
-    tt.columns=["chrom","start","end"]+[f"{i}_{s}"  for i in ["perc","numC","numT"]] 
-    tt = tt.loc[tt[f"numC_{s}"] + tt[f"numT_{s}"] > 2]
-    if d is None:
-        d=tt
-    else:
-        d=d.merge(tt,on=["chrom", "start", "end"], how="outer")
-
-d.to_csv(sys.stdout,sep="\t",index=False)
-
- Rscript -e 'tt=read.table("input.txt",header=F)
-    library(data.table)
-    d=NULL;
-    for( i in 1:nrow(tt)){
-        if(is.null(d)){
-            d=fread(tt[i,2], col.names=c("chrom","start","end",paste(tt[i,1],c("perc","numC","numT"),sep="_")))
-        }else{
-            d=merge(d,fread(tt[i,2], col.names=c("chrom","start","end",paste(tt[i,1],c("perc","numC","numT"),sep="_"))),all=T)
-        }
-    }
-'
+done #|  bismark-merge-cov - | head
 
 #chr start   end strand  coverage    numCs   numTs
 #chr1    3053156 3053156 -   10  9   1

@@ -1,0 +1,1 @@
+chrom	start	end	Y1_perc	Y1_numC	Y1_numT	Y2_perc	Y2_numC	Y2_numT	Y3_perc	Y3_numC	Y3_numT	Y4_perc	Y4_numC	Y4_numT	E1_perc	E1_numC	E1_numT	E2_perc	E2_numC	E2_numT	E3_perc	E3_numC	E3_numT	E4_perc	E4_numC	E4_numT	W1_perc	W1_numC	W1_numT	W2_perc	W2_numC	W2_numT	W3_perc	W3_numC	W3_numT	W4_perc	W4_numC	W4_numT

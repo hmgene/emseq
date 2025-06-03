@@ -10,12 +10,13 @@ Rscript <( echo '
     by=c("chr","bin"); if(strand){ by=c(by,"strand");}
     library(data.table)
     tt=fread(input); tt[, bin := floor(start / bin_size) ]; tt[is.na(tt)]=0;
-    nC <- grep("numCs", names(tt), value = TRUE); nN <- grep("coverage", names(tt), value = TRUE)
-    d = as.data.table(tt[, lapply(.SD, sum), by = by, .SDcols = c(nC,nN)] )
-    d[, `:=` ( start=bin*bin_size, end=(bin+1)*bin_size )]
+    nC <- grep("_numC", names(tt), value = TRUE); 
+    nT <- gsub("_numC","_numT",nC); # same order 
 
-    for ( j in sub(".coverage","",names(d)[grep(".coverage",names(d))]) ){
-        d[, (paste0(j,"_perc")) := 100 * get( paste0(j,".numCs") )/ get ( paste0(j,".coverage")) ]
+    d = as.data.table(tt[, lapply(.SD, sum), by = by, .SDcols = c(nC,nT)] )
+    d[, `:=` ( start=bin*bin_size, end=(bin+1)*bin_size )]
+    for ( j in sub("_numC","",nC))
+        d[, (paste0(j,"_perc")) := 100 * get( paste0(j,"_numC") )/ ( get(paste0(j,"_numC")) + get(paste0(j,"_numT)))) ]
     }
     
     ## filtering
