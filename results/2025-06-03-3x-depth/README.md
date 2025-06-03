@@ -54,4 +54,14 @@
 
 ![ trend_per_type]( vlnplot_methylation_trends_per_type.png)
 
+![ go-term ](go-progressterm-per-trend.png)
+
+| Trend    | Theme                                               | Stage                 | Key Systems                         |
+|----------|-----------------------------------------------------|-----------------------|-------------------------------------|
+| Up–Up    | early morphogenetic programs                        | Early → Late silencing | Neural crest, mesenchyme, skeletal  |
+| Up–Down  | Temporary activation followed by repression         | Mid → Late            | Lung, brain, vasculature, synapse   |
+| Down–Up  | Later activation for functional maturation          | Late                  | Synaptic, cardiac, skeletal         |
+
+
+
 
