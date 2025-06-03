@@ -40,10 +40,12 @@ for f in bigdata/methylseq/*/out/bismark/summary/bismark_summary_report.txt;do
     s=`echo $f| cut -d"/" -f 3`;
     tail -n+2 $f | cut -f 2- | awk -v OFS="\t" -v s=$s '{ print s,$0;}'  >> $odir/summary.tsv
 done
-echo '## summary 
- [sum]('summary.tsv')
+echo '
+## summary 
 
-### BedGraph Files
+86% mapping, 74% methylation rates
+ [summary_table]('summary.tsv')
+
 '> $out
 
 for x in 3x 5x;do
@@ -51,7 +53,6 @@ for b in 1bp 10bp;do
 for i in E W Y;do
     o=bg/mean_${i}.$x.$b.bedGraph.gz;mkdir -p $odir/bg 
     #gunzip -dc bigdata/filtered.$x.$b.anova.tsv.gz | hm cutn - chrom,start,end,mean_${i} | tail -n+2 | awk -vOFS="\t" '{print $1,int($2),int($3),$4;}'  | gzip -c > $odir/$o
-    echo " - [${o##*/}]($o) " >> $out
 done
 done
 done
@@ -64,10 +65,12 @@ echo "
 " #| hm bismark-merge-anova -  $odir/multi_res_cor
 
 echo '
-## Multi resolution Correlation
- ![corr](multi_res_cor_heatmap.png)
+## Using a lower depth cutoff (3x) reduced heterogeneity across both 1 bp and 10 bp resolutions  
+![corr](multi_res_cor_heatmap.png)
 
-## Trend Analysis
+## Trend Analysis  
+Using 3×10 bp resolutions, sites were annotated with overlapping genomic features.  
+E–W–Y trends were determined using an ANOVA p-value threshold of 0.05.
 
 ### Average Methylation %
 
@@ -82,7 +85,7 @@ echo '
 | Non-coding    | 944   | 48.39      | 52.67      | 54.03      |
 | Promoter-TSS  | 3910  | 53.80      | 54.20      | 53.03      |
 
-###  E->W->Y Trends (E->W: up/dn, W->Y : up/dn)
+###  E-W-Y Trends (E-W: up/dn, W-Y : up/dn)
 
 | Group         | dn_dn | dn_nc | dn_up | nc_dn | nc_up | up_dn | up_nc | up_up |
 |---------------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -97,11 +100,12 @@ echo '
 
  [anova_annotation_trend.table]( filtered.3x.10bp.anova.anno.trend.tsv.gz )
 
-
+### Violin Plots 
 ![ trend ](vlnplot_methylation_trends.png)
 
 ![ trend_per_type]( vlnplot_methylation_trends_per_type.png)
 
+### GO-Bioprocess Terms
 ![ go-term ](go-progressterm-per-trend.png)
 
 | Trend    | Theme                                               | Stage                 | Key Systems                         |
@@ -111,9 +115,7 @@ echo '
 | Down–Up  | Later activation for functional maturation          | Late                  | Synaptic, cardiac, skeletal         |
 
 
-
 ' >> $out
-
 
 ## run this on HPC
 ##echo "$input"| grep -v "^$" | hm bismark-merge-cov - 5 | gzip -c > bigdata/merged.x5.cov.gz 
