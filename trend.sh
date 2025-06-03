@@ -1,28 +1,3 @@
-#mkdir -p results/trend/
-#rm results/trend/*
-#cat  results/filtered.3x.10bp.anova.anno.trend.tsv | hm cutn - chrom,start,end,trend_class| cut -f 1-3,6 |\
-#tail -n+2 |  awk -v OFS="\t" -v o="results/trend" '{out=o"/"$4; print $0 >> out}'
-
-input=(
-results/trend/dn_dn
-results/trend/dn_nc
-results/trend/dn_up
-results/trend/nc_dn
-results/trend/nc_up
-results/trend/up_dn
-results/trend/up_nc
-results/trend/up_up
-)
-#parallel "annotatePeaks.pl {} mm10 -go {}_go -annStats {}.stats" ::: ${input[@]}
-fn(){
-    hm homer-go-sum  ${1}_go/biological_process.txt 0.0000001 40 50 |\
-    perl -ne 'chomp; $_=~s/regulation of/reg./g; $_=~s/positive /p./g; $_=~s/negative /n./g; $_=~s/ /_/g;print join("\t","'${1##*/}'",$_,),"\n";'
-};export -f fn
-parallel --line-buffer fn {} ::: ${input[@]} | awk -v OFS="\t"  '{print $2,$1,1;}' | hm rc2mat - | perl -npe '$_=~s/\t(\d+)/\t1/g;$_=~s/nan/0/g;' | hm heatmap - o.pdf  7 14
-exit
-
-
-trend-vis(){
 Rscript <( echo '
     t=read.table(text="
     Lin28b
@@ -125,6 +100,33 @@ Rscript <( echo '
     #9         <NA>     1     0     7     0     0     1     0     5
     ')
 }
+
+
+
+#mkdir -p results/trend/
+#rm results/trend/*
+#cat  results/filtered.3x.10bp.anova.anno.trend.tsv | hm cutn - chrom,start,end,trend_class| cut -f 1-3,6 |\
+#tail -n+2 |  awk -v OFS="\t" -v o="results/trend" '{out=o"/"$4; print $0 >> out}'
+
+input=(
+results/trend/dn_dn
+results/trend/dn_nc
+results/trend/dn_up
+results/trend/nc_dn
+results/trend/nc_up
+results/trend/up_dn
+results/trend/up_nc
+results/trend/up_up
+)
+#parallel "annotatePeaks.pl {} mm10 -go {}_go -annStats {}.stats" ::: ${input[@]}
+fn(){
+    hm homer-go-sum  ${1}_go/biological_process.txt 0.0000001 40 50 |\
+    perl -ne 'chomp; $_=~s/regulation of/reg./g; $_=~s/positive /p./g; $_=~s/negative /n./g; $_=~s/ /_/g;print join("\t","'${1##*/}'",$_,),"\n";'
+};export -f fn
+parallel --line-buffer fn {} ::: ${input[@]} | awk -v OFS="\t"  '{print $2,$1,1;}' | hm rc2mat - | perl -npe '$_=~s/\t(\d+)/\t1/g;$_=~s/nan/0/g;' | hm heatmap - o.pdf  7 14
+exit
+
+
 
 
 
