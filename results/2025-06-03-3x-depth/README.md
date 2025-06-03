@@ -16,5 +16,5 @@
  - [mean_W.5x.10bp.bedGraph.gz](bg/mean_W.5x.10bp.bedGraph.gz) 
  - [mean_Y.5x.10bp.bedGraph.gz](bg/mean_Y.5x.10bp.bedGraph.gz) 
 ## Multi resolution Correlation
- [!corr](results/2025-06-03-3x-depth/multi_res_cor_heatmap.png)
+ ![corr](multi_res_cor_heatmap.png)
 
