@@ -33,7 +33,7 @@ dn(){
 }
 
 odir="results/2025-06-03-3x-depth"; mkdir -p $odir
-o=$odir/README.md
+out=$odir/README.md
 
 cat bigdata/methylseq/*/out/bismark/summary/bismark_summary_report.txt | head -n 1 > $odir/summary.tsv
 for f in bigdata/methylseq/*/out/bismark/summary/bismark_summary_report.txt;do
@@ -42,23 +42,29 @@ for f in bigdata/methylseq/*/out/bismark/summary/bismark_summary_report.txt;do
 done
 echo '## summary 
  [sum]('summary.tsv')
-'> $o
 
+### BedGraph Files
+'> $out
 
-#for x in 3x 5x;do
-#for b in 1bp 10bp;do
-#for i in E W Y;do
-#    gunzip -dc bigdata/filtered.$x.$b.anova.tsv.gz | hm cutn - chrom,start,end,mean_${i} | tail -n+2 | awk -vOFS="\t" '{print $1,int($2),int($3),$4;}'  > results/mean_${i}.$x.$b.bedGraph
-#done
-#done
-#done
+for x in 3x 5x;do
+for b in 1bp 10bp;do
+for i in E W Y;do
+    o=bg/mean_${i}.$x.$b.bedGraph.gz;mkdir -p $odir/bg 
+    #gunzip -dc bigdata/filtered.$x.$b.anova.tsv.gz | hm cutn - chrom,start,end,mean_${i} | tail -n+2 | awk -vOFS="\t" '{print $1,int($2),int($3),$4;}'  | gzip -c > $odir/$o
+    echo " - [${o##*/}]($o) " >> $out
+done
+done
+done
 
-#echo " 
-#3x10b bigdata/filtered.3x.10bp.anova.tsv.gz
-#5x10b bigdata/filtered.5x.10bp.anova.tsv.gz
-#3x1b bigdata/filtered.3x.1bp.anova.tsv.gz
-#5x1b bigdata/filtered.5x.1bp.anova.tsv.gz
-#" | hm bismark-merge-anova -  o
+echo " 
+3x10b bigdata/filtered.3x.10bp.anova.tsv.gz
+5x10b bigdata/filtered.5x.10bp.anova.tsv.gz
+3x1b bigdata/filtered.3x.1bp.anova.tsv.gz
+5x1b bigdata/filtered.5x.1bp.anova.tsv.gz
+" | hm bismark-merge-anova -  $odir/multi_res_coro
+echo "## Multi resolution Correlation
+ [!corr]($odir/multi_res_cor_heatmap.png)
+" >> $out
 
 
 
