@@ -97,8 +97,10 @@ echo '
 
  [anova_annotation_trend.table]( filtered.3x.10bp.anova.anno.trend.tsv.gz )
 
-<iframe src="vlnplot_methylation_trends.pdf"></iframe>
-![ trend_per_type]( vlnplot_methylation_trends_per_type.pdf)
+
+![ trend ](vlnplot_methylation_trends.png)
+
+![ trend_per_type]( vlnplot_methylation_trends_per_type.png)
 
 ' >> $out
 
