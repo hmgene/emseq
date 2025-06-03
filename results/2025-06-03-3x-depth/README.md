@@ -22,7 +22,7 @@
 ## Trend Analysis
 
 ### Average Methylation %
-"""
+```
            group  Sites    mean_E     mean_W     mean_Y
           <char> <int>      <num>      <num>      <num>
             <NA>    14  0.2340333  0.2077105  0.5092456
@@ -34,10 +34,10 @@
           intron 50188 66.3645757 62.1072053 56.7808921
       non-coding   944 48.3941965 52.6688076 54.0259305
     promoter-TSS  3910 53.7976471 54.1951853 53.0326458
-"""
+```
 
 ###  E->W->Y Trends (E->W: up/dn, W->Y : up/dn)
-"""
+```
             group dn_dn dn_nc dn_up nc_dn nc_up up_dn up_nc up_up
             3prim   373     0   356     2     1   379     4   290
             5prim    66     1    52     0     0    68     1    50
@@ -48,7 +48,7 @@
      promoter-TSS   863     3  1072     2     2  1140    13   815
               TTS   458     1   464     2     2   473     6   407
              <NA>     1     0     7     0     0     1     0     5
-"""
+```
 
  [anova_annotation_trend.table]( filtered.3x.10bp.anova.anno.trend.tsv.gz )
 
