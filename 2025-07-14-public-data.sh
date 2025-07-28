@@ -60,6 +60,13 @@ pdf(file=paste0(odir,"/rnaatac_vs_meth.heatmap.pdf"))
 draw(h1 + h2)
 dev.off()
 
+h=Heatmap(cbind(M,M1))
+pdf(file=paste0(odir,"/meth_rna_atac_mix.heatmap.pdf"))
+draw(h)
+dev.off();
+
+
+h1 <- Heatmap(M, name = "Scaled Signal", cluster_rows = row_dend,
 
 #data/from_pub/FL_HSC_on_BM_HSC_ATAC.xls.anno
 #atac_bm_fl=fread("results/2025-07-14/bm_vs_fl.anno")
