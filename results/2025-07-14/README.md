@@ -20,7 +20,7 @@
 | bed Peak | Higher Methylation at Y compared to W : [WtoY_up.bed](WtoY_up.bed) |
 | bed Peak | Lower Methylation at Y compared to W : [WtoY_dn.bed](WtoY_up.bed) |
 | bedGraph Averaged Percent | [mean_E.bedGraph.gz](mean_E.bedGraph.gz) |
-| bedGraph Averaged Percent | [mean_W.bedGraph.gz](mean_W.bedGraph.gz |
+| bedGraph Averaged Percent | [mean_W.bedGraph.gz](mean_W.bedGraph.gz) |
 | bedGraph Averaged Percent | [mean_Y.bedGraph.gz](mean_Y.bedGraph.gz) | 
 | bedGraph Averaged Percent | [meth_rna_atac.csv](meth_rna_atac.csv) |
 
@@ -29,7 +29,7 @@
 - Significant genes were selected from ATAC-seq and RNA-seq datasets using a p-value threshold of 0.001.
 - logFold and Fold values were rescaled column-wise.
 - Heatmaps were generated using ComplexHeatmap with clustering applied.
-- code :  ../../2025-07-14-public-data.sh
+- code :  [link](../../2025-07-14-public-data.sh)
 
 
 | Ordering Criteria | Heatmap |
