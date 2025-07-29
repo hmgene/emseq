@@ -33,7 +33,7 @@ for( j in c("mean_E","mean_W","mean_Y")){
 fwrite(file=paste0(odir,"/EtoW_up.bed"), d[ trend_EW == "up",.(chrom,start,end)],col.names=F,sep="\t")
 fwrite(file=paste0(odir,"/EtoW_dn.bed"), d[ trend_EW == "dn",.(chrom,start,end)],col.names=F,sep="\t")
 fwrite(file=paste0(odir,"/WtoY_up.bed"), d[ trend_WY == "up",.(chrom,start,end)],col.names=F,sep="\t")
-fwrite(file=paste0(odir,"/WtoY_dn.bed"), d[ trend_EW == "dn",.(chrom,start,end)],col.names=F,sep="\t")
+fwrite(file=paste0(odir,"/WtoY_dn.bed"), d[ trend_WY == "dn",.(chrom,start,end)],col.names=F,sep="\t")
 
 
 
@@ -64,7 +64,7 @@ mm = cbind(M, M1); mm = as.data.table(mm, keep.rownames = "gene")
 fwrite(file=paste0(odir,"/meth_rna_atac.csv"), mm)
 
 pdf(file=paste0(odir,"/meth_vs_rnaatac.heatmap.pdf"))
-draw(h1 + h2)
+draw(h2 + h1)
 dev.off()
 
 pdf(file=paste0(odir,"/rnaatac_vs_meth.heatmap.pdf"))
