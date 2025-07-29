@@ -1,9 +1,10 @@
-odir=results/2025-07-14
+odir="results/2025-07-14"
 mkdir -p $odir
 
 
 echo '
 library(data.table)
+library(ComplexHeatmap)
 #FL versus adult HSCs
 tt=fread("data/from_pub/Beaudin.txt",skip=2)
 tt=tt[,.(gene=Name, rna_fl = log2FoldChange, rna_fl_pv = pvalue)]
@@ -17,7 +18,7 @@ tt=merge(tt,a)
 tt=merge(tt,b)
 
 pv_cols <- grep("_pv$", names(tt), value = TRUE)
-tt1 = tt[tt[, apply(.SD < 0.00001, 1, any), .SDcols = pv_cols]]
+#tt1 = tt[tt[, apply(.SD < 0.00001, 1, any), .SDcols = pv_cols]]
 pt=0.001; tt1 = tt[ rna_fl_pv < pt & atac_fl_pv < pt & rna_bm_pv < pt & atac_bm_pv < pt ]
 
 j=setdiff(names(tt1),c("gene",pv_cols));1
@@ -26,6 +27,11 @@ row.names(m) = tt1$gene
 
 #d=fread("bigdata/filtered.3x.10bp.anova.tsv.gz")
 d=fread("results/2025-06-03-3x-depth/filtered.3x.10bp.anova.anno.trend.tsv.gz")
+for( j in c("mean_E","mean_W","mean_Y")){
+    fwrite(file=paste0(odir,"/",j,".bedGraph.gz"),sep="\t",col.names=F, d[,.(chrom,start,end,value=get(j))])
+}
+
+
 d1=d[,c("Gene Name",grep("_perc",names(d),value=T)),with=F]
 setnames(d1,"Gene Name","gene")
 d1 = d1[, lapply(.SD, mean, na.rm = TRUE), by = gene]
@@ -33,8 +39,6 @@ d1=d1[gene %in% tt1$gene,]
 m1=as.matrix(d1[, grep("E|W",names(d1),value=T),with=F])
 m1[is.na(m1)]=0
 row.names(m1)=d1$gene
-
-
 
 common_genes <- intersect(rownames(m), rownames(m1))
 m_common <- m[common_genes, ]
@@ -50,7 +54,7 @@ h1 <- Heatmap(M, name = "Scaled Signal", cluster_rows = row_dend,
 h2 <- Heatmap(M1, name = "Percent", cluster_rows = row_dend,
               show_row_names = FALSE, column_title = "Methylation")
 odir="results/2025-07-14";
-fwrite(file=paste0(odir,"meth_vs_rnaatac.csv"), cbind(M,M1))
+fwrite(file=paste0(odir,"/meth_vs_rnaatac.csv"), cbind(M,M1))
 
 pdf(file=paste0(odir,"/meth_vs_rnaatac.heatmap.pdf"))
 draw(h1 + h2)
