@@ -10,4 +10,4 @@
 - [mean_E.bedGraph.gz](mean_E.bedGraph.gz)
 - [mean_W.bedGraph.gz](mean_W.bedGraph.gz)
 - [mean_Y.bedGraph.gz](mean_Y.bedGraph.gz)
-- [meth_rna_atac.csv](meth_vs_rnaatac.csv)
+- [meth_rna_atac.csv](meth_rna_atac.csv)

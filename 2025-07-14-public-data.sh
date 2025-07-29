@@ -54,7 +54,7 @@ h1 <- Heatmap(M, name = "Scaled Signal", cluster_rows = row_dend,
 h2 <- Heatmap(M1, name = "Percent", cluster_rows = row_dend,
               show_row_names = FALSE, column_title = "Methylation")
 odir="results/2025-07-14";
-fwrite(file=paste0(odir,"/meth_vs_rnaatac.csv"), cbind(M,M1))
+fwrite(file=paste0(odir,"/meth_rna_atac.csv"), cbind(M,M1))
 
 pdf(file=paste0(odir,"/meth_vs_rnaatac.heatmap.pdf"))
 draw(h1 + h2)
