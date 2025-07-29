@@ -1,9 +1,15 @@
+# Integration with RNA-seq and ATAC-seq
+
+
 ## Data
 
-- Beaudin  [rna_fl](../../data/from_pub/Beaudin.txt)
+RNA-seq
+- Beaudin.txt [rna_fl](../../data/from_pub/Beaudin.txt)
 - Tan.txt [rna_bm](../../data/from_pub/Tan.txt)
+ATAC-seq
 - BM_HSC_on_FL_HSC_ATAC.xls) [atac_bm](../../data/from_pub/BM_HSC_on_FL_HSC_ATAC.xls)
 - FL_HSC_on_BM_HSC_ATAC.xls [atac_fl](../../data/from_pub/FL_HSC_on_BM_HSC_ATAC.xls)
+EM-seq
 - filtered.3x.10bp.anova.anno.trend.tsv.gz [emseq_3x10bp](../2025-06-03-3x-depth/filtered.3x.10bp.anova.anno.trend.tsv.gz)
   - [EtoW_up.bed](EtoW_up.bed)
   - [EtoW_dn.bed](EtoW_up.bed)
