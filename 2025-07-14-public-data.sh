@@ -60,21 +60,30 @@ h2 <- Heatmap(M1, name = "Percent", cluster_rows = row_dend,
               show_row_names = FALSE, column_title = "Methylation")
 odir="results/2025-07-14";
 mm = cbind(M, M1); mm = as.data.table(mm, keep.rownames = "gene") 
-
 fwrite(file=paste0(odir,"/meth_rna_atac.csv"), mm)
+pdf(file=paste0(odir,"/rnaatac_vs_meth.heatmap.pdf"))
+draw(h1 + h2)
+dev.off()
+
+
+row_order <- hclust(dist(M1))
+row_dend <- as.dendrogram(row_order)
+
+library(ComplexHeatmap)
+h1 <- Heatmap(M, name = "Scaled Signal", cluster_rows = row_dend,
+              show_row_names = FALSE, column_title = "ATAC / RNA")
+h2 <- Heatmap(M1, name = "Percent", cluster_rows = row_dend,
+              show_row_names = FALSE, column_title = "Methylation")
 
 pdf(file=paste0(odir,"/meth_vs_rnaatac.heatmap.pdf"))
 draw(h2 + h1)
-dev.off()
-
-pdf(file=paste0(odir,"/rnaatac_vs_meth.heatmap.pdf"))
-draw(h1 + h2)
 dev.off()
 
 h=Heatmap(cbind(M,M1))
 pdf(file=paste0(odir,"/meth_rna_atac_mix.heatmap.pdf"))
 draw(h)
 dev.off();
+
 
 
 h1 <- Heatmap(M, name = "Scaled Signal", cluster_rows = row_dend,
