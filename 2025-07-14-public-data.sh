@@ -30,6 +30,11 @@ d=fread("results/2025-06-03-3x-depth/filtered.3x.10bp.anova.anno.trend.tsv.gz")
 for( j in c("mean_E","mean_W","mean_Y")){
     fwrite(file=paste0(odir,"/",j,".bedGraph.gz"),sep="\t",col.names=F, d[,.(chrom,start,end,value=get(j))])
 }
+fwrite(file=paste0(odir,"/EtoW_up.bed"), d[ trend_EW == "up",.(chrom,start,end)],col.names=F,sep="\t")
+fwrite(file=paste0(odir,"/EtoW_dn.bed"), d[ trend_EW == "dn",.(chrom,start,end)],col.names=F,sep="\t")
+fwrite(file=paste0(odir,"/WtoY_up.bed"), d[ trend_WY == "up",.(chrom,start,end)],col.names=F,sep="\t")
+fwrite(file=paste0(odir,"/WtoY_dn.bed"), d[ trend_EW == "dn",.(chrom,start,end)],col.names=F,sep="\t")
+
 
 
 d1=d[,c("Gene Name",grep("_perc",names(d),value=T)),with=F]
