@@ -20,4 +20,5 @@ fwrite(df,paste0(odir,"/cpg_prop_by_group.csv"))
 cd $odir
 Rscript -e 'library(rmarkdown);render("README.Rmd")'
 cd -
-
+git commit -am 1 
+git push
