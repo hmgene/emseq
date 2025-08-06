@@ -43,6 +43,7 @@
 <caption>CpG and uCpG Counts with Methylation Proportions</caption>
 <thead>
 <tr class="header">
+<th style="text-align: left;">id</th>
 <th style="text-align: right;">CpG</th>
 <th style="text-align: right;">uCpG</th>
 <th style="text-align: left;">group</th>
@@ -52,6 +53,7 @@
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: left;">Y1</td>
 <td style="text-align: right;">4308615</td>
 <td style="text-align: right;">642693</td>
 <td style="text-align: left;">Y</td>
@@ -59,165 +61,92 @@
 <td style="text-align: right;">0.8701973</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">642693</td>
-<td style="text-align: right;">3053642</td>
-<td style="text-align: left;">Y</td>
-<td style="text-align: right;">3696335</td>
-<td style="text-align: right;">0.1738730</td>
-</tr>
-<tr class="odd">
+<td style="text-align: left;">Y2</td>
 <td style="text-align: right;">25330027</td>
-<td style="text-align: right;">5055681</td>
-<td style="text-align: left;">Y</td>
-<td style="text-align: right;">30385708</td>
-<td style="text-align: right;">0.8336165</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">3053642</td>
-<td style="text-align: right;">4944743</td>
 <td style="text-align: left;">Y</td>
-<td style="text-align: right;">7998385</td>
-<td style="text-align: right;">0.3817823</td>
+<td style="text-align: right;">28383669</td>
+<td style="text-align: right;">0.8924155</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Y3</td>
 <td style="text-align: right;">42007137</td>
-<td style="text-align: right;">2860849</td>
+<td style="text-align: right;">5055681</td>
 <td style="text-align: left;">Y</td>
-<td style="text-align: right;">44867986</td>
-<td style="text-align: right;">0.9362385</td>
+<td style="text-align: right;">47062818</td>
+<td style="text-align: right;">0.8925759</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5055681</td>
-<td style="text-align: right;">1461799</td>
-<td style="text-align: left;">Y</td>
-<td style="text-align: right;">6517480</td>
-<td style="text-align: right;">0.7757110</td>
-</tr>
-<tr class="odd">
+<td style="text-align: left;">Y4</td>
 <td style="text-align: right;">40587466</td>
-<td style="text-align: right;">5651380</td>
-<td style="text-align: left;">Y</td>
-<td style="text-align: right;">46238846</td>
-<td style="text-align: right;">0.8777785</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">4944743</td>
-<td style="text-align: right;">5410179</td>
 <td style="text-align: left;">Y</td>
-<td style="text-align: right;">10354922</td>
-<td style="text-align: right;">0.4775259</td>
+<td style="text-align: right;">45532209</td>
+<td style="text-align: right;">0.8914012</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">E1</td>
 <td style="text-align: right;">21675688</td>
-<td style="text-align: right;">4861527</td>
+<td style="text-align: right;">2860849</td>
 <td style="text-align: left;">E</td>
-<td style="text-align: right;">26537215</td>
-<td style="text-align: right;">0.8168034</td>
+<td style="text-align: right;">24536537</td>
+<td style="text-align: right;">0.8834045</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">2860849</td>
-<td style="text-align: right;">2956346</td>
-<td style="text-align: left;">E</td>
-<td style="text-align: right;">5817195</td>
-<td style="text-align: right;">0.4917918</td>
-</tr>
-<tr class="odd">
+<td style="text-align: left;">E2</td>
 <td style="text-align: right;">10002396</td>
-<td style="text-align: right;">2974891</td>
-<td style="text-align: left;">E</td>
-<td style="text-align: right;">12977287</td>
-<td style="text-align: right;">0.7707617</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">1461799</td>
-<td style="text-align: right;">2253938</td>
 <td style="text-align: left;">E</td>
-<td style="text-align: right;">3715737</td>
-<td style="text-align: right;">0.3934076</td>
+<td style="text-align: right;">11464195</td>
+<td style="text-align: right;">0.8724900</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">E3</td>
 <td style="text-align: right;">43584903</td>
-<td style="text-align: right;">642693</td>
+<td style="text-align: right;">5651380</td>
 <td style="text-align: left;">E</td>
-<td style="text-align: right;">44227596</td>
-<td style="text-align: right;">0.9854685</td>
+<td style="text-align: right;">49236283</td>
+<td style="text-align: right;">0.8852192</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">5651380</td>
-<td style="text-align: right;">3053642</td>
-<td style="text-align: left;">E</td>
-<td style="text-align: right;">8705022</td>
-<td style="text-align: right;">0.6492092</td>
-</tr>
-<tr class="odd">
+<td style="text-align: left;">E4</td>
 <td style="text-align: right;">41349553</td>
-<td style="text-align: right;">5055681</td>
-<td style="text-align: left;">E</td>
-<td style="text-align: right;">46405234</td>
-<td style="text-align: right;">0.8910536</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">5410179</td>
-<td style="text-align: right;">4944743</td>
 <td style="text-align: left;">E</td>
-<td style="text-align: right;">10354922</td>
-<td style="text-align: right;">0.5224741</td>
+<td style="text-align: right;">46759732</td>
+<td style="text-align: right;">0.8842983</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">W1</td>
 <td style="text-align: right;">38800768</td>
-<td style="text-align: right;">2860849</td>
+<td style="text-align: right;">4861527</td>
 <td style="text-align: left;">W</td>
-<td style="text-align: right;">41661617</td>
-<td style="text-align: right;">0.9313313</td>
+<td style="text-align: right;">43662295</td>
+<td style="text-align: right;">0.8886562</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">4861527</td>
-<td style="text-align: right;">1461799</td>
-<td style="text-align: left;">W</td>
-<td style="text-align: right;">6323326</td>
-<td style="text-align: right;">0.7688243</td>
-</tr>
-<tr class="odd">
+<td style="text-align: left;">W2</td>
 <td style="text-align: right;">22889880</td>
-<td style="text-align: right;">5651380</td>
-<td style="text-align: left;">W</td>
-<td style="text-align: right;">28541260</td>
-<td style="text-align: right;">0.8019926</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">2956346</td>
-<td style="text-align: right;">5410179</td>
 <td style="text-align: left;">W</td>
-<td style="text-align: right;">8366525</td>
-<td style="text-align: right;">0.3533541</td>
+<td style="text-align: right;">25846226</td>
+<td style="text-align: right;">0.8856179</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">W3</td>
 <td style="text-align: right;">22925819</td>
-<td style="text-align: right;">4861527</td>
+<td style="text-align: right;">2974891</td>
 <td style="text-align: left;">W</td>
-<td style="text-align: right;">27787346</td>
-<td style="text-align: right;">0.8250453</td>
+<td style="text-align: right;">25900710</td>
+<td style="text-align: right;">0.8851425</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">2974891</td>
-<td style="text-align: right;">2956346</td>
-<td style="text-align: left;">W</td>
-<td style="text-align: right;">5931237</td>
-<td style="text-align: right;">0.5015633</td>
-</tr>
-<tr class="odd">
+<td style="text-align: left;">W4</td>
 <td style="text-align: right;">17946855</td>
-<td style="text-align: right;">2974891</td>
-<td style="text-align: left;">W</td>
-<td style="text-align: right;">20921746</td>
-<td style="text-align: right;">0.8578087</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">2253938</td>
 <td style="text-align: right;">2253938</td>
 <td style="text-align: left;">W</td>
-<td style="text-align: right;">4507876</td>
-<td style="text-align: right;">0.5000000</td>
+<td style="text-align: right;">20200793</td>
+<td style="text-align: right;">0.8884233</td>
 </tr>
 </tbody>
 </table>
@@ -242,32 +171,32 @@ CpG and uCpG Counts with Methylation Proportions
     ## glm(formula = cbind(CpG, uCpG) ~ group, family = binomial, data = df)
     ## 
     ## Coefficients:
-    ##               Estimate Std. Error z value Pr(>|z|)    
-    ## (Intercept)  1.5964873  0.0002121  7528.6   <2e-16 ***
-    ## groupW      -0.1937415  0.0002980  -650.2   <2e-16 ***
-    ## groupY      -0.1308449  0.0002955  -442.9   <2e-16 ***
+    ##              Estimate Std. Error z value Pr(>|z|)    
+    ## (Intercept) 2.0255154  0.0002713 7467.31   <2e-16 ***
+    ## groupW      0.0364297  0.0004000   91.08   <2e-16 ***
+    ## groupY      0.0779047  0.0003943  197.56   <2e-16 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
     ## (Dispersion parameter for binomial family taken to be 1)
     ## 
-    ##     Null deviance: 74160572  on 23  degrees of freedom
-    ## Residual deviance: 73717859  on 21  degrees of freedom
-    ## AIC: 73718256
+    ##     Null deviance: 79637  on 11  degrees of freedom
+    ## Residual deviance: 40559  on  9  degrees of freedom
+    ## AIC: 40764
     ## 
-    ## Number of Fisher Scoring iterations: 5
+    ## Number of Fisher Scoring iterations: 3
 
     cat("Null deviance:", round(glm_fit$null.deviance), "on", glm_fit$df.null, "degrees of freedom\n")
 
-    ## Null deviance: 74160572 on 23 degrees of freedom
+    ## Null deviance: 79637 on 11 degrees of freedom
 
     cat("Residual deviance:", round(glm_fit$deviance), "on", glm_fit$df.residual, "degrees of freedom\n")
 
-    ## Residual deviance: 73717859 on 21 degrees of freedom
+    ## Residual deviance: 40559 on 9 degrees of freedom
 
     cat("AIC:", round(AIC(glm_fit)), "\n")
 
-    ## AIC: 73718256
+    ## AIC: 40764
 
     invlogit <- function(x) exp(x) / (1 + exp(x))
 
@@ -293,15 +222,15 @@ CpG and uCpG Counts with Methylation Proportions
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">E</td>
-<td style="text-align: right;">0.8315</td>
+<td style="text-align: right;">0.8835</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">W</td>
-<td style="text-align: right;">0.8026</td>
+<td style="text-align: right;">0.8871</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Y</td>
-<td style="text-align: right;">0.8124</td>
+<td style="text-align: right;">0.8912</td>
 </tr>
 </tbody>
 </table>
