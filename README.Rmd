@@ -1,0 +1,55 @@
+---
+title: "CpG Methylation Analysis Report"
+author: "Your Name"
+output: html_document
+---
+
+```{r setup, include=T}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(ggplot2)
+library(dplyr)
+
+# Simulated example dataset
+df <- data.frame(
+  Sample = paste0("S", 1:6),
+  group = c("E", "E", "W", "W", "Y", "Y"),
+  CpG = c(1200, 1350, 1100, 1080, 1150, 1170),
+  uCpG = c(300, 250, 400, 420, 380, 360)
+)
+
+df <- df %>%
+  mutate(
+    total = CpG + uCpG,
+    prop = CpG / total
+  )
+
+knitr::kable(df, caption = "CpG and uCpG Counts with Methylation Proportions")
+ggplot(df, aes(x = group, y = prop, fill = group)) +
+  geom_boxplot(width = 0.4, alpha = 0.5, outlier.shape = NA) +
+  geom_jitter(width = 0.1, size = 2) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  labs(title = "Methylation Proportion by Group",
+       y = "Methylation (%)", x = "Group") +
+  theme_minimal()
+
+
+glm_fit <- glm(cbind(CpG, uCpG) ~ group, data = df, family = binomial)
+summary(glm_fit)
+
+cat("Null deviance:", round(glm_fit$null.deviance), "on", glm_fit$df.null, "degrees of freedom\n")
+cat("Residual deviance:", round(glm_fit$deviance), "on", glm_fit$df.residual, "degrees of freedom\n")
+cat("AIC:", round(AIC(glm_fit)), "\n")
+
+invlogit <- function(x) exp(x) / (1 + exp(x))
+
+p_E <- invlogit(coef(glm_fit)["(Intercept)"])
+p_W <- invlogit(coef(glm_fit)["(Intercept)"] + coef(glm_fit)["groupW"])
+p_Y <- invlogit(coef(glm_fit)["(Intercept)"] + coef(glm_fit)["groupY"])
+
+rate_df <- data.frame(
+  Group = c("E", "W", "Y"),
+  Estimated_Proportion = round(c(p_E, p_W, p_Y), 4)
+)
+
+knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (from GLM)")
+```
