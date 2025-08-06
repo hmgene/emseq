@@ -9,20 +9,17 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(ggplot2)
 library(dplyr)
+library(data.table)
 
 # Simulated example dataset
-df <- data.frame(
-  Sample = paste0("S", 1:6),
-  group = c("E", "E", "W", "W", "Y", "Y"),
-  CpG = c(1200, 1350, 1100, 1080, 1150, 1170),
-  uCpG = c(300, 250, 400, 420, 380, 360)
-)
-
-df <- df %>%
-  mutate(
-    total = CpG + uCpG,
-    prop = CpG / total
-  )
+#df <- data.frame(
+#  Sample = paste0("S", 1:6),
+#  group = c("E", "E", "W", "W", "Y", "Y"),
+#  CpG = c(1200, 1350, 1100, 1080, 1150, 1170),
+#  uCpG = c(300, 250, 400, 420, 380, 360)
+#)
+df = fread("cpg_prop_by_group.csv")
+df <- df %>% mutate( total = CpG + uCpG, prop = CpG / total)
 
 knitr::kable(df, caption = "CpG and uCpG Counts with Methylation Proportions")
 ggplot(df, aes(x = group, y = prop, fill = group)) +
