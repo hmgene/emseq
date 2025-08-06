@@ -1,7 +1,8 @@
 ---
 title: "CpG Methylation Analysis Report"
 author: "Your Name"
-output: html_document
+date: "`r Sys.Date()`"
+output: md_document
 ---
 
 ```{r setup, include=T}
