@@ -5,8 +5,8 @@ date: "`r Sys.Date()`"
 output: md_document
 ---
 
-```{r setup, include=T}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```{r setup, include=F, echo =F}
+#knitr::opts_chunk$set(echo = FTRUE, warning = FALSE, message = FALSE)
 library(ggplot2)
 library(dplyr)
 library(data.table)
