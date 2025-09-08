@@ -79,6 +79,16 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 ### Differential Sites
 ```{r}
 source("fn.r")
+input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
+input_sig="sig.csv.gz";
+if( file.exists( output) ){
+    tt=fread(input)
+    res=binom(tt)
+    fwrite(res[pvEW < 0.01 | pvWY < 0.01 ],file=input_sig)
+}else{
+    res=fread(input_sig)
+}
+pl_venn(res)
 
 ```
 
