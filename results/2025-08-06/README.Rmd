@@ -17,6 +17,8 @@ library(ggplot2)
 library(dplyr)
 library(data.table)
 
+df=fread("cpg_prop_by_group.csv")
+
 knitr::kable(df, caption = "CpG and uCpG Counts with Methylation Proportions")
 ggplot(df, aes(x = group, y = prop, fill = group)) +
   geom_boxplot(width = 0.4, alpha = 0.5, outlier.shape = NA) +
