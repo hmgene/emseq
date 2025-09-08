@@ -1,10 +1,15 @@
 ---
 title: "CpG Methylation Analysis Report"
 author: "Your Name"
-date: "`r Sys.Date()`"
+last updated : "`r Sys.Date()`"
 output: md_document
+knitr:
+  opts_chunk:
+    echo: false
+    warning: false
 ---
 
+### Before Outlier Filtering
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
@@ -30,7 +35,25 @@ ggplot(df, aes(x = group, y = prop, fill = group)) +
   labs(title = "Methylation Proportion by Group",
        y = "Methylation (%)", x = "Group") +
   theme_minimal()
+```
 
+### After Outlier Filtering 
+
+```{r}
+df = df[!id %in% c("Y1","E2")]
+ggplot(df, aes(x = group, y = prop, fill = group)) +
+  geom_boxplot(width = 0.4, alpha = 0.5, outlier.shape = NA) +
+  geom_jitter(width = 0.1, size = 2) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  labs(title = "Methylation Proportion by Group",
+       y = "Methylation (%)", x = "Group") +
+  theme_minimal()
+    
+}
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+
+##
 
 glm_fit <- glm(cbind(CpG, uCpG) ~ group, data = df, family = binomial)
 summary(glm_fit)
@@ -52,3 +75,10 @@ rate_df <- data.frame(
 
 knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (from GLM)")
 ```
+
+### Differential Sites
+```{r}
+source("fn.r")
+
+```
+
