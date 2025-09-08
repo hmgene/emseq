@@ -51,10 +51,6 @@ ggplot(df, aes(x = group, y = prop, fill = group)) +
     
 }
 
-```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
-
-##
-
 glm_fit <- glm(cbind(CpG, uCpG) ~ group, data = df, family = binomial)
 summary(glm_fit)
 
