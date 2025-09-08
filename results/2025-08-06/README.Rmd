@@ -38,12 +38,8 @@ ggplot(df, aes(x = group, y = prop, fill = group)) +
   geom_boxplot(width = 0.4, alpha = 0.5, outlier.shape = NA) +
   geom_jitter(width = 0.1, size = 2) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
-  labs(title = "Methylation Proportion by Group",
-       y = "Methylation (%)", x = "Group") +
+  labs(title = "Methylation Proportion by Group", y = "Methylation (%)", x = "Group") +
   theme_minimal()
-    
-}
-
 glm_fit <- glm(cbind(CpG, uCpG) ~ group, data = df, family = binomial)
 summary(glm_fit)
 
@@ -52,7 +48,6 @@ cat("Residual deviance:", round(glm_fit$deviance), "on", glm_fit$df.residual, "d
 cat("AIC:", round(AIC(glm_fit)), "\n")
 
 invlogit <- function(x) exp(x) / (1 + exp(x))
-
 p_E <- invlogit(coef(glm_fit)["(Intercept)"])
 p_W <- invlogit(coef(glm_fit)["(Intercept)"] + coef(glm_fit)["groupW"])
 p_Y <- invlogit(coef(glm_fit)["(Intercept)"] + coef(glm_fit)["groupY"])
