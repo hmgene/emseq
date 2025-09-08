@@ -5,8 +5,8 @@ last updated : "`r Sys.Date()`"
 output: md_document
 knitr:
   opts_chunk:
-    echo: false
-    warning: false
+    echo: true 
+    warning: true
 ---
 
 ### Before Outlier Filtering
