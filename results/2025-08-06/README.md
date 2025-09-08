@@ -157,4 +157,5 @@
 
 ### Differential Sites
 
-![](README_files/figure-markdown_strict/diff-sites-1.png)
+![](README_files/figure-markdown_strict/diff-sites-1.png) data:
+[sig\_diff.csv](sig.csv)

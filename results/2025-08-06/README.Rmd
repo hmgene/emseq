@@ -64,7 +64,7 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 ```{r diff-sites, message=FALSE, warning=FALSE}
 source("fn.r")
 input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
-input_sig="sig.csv.gz";
+input_sig="sig.csv";
 if( !file.exists(input_sig) ){
     tt=fread(input)
     res=binom(tt)
@@ -75,4 +75,6 @@ if( !file.exists(input_sig) ){
 pl_venn(res)
 
 ```
+data: [sig_diff.csv](sig.csv)
+
 
