@@ -77,7 +77,7 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 ```
 
 ### Differential Sites
-```{r}
+```{r setup}
 source("fn.r")
 input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
 input_sig="sig.csv.gz";
