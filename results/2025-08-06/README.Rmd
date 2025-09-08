@@ -81,7 +81,7 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 source("fn.r")
 input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
 input_sig="sig.csv.gz";
-if( file.exists(input_sig) ){
+if( !file.exists(input_sig) ){
     tt=fread(input)
     res=binom(tt)
     fwrite(res[pvEW < 0.01 | pvWY < 0.01 ],file=input_sig)
