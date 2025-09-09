@@ -8,6 +8,11 @@ knitr:
     echo: true 
     warning: true
 ---
+### Data
+- 'Beaudin' PMID 27666010 - DEGs comparing FL versus adult HSCs - positive FC values are enriched in FL, negative values in BM.
+- 'Tan' PMID 31851943 - DEGs comparing adult versus FL HSCs - positive FC values are enriched in ADULT, negative in FL (the other way around).
+- The ATAC-seq datasets are from PMID 35584393 - these are pseudobulk of the scATAC-seq from this paper. They are MACS readout files - one with peaks enriched in FL vs adult HSCs, the other adult vs FL HSCs. As a sanity check, there are more accessible regions in FL compared to adult HSCs as we would expect.
+
 
 ### Before Outlier Filtering
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
@@ -63,16 +68,32 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 ### Differential Sites
 ```{r diff-sites, message=FALSE, warning=FALSE}
 source("fn.r")
+pthr=0.05
 input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
 input_sig="sig.csv";
+tt=fread(input)
+tt[,`:=`(start = as.integer(start), end = as.integer(end))]
+
+fwrite(tt[,.(chrom,start,end,cE)],"EM_cE.bedGraph.gz",sep="\t",col.names=F)
+fwrite(tt[,.(chrom,start,end,tE)],"EM_tE.bedGraph.gz",sep="\t",col.names=F)
+fwrite(tt[,.(chrom,start,end,cW)],"EM_cW.bedGraph.gz",sep="\t",col.names=F)
+fwrite(tt[,.(chrom,start,end,tW)],"EM_tW.bedGraph.gz",sep="\t",col.names=F)
+
 if( !file.exists(input_sig) ){
-    tt=fread(input)
     res=binom(tt)
-    fwrite(res[pvEW < 0.01 | pvWY < 0.01 ],file=input_sig)
+    fwrite(res[pvEW < pthr| pvWY < pthr ],file=input_sig)
 }else{
     res=fread(input_sig)
 }
 pl_venn(res)
+
+res[,end:=start+1]
+x=merge(res[pvEW < pthr,],tt)
+
+fwrite(x[,.(chrom,start,end,pW-pE)],file="sig_EtoW.bedGraph",sep="\t",col.names=F)
+x=merge(res[pvWY < pthr,],tt)
+fwrite(x[,.(chrom,start,end,pY-pW)],file="sig_WtoY.bedGraph",sep="\t",col.names=F)
+
 
 ```
 data: [sig_diff.csv](sig.csv)

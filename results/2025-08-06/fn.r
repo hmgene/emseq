@@ -7,9 +7,9 @@ binom=function(tt,delta=0.1){
     ## remove outliers
     tt[, grep("Y1|E2", names(tt),value=T) := NULL ]
     for (g in c("E", "W", "Y")) {
-      tt[, paste0("t", g) := rowSums(.SD, na.rm = TRUE), .SDcols = grep(paste0(g, "\\d+\\..?CpG"), names(tt), value = TRUE)]
+      tt[, paste0("t", g) := rowSums(.SD, na.rm = TRUE), .SDcols = grep(paste0(g, "\\d+\\.uCpG"), names(tt), value = TRUE)]
       tt[, paste0("c", g) := rowSums(.SD, na.rm = TRUE), .SDcols = grep(paste0(g, "\\d+\\.CpG"), names(tt), value = TRUE)]
-      tt[, paste0("p", g) := get(paste0("c", g)) / get(paste0("t", g))]
+      tt[, paste0("p", g) := get(paste0("c", g)) / (get(paste0("t", g))+get(paste0("c",g)))]
     }
 
     res <- tt[abs(pW - pE) > delta | abs(pY-pW) > delta, {
