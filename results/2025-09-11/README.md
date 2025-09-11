@@ -938,6 +938,8 @@ RNA</caption>
 </tbody>
 </table>
 
+[RNA\_Promoter\_EMseq](%22rna_promoter_emseq.csv.gz%22)
+
 ### IGV snapshots
 
 ![Fos](igv_snapshot_fos.png) ![Igf2bp1](igv_snapshot_igf2bp1.png)
