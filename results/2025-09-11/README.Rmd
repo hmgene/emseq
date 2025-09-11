@@ -73,7 +73,7 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 
 ```
 ### Integration of EM-seq, ATAC-seq, RNA-seq
-![all](igv_snapshot_hmga2.png )
+![all](igv_snapshot_all.png )
 
 ### Differential Sites
 ```{r diff-sites, message=FALSE, warning=FALSE}

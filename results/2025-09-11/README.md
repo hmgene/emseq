@@ -179,7 +179,7 @@
 ### Integration of EM-seq, ATAC-seq, RNA-seq
 
 <figure>
-<img src="igv_snapshot_hmga2.png" alt="all" />
+<img src="igv_snapshot_all.png" alt="all" />
 <figcaption aria-hidden="true">all</figcaption>
 </figure>
 
