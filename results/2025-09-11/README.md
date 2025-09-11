@@ -938,7 +938,7 @@ RNA</caption>
 </tbody>
 </table>
 
-[RNA\_Promoter\_EMseq](%22rna_promoter_emseq.csv.gz%22)
+[RNA\_Promoter\_EMseq](rna_promoter_emseq.csv)
 
 ### IGV snapshots
 
