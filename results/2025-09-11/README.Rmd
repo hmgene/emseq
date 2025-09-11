@@ -67,7 +67,7 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
 
 ### Differential Sites
 ```{r diff-sites, message=FALSE, warning=FALSE}
-source("fn.r")
+    source("fn.r")
     pthr=0.05
     input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
     input_sig="sig.csv";
@@ -81,6 +81,18 @@ source("fn.r")
     }
     em[,`:=`(start = as.integer(start), end = as.integer(start + 1))]
     em=em[,.(chrom,start,end,cE,tE,cW,tW,cY,tY)]
+    
+    #res=binom(tt)
+    #fwrite(res[pvEW < pthr| pvWY < pthr ],file=input_sig)
+    res=fread(input_sig)
+    pl_venn(res)
+
+    #res[,end:=start+1]
+    #x=merge(res[pvEW < pthr,],tt)
+
+    #fwrite(x[,.(chrom,start,end,pW-pE)],file="sig_EtoW.bedGraph",sep="\t",col.names=F)
+    #x=merge(res[pvWY < pthr,],tt)
+    #fwrite(x[,.(chrom,start,end,pY-pW)],file="sig_WtoY.bedGraph",sep="\t",col.names=F)
 
 ## read RNA
     library(data.table)
@@ -130,21 +142,6 @@ knitr::kable(tt[order(l2_FLvsAD)][1:20], caption = "CpG Methyl Proportions at Pr
 #fwrite(tt[,.(chrom,start,end,tE)],"EM_tE.bedGraph.gz",sep="\t",col.names=F)
 #fwrite(tt[,.(chrom,start,end,cW)],"EM_cW.bedGraph.gz",sep="\t",col.names=F)
 #fwrite(tt[,.(chrom,start,end,tW)],"EM_tW.bedGraph.gz",sep="\t",col.names=F)
-
-if( !file.exists(input_sig) ){
-    res=binom(tt)
-    fwrite(res[pvEW < pthr| pvWY < pthr ],file=input_sig)
-}else{
-    res=fread(input_sig)
-}
-pl_venn(res)
-
-res[,end:=start+1]
-x=merge(res[pvEW < pthr,],tt)
-
-fwrite(x[,.(chrom,start,end,pW-pE)],file="sig_EtoW.bedGraph",sep="\t",col.names=F)
-x=merge(res[pvWY < pthr,],tt)
-fwrite(x[,.(chrom,start,end,pY-pW)],file="sig_WtoY.bedGraph",sep="\t",col.names=F)
 
 
 ```
