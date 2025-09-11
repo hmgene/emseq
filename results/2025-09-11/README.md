@@ -172,6 +172,361 @@
 
 ![](README_files/figure-markdown_strict/diff-sites-1.png)
 
+<table>
+<caption>Sig + EtoW Sites</caption>
+<thead>
+<tr>
+<th style="text-align: left;">chrom</th>
+<th style="text-align: right;">start</th>
+<th style="text-align: right;">pvEW</th>
+<th style="text-align: right;">l2EW</th>
+<th style="text-align: right;">pvWY</th>
+<th style="text-align: right;">l2WY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">13093457</td>
+<td style="text-align: right;">0.0086081</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.3457786</td>
+<td style="text-align: right;">-1.0000000</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">39579684</td>
+<td style="text-align: right;">0.0000266</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.0583815</td>
+<td style="text-align: right;">-0.8675497</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">40265227</td>
+<td style="text-align: right;">0.0061801</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.6053968</td>
+<td style="text-align: right;">-0.2854022</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">56942251</td>
+<td style="text-align: right;">0.0041236</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.6170751</td>
+<td style="text-align: right;">0.2370392</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">64867991</td>
+<td style="text-align: right;">0.0051170</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.4878567</td>
+<td style="text-align: right;">-0.8073549</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">72244563</td>
+<td style="text-align: right;">0.0094235</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.5797174</td>
+<td style="text-align: right;">-0.7655347</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">84915405</td>
+<td style="text-align: right;">0.0021560</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.5981615</td>
+<td style="text-align: right;">0.5849625</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">106072154</td>
+<td style="text-align: right;">0.0037731</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">-0.0450879</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">106072182</td>
+<td style="text-align: right;">0.0002918</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.4080213</td>
+<td style="text-align: right;">-0.3625701</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">132272007</td>
+<td style="text-align: right;">0.0013399</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0.0484985</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">134510270</td>
+<td style="text-align: right;">0.0049106</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0.0159415</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">134510305</td>
+<td style="text-align: right;">0.0079816</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.3106355</td>
+<td style="text-align: right;">0.6035782</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">134653835</td>
+<td style="text-align: right;">0.0010606</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">-0.0524674</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">159760836</td>
+<td style="text-align: right;">0.0076955</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.6614547</td>
+<td style="text-align: right;">-0.4594316</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">165633675</td>
+<td style="text-align: right;">0.0002918</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.0438455</td>
+<td style="text-align: right;">-1.7813597</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">166030971</td>
+<td style="text-align: right;">0.0003857</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0.0703893</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">167638232</td>
+<td style="text-align: right;">0.0002236</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.1220888</td>
+<td style="text-align: right;">-1.0995357</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">171380344</td>
+<td style="text-align: right;">0.0056129</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.0971549</td>
+<td style="text-align: right;">-1.8479969</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">172054598</td>
+<td style="text-align: right;">0.0034081</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">0.8671012</td>
+<td style="text-align: right;">-0.3625701</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">185171034</td>
+<td style="text-align: right;">0.0073169</td>
+<td style="text-align: right;">Inf</td>
+<td style="text-align: right;">1.0000000</td>
+<td style="text-align: right;">0.0000000</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption>Sig - EtoW Sites</caption>
+<thead>
+<tr>
+<th style="text-align: left;">chrom</th>
+<th style="text-align: right;">start</th>
+<th style="text-align: right;">pvEW</th>
+<th style="text-align: right;">l2EW</th>
+<th style="text-align: right;">pvWY</th>
+<th style="text-align: right;">l2WY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">6710488</td>
+<td style="text-align: right;">0.0076955</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.0704243</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">7090166</td>
+<td style="text-align: right;">0.0020871</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.8911616</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">10037300</td>
+<td style="text-align: right;">0.0059235</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">14308003</td>
+<td style="text-align: right;">0.0000459</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">34006603</td>
+<td style="text-align: right;">0.0030437</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">34504496</td>
+<td style="text-align: right;">0.0078319</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.2458150</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">37697317</td>
+<td style="text-align: right;">0.0012141</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.9698723</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">37725990</td>
+<td style="text-align: right;">0.0020871</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">38580680</td>
+<td style="text-align: right;">0.0024812</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">38663074</td>
+<td style="text-align: right;">0.0024367</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">39251842</td>
+<td style="text-align: right;">0.0009330</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">39545653</td>
+<td style="text-align: right;">0.0011385</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">39545666</td>
+<td style="text-align: right;">0.0001663</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">40240762</td>
+<td style="text-align: right;">0.0012515</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.0119619</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">44513045</td>
+<td style="text-align: right;">0.0039048</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">49224447</td>
+<td style="text-align: right;">0.0082841</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.0034500</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">53662590</td>
+<td style="text-align: right;">0.0051873</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">0.0512295</td>
+<td style="text-align: right;">Inf</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">53846102</td>
+<td style="text-align: right;">0.0003991</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">53986612</td>
+<td style="text-align: right;">0.0013726</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;">chr1</td>
+<td style="text-align: right;">55202253</td>
+<td style="text-align: right;">0.0021686</td>
+<td style="text-align: right;">-Inf</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+
+IGV SnapShots: ![pcmtd1](igv_snapshot_pcmtd1.png)
+![st18](igv_snapshot_st18.png)
+
 <table style="width:100%;">
 <caption>CpG Methyl Proportions at Promoter Ordered by FLvsAD
 RNA</caption>
