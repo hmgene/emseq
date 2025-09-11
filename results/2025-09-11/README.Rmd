@@ -87,6 +87,17 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
     res=fread(input_sig)
     pl_venn(res)
 
+knitr::kable( res[ order(-l2EW)][pvEW < 0.05][1:20], , caption = "Sig + EtoW Sites")
+knitr::kable( res[ order(l2EW)][pvEW < 0.05][1:20], , caption = "Sig - EtoW Sites")
+```
+IGV SnapShots:
+![pcmtd1](igv_snapshot_pcmtd1.png)
+![st18](igv_snapshot_st18.png)
+
+
+```{r diff-sites, message=FALSE, warning=FALSE}
+   
+
     #res[,end:=start+1]
     #x=merge(res[pvEW < pthr,],tt)
 
