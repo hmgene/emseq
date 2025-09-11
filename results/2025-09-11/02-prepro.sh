@@ -15,10 +15,10 @@ make-bg(){
           tt[, paste0("p", g) := get(paste0("c", g)) / (get(paste0("t", g))+get(paste0("c",g)))]
         }
 
-#        fwrite(tt[,.(chrom,start,end,cE)],paste0(odir,"/EM_cE.bedGraph.gz"),sep="\t",col.names=F)
-#        fwrite(tt[,.(chrom,start,end,tE)],paste0(odir,"/EM_tE.bedGraph.gz"),sep="\t",col.names=F)
-#        fwrite(tt[,.(chrom,start,end,cW)],paste0(odir,"/EM_cW.bedGraph.gz"),sep="\t",col.names=F)
-#        fwrite(tt[,.(chrom,start,end,tW)],paste0(odir,"/EM_tW.bedGraph.gz"),sep="\t",col.names=F)
+        fwrite(tt[,.(chrom,start,end,cE)],paste0(odir,"/EM_cE.bedGraph.gz"),sep="\t",col.names=F)
+        fwrite(tt[,.(chrom,start,end,tE)],paste0(odir,"/EM_tE.bedGraph.gz"),sep="\t",col.names=F)
+        fwrite(tt[,.(chrom,start,end,cW)],paste0(odir,"/EM_cW.bedGraph.gz"),sep="\t",col.names=F)
+        fwrite(tt[,.(chrom,start,end,tW)],paste0(odir,"/EM_tW.bedGraph.gz"),sep="\t",col.names=F)
         fwrite(tt[,.(chrom,start,end,pE)],paste0(odir,"/EM_pE.bedGraph.gz"),sep="\t",col.names=F)
         fwrite(tt[,.(chrom,start,end,pW)],paste0(odir,"/EM_pW.bedGraph.gz"),sep="\t",col.names=F)
     ')

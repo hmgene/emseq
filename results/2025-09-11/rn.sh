@@ -18,6 +18,8 @@ Rscript -e '
     setnames(r,c("Name","chrom","start","end"))
     tt=merge(tt,r)
     tt = tt[, .( chrom = unique(chrom), start = min(start), end = max(end), l2_FLvsAD = mean(l2_FLvsAD), l2_ADvsFL =mean(l2_ADvsFL)), by = Name]
+
+    ## RNA to bedGraph
     res <- tt[, {
       # 1. Create IRanges object for this chromosome
       ir <- IRanges(start, end)
@@ -63,11 +65,6 @@ Rscript -e '
 
 '
 }
-
-
-
-gunzip -dc  ~/git/hmtools/data/ucsc/mm10/refFlat.txt.gz  | awk -v OFS="\t"  '{print $1,$3,$5,$6;}' | head
-exit
 
 
 Rscript -e 'library(rmarkdown);render("README.Rmd")'
