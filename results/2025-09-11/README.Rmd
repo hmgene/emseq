@@ -16,7 +16,7 @@ knitr:
 ### Acronym 
 - CpG: Count of methylated cytosines (C).
 - uCpG: Count of unmethylated cytosines (T).
-- p: Percentage of methylation, defined as  CpG/(CpG + uCpG )
+- p: Proportion of methylation, defined as  CpG/(CpG + uCpG )
 - W: Week.
 - E: Embryo.
 
