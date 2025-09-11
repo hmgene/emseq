@@ -13,6 +13,13 @@ knitr:
 - 'Tan' PMID 31851943 - DEGs comparing adult versus FL HSCs - positive FC values are enriched in ADULT, negative in FL (the other way around).
 - The ATAC-seq datasets are from PMID 35584393 - these are pseudobulk of the scATAC-seq from this paper. They are MACS readout files - one with peaks enriched in FL vs adult HSCs, the other adult vs FL HSCs. As a sanity check, there are more accessible regions in FL compared to adult HSCs as we would expect.
 
+### Acronym 
+- CpG: Count of methylated cytosines (C).
+- uCpG: Count of unmethylated cytosines (T).
+- p: Percentage of methylation, defined as  CpG/(CpG + uCpG )
+- W: Week.
+- E: Embryo.
+
 
 ### Before Outlier Filtering
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
@@ -72,6 +79,12 @@ knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (fro
     input="../../bigdata/2025-08-01/filtered_3rep_3x_per_group.csv.gz"
     input_sig="sig.csv";
     em=fread(input)
+#    for(j in setdiff(names(em), c("chrom", "start"))){
+#        tmp=em[,.(chrom,start,get(j))]
+#        tmp[,end:=as.integer(start+1)]
+#        tmp[is.na(tmp)]=0;
+#        fwrite(tmp[,.(chrom,start,end,V3)],file=paste0("bigdata/",j,".bedGraph.gz"),sep="\t",col.names=F);
+#    }
 
     em[, grep("Y1|E2", names(em),value=T) := NULL ]
     for (g in c("E", "W", "Y")) {

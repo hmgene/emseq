@@ -11,6 +11,14 @@
     As a sanity check, there are more accessible regions in FL compared
     to adult HSCs as we would expect.
 
+### Acronym
+
+-   CpG: Count of methylated cytosines (C).
+-   uCpG: Count of unmethylated cytosines (T).
+-   p: Percentage of methylation, defined as CpG/(CpG + uCpG )
+-   W: Week.
+-   E: Embryo.
+
 ### Before Outlier Filtering
 
 <table>
