@@ -176,6 +176,13 @@
 </tbody>
 </table>
 
+### Integration of EM-seq, ATAC-seq, RNA-seq
+
+<figure>
+<img src="igv_snapshot_hmga2.png" alt="all" />
+<figcaption aria-hidden="true">all</figcaption>
+</figure>
+
 ### Differential Sites
 
 ![](README_files/figure-markdown_strict/diff-sites-1.png)

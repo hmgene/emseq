@@ -70,7 +70,10 @@ rate_df <- data.frame(
 )
 
 knitr::kable(rate_df, caption = "Estimated Methylation Proportions by Group (from GLM)")
+
 ```
+### Integration of EM-seq, ATAC-seq, RNA-seq
+![all](igv_snapshot_hmga2.png )
 
 ### Differential Sites
 ```{r diff-sites, message=FALSE, warning=FALSE}
@@ -178,6 +181,7 @@ fwrite(tt,"rna_promoter_emseq.csv")
 ![Igf2bp1](igv_snapshot_igf2bp1.png)
 ![lin28b](igv_snapshot_lin28b.png)
 ![hmga2](igv_snapshot_hmga2.png )
+
 
 data: [sig_diff.csv](sig.csv)
 
