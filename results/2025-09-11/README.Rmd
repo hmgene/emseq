@@ -145,6 +145,10 @@ knitr::kable(tt[order(l2_FLvsAD)][1:20], caption = "CpG Methyl Proportions at Pr
 
 
 ```
+### IGV snapshots
+![Fos](igv_snapshot_fos.png) 
+![Igf2bp1](igv_snapshot_igf2bp1.png)
+
 data: [sig_diff.csv](sig.csv)
 
 

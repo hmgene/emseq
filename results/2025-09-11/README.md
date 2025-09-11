@@ -938,4 +938,8 @@ RNA</caption>
 </tbody>
 </table>
 
+### IGV snapshots
+
+![Fos](igv_snapshot_fos.png) ![Igf2bp1](igv_snapshot_igf2bp1.png)
+
 data: [sig\_diff.csv](sig.csv)
