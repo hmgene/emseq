@@ -57,4 +57,8 @@ pdf("heatmap.pdf")
 Heatmap(t(scale(t(x))))
 dev.off();
 
+pdf("heatmap_raw.pdf")
+Heatmap(x)
+dev.off();
+
 '
