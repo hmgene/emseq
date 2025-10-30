@@ -1,0 +1,20 @@
+README file for metilene
+
+INSTALLATION
+==============
+Type:
+$ make
+or use the precompiled versions for linux:
+metilene.x on Linux system or
+
+
+
+
+RUN METILENE
+==============
+call:
+metilene.x   to run the main program
+metilene_input.pl     to generate an input file for metilene from bed files
+metilene_output.pl    to postprocess the output of metilene
+
+See the manual for further instructions.
